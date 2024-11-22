@@ -1,0 +1,16 @@
+[
+    {
+        "id_catalogo_producto": "1819160",
+        "solicitudes": [
+            {"caracteristica": "26211", "valCaracteristica": "1740443", "descripcion": "Procesador"},
+            {"caracteristica": "26212", "valCaracteristica": "1597771", "descripcion": "RAM"}
+        ]
+    },
+    {
+        "id_catalogo_producto": "1839004",
+        "solicitudes": [
+            {"caracteristica": "26211", "valCaracteristica": "1740442", "descripcion": "Procesador"},
+            {"caracteristica": "26213", "valCaracteristica": "1597843", "descripcion": "Almacenamiento"}
+        ]
+    }
+]
