@@ -1,52 +1,212 @@
 [
-    {
-        "id_catalogo_producto": "1819160",
+{
+        "id_catalogo_producto": "1976484",
         "solicitudes": [
-            {"caracteristica": "26211", "valCaracteristica": "1740443", "descripcion": "Procesador"},
-            {"caracteristica": "26212", "valCaracteristica": "1597771", "descripcion": "RAM"},
-            {"caracteristica": "26213", "valCaracteristica": "1597844", "descripcion": "Almacenamiento"},
-            {"caracteristica": "26214", "valCaracteristica": "1597944", "descripcion": "LAN"},
-            {"caracteristica": "26215", "valCaracteristica": "1597946", "descripcion": "WLAN"},
-            {"caracteristica": "26216", "valCaracteristica": "1597947", "descripcion": "USB"},
-            {"caracteristica": "26217", "valCaracteristica": "1597948", "descripcion": "VGA"},
-            {"caracteristica": "26218", "valCaracteristica": "1597950", "descripcion": "HDMI"},
-            {"caracteristica": "26219", "valCaracteristica": "3325828", "descripcion": "Sist.Op."},
-            {"caracteristica": "26220", "valCaracteristica": "1598000", "descripcion": "U.Opt."},
-            {"caracteristica": "26221", "valCaracteristica": "1598003", "descripcion": "Teclado"},
-            {"caracteristica": "26222", "valCaracteristica": "1598005", "descripcion": "Mouse"},
-            {"caracteristica": "26223", "valCaracteristica": "3325840", "descripcion": "Sw.Off."},
-            {"caracteristica": "26224", "valCaracteristica": "1598018", "descripcion": "Garant."},
-            {"caracteristica": "26225", "valCaracteristica": "1598027", "descripcion": "Unid"},
-            {"caracteristica": "26226", "valCaracteristica": "1598045", "descripcion": "MARCA"},
-            {"caracteristica": "26423", "valCaracteristica": "1597408", "descripcion": "EMPAQUE_DE_FABRICA"},
-            {"caracteristica": "26229", "valCaracteristica": "1597409", "descripcion": "CERTIFICACION"},
-            {"caracteristica": "26227", "valCaracteristicaTXT": "nuevotest2211", "descripcion": "Modelo"},
-            {"caracteristica": "26228", "valCaracteristicaTXT": "2211241604", "descripcion": "NroParte"}
+            {
+                "caracteristica": "26211",
+                "valCaracteristica": "2774498",
+                "descripcion": "Procesador"
+            },
+            {
+                "caracteristica": "26212",
+                "valCaracteristica": "1997692",
+                "descripcion": "RAM"
+            },
+            {
+                "caracteristica": "26213",
+                "valCaracteristica": "1597868",
+                "descripcion": "Almacenamiento"
+            },
+            {
+                "caracteristica": "26214",
+                "valCaracteristica": "1597944",
+                "descripcion": "LAN"
+            },
+            {
+                "caracteristica": "26215",
+                "valCaracteristica": "1597946",
+                "descripcion": "WLAN"
+            },
+            {
+                "caracteristica": "26216",
+                "valCaracteristica": "1597947",
+                "descripcion": "USB"
+            },
+            {
+                "caracteristica": "26217",
+                "valCaracteristica": "1597948",
+                "descripcion": "VGA"
+            },
+            {
+                "caracteristica": "26218",
+                "valCaracteristica": "1597950",
+                "descripcion": "HDMI"
+            },
+            {
+                "caracteristica": "26219",
+                "valCaracteristica": "1597960",
+                "descripcion": "Sist.Op."
+            },
+            {
+                "caracteristica": "26220",
+                "valCaracteristica": "1598001",
+                "descripcion": "U.Opt."
+            },
+            {
+                "caracteristica": "26221",
+                "valCaracteristica": "1598003",
+                "descripcion": "Teclado"
+            },
+            {
+                "caracteristica": "26222",
+                "valCaracteristica": "1598005",
+                "descripcion": "Mouse"
+            },
+            {
+                "caracteristica": "26223",
+                "valCaracteristica": "1598010",
+                "descripcion": "Sw.Off."
+            },
+            {
+                "caracteristica": "26224",
+                "valCaracteristica": "1598018",
+                "descripcion": "Garant."
+            },
+            {
+                "caracteristica": "26225",
+                "valCaracteristica": "1598027",
+                "descripcion": "Unid"
+            },
+            {
+                "caracteristica": "26226",
+                "valCaracteristica": "1598045",
+                "descripcion": "MARCA"
+            },
+            {
+                "caracteristica": "26423",
+                "valCaracteristica": "1661112",
+                "descripcion": "EMPAQUE_DE_FABRICA"
+            },
+            {
+                "caracteristica": "26229",
+                "valCaracteristica": "1597409",
+                "descripcion": "CERTIFICACION"
+            },
+            {
+                "caracteristica": "26227",
+                "valCaracteristicaTXT": "HELIX 8",
+                "descripcion": "Modelo"
+            },
+            {
+                "caracteristica": "26228",
+                "valCaracteristicaTXT": "78MP002001",
+                "descripcion": "NroParte"
+            }
         ]
     },
     {
-        "id_catalogo_producto": "1839004",
+        "id_catalogo_producto": "1976482",
         "solicitudes": [
-            {"caracteristica": "26211", "valCaracteristica": "1740443", "descripcion": "Procesador"},
-            {"caracteristica": "26212", "valCaracteristica": "1597771", "descripcion": "RAM"},
-            {"caracteristica": "26213", "valCaracteristica": "1597844", "descripcion": "Almacenamiento"},
-            {"caracteristica": "26214", "valCaracteristica": "1597944", "descripcion": "LAN"},
-            {"caracteristica": "26215", "valCaracteristica": "1597946", "descripcion": "WLAN"},
-            {"caracteristica": "26216", "valCaracteristica": "1597947", "descripcion": "USB"},
-            {"caracteristica": "26217", "valCaracteristica": "1597948", "descripcion": "VGA"},
-            {"caracteristica": "26218", "valCaracteristica": "1597950", "descripcion": "HDMI"},
-            {"caracteristica": "26219", "valCaracteristica": "3325828", "descripcion": "Sist.Op."},
-            {"caracteristica": "26220", "valCaracteristica": "1598000", "descripcion": "U.Opt."},
-            {"caracteristica": "26221", "valCaracteristica": "1598003", "descripcion": "Teclado"},
-            {"caracteristica": "26222", "valCaracteristica": "1598005", "descripcion": "Mouse"},
-            {"caracteristica": "26223", "valCaracteristica": "3325840", "descripcion": "Sw.Off."},
-            {"caracteristica": "26224", "valCaracteristica": "1598018", "descripcion": "Garant."},
-            {"caracteristica": "26225", "valCaracteristica": "1598027", "descripcion": "Unid"},
-            {"caracteristica": "26226", "valCaracteristica": "1598045", "descripcion": "MARCA"},
-            {"caracteristica": "26423", "valCaracteristica": "1597408", "descripcion": "EMPAQUE_DE_FABRICA"},
-            {"caracteristica": "26229", "valCaracteristica": "1597409", "descripcion": "CERTIFICACION"},
-            {"caracteristica": "26227", "valCaracteristicaTXT": "nuevotest2211", "descripcion": "Modelo"},
-            {"caracteristica": "26228", "valCaracteristicaTXT": "2211241605", "descripcion": "NroParte"}
+            {
+                "caracteristica": "26211",
+                "valCaracteristica": "2774498",
+                "descripcion": "Procesador"
+            },
+            {
+                "caracteristica": "26212",
+                "valCaracteristica": "1997696",
+                "descripcion": "RAM"
+            },
+            {
+                "caracteristica": "26213",
+                "valCaracteristica": "1597868",
+                "descripcion": "Almacenamiento"
+            },
+            {
+                "caracteristica": "26214",
+                "valCaracteristica": "1597945",
+                "descripcion": "LAN"
+            },
+            {
+                "caracteristica": "26215",
+                "valCaracteristica": "1597947",
+                "descripcion": "WLAN"
+            },
+            {
+                "caracteristica": "26216",
+                "valCaracteristica": "1597948",
+                "descripcion": "USB"
+            },
+            {
+                "caracteristica": "26217",
+                "valCaracteristica": "1597949",
+                "descripcion": "VGA"
+            },
+            {
+                "caracteristica": "26218",
+                "valCaracteristica": "1597951",
+                "descripcion": "HDMI"
+            },
+            {
+                "caracteristica": "26219",
+                "valCaracteristica": "1597960",
+                "descripcion": "Sist.Op."
+            },
+            {
+                "caracteristica": "26220",
+                "valCaracteristica": "1598001",
+                "descripcion": "U.Opt."
+            },
+            {
+                "caracteristica": "26221",
+                "valCaracteristica": "1598004",
+                "descripcion": "Teclado"
+            },
+            {
+                "caracteristica": "26222",
+                "valCaracteristica": "1598006",
+                "descripcion": "Mouse"
+            },
+            {
+                "caracteristica": "26223",
+                "valCaracteristica": "1598010",
+                "descripcion": "Sw.Off."
+            },
+            {
+                "caracteristica": "26224",
+                "valCaracteristica": "1598019",
+                "descripcion": "Garant."
+            },
+            {
+                "caracteristica": "26225",
+                "valCaracteristica": "1598027",
+                "descripcion": "Unid"
+            },
+            {
+                "caracteristica": "26226",
+                "valCaracteristica": "1598045",
+                "descripcion": "MARCA"
+            },
+            {
+                "caracteristica": "26423",
+                "valCaracteristica": "1661112",
+                "descripcion": "EMPAQUE_DE_FABRICA"
+            },
+            {
+                "caracteristica": "26229",
+                "valCaracteristica": "1597409",
+                "descripcion": "CERTIFICACION"
+            },
+            {
+                "caracteristica": "26227",
+                "valCaracteristicaTXT": "HELIX 8",
+                "descripcion": "Modelo"
+            },
+            {
+                "caracteristica": "26228",
+                "valCaracteristicaTXT": "7GMP002002",
+                "descripcion": "NroParte"
+            }
         ]
     }
 ]
