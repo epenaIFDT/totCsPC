@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visor de Catálogo Cifrado - totCsPC</title>
+    <title>Visor de Catálogo Cifrado (CSV & JSON) - totCsPC</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -80,7 +80,7 @@
 
         .grid-2 {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.2fr 1fr;
             gap: 20px;
         }
 
@@ -184,13 +184,30 @@
             color: #0f172a;
         }
 
-        .status-badge {
+        .btn-tab {
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
             padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .btn-tab.active {
+            background: var(--accent-primary);
+            color: #0f172a;
+            font-weight: 600;
+            border-color: var(--accent-primary);
+        }
+
+        .status-badge {
+            padding: 10px 16px;
             border-radius: 8px;
             font-size: 0.875rem;
             font-weight: 500;
             display: none;
-            margin-top: 12px;
+            margin-top: 14px;
         }
 
         .status-success {
@@ -300,6 +317,20 @@
             font-size: 0.8rem;
             font-weight: 600;
         }
+
+        .json-viewer {
+            background-color: #0b1120;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px;
+            max-height: 550px;
+            overflow: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #38bdf8;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
     </style>
 </head>
 <body>
@@ -307,35 +338,60 @@
 <div class="container">
     <header>
         <h1>🔐 Visor y Desencriptador de Catálogo de Características</h1>
-        <p>Decodificación y desencriptación AES-256 (Fernet) segura directamente en tu navegador</p>
+        <p>Soporte completo para archivos <strong>CSV</strong> y <strong>JSON</strong> cifrados con AES-256 (Fernet)</p>
     </header>
 
     <div class="card">
         <div class="grid-2">
             <div class="form-group">
-                <label for="urlSelect">📂 Archivo Cifrado en GitHub o URL:</label>
+                <label for="urlSelect">📂 Selecciona el Catálogo Cifrado en GitHub:</label>
                 <select id="urlSelect" onchange="handleUrlChange()">
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11735-CE/catalogo_caracteristicas_1787260422431(ce).csv.enc">
-                        [252-CE / 11735-CE] Computadoras de Escritorio (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11743-CP/catalogo_caracteristicas_1787322007045(cp).csv.enc">
-                        [250-CP / 11743-CP] Computadoras Portátiles (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11744-WSP/catalogo_caracteristicas_1787321661701(wsp).csv.enc">
-                        [250-CP / 11744-WSP] Workstations Portátiles (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11745-TB/catalogo_caracteristicas_1787322375547(tab).csv.enc">
-                        [250-CP / 11745-TB] Tablets (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11740-ET/catalogo_caracteristicas_1787260731605(et).csv.enc">
-                        [252-CE / 11740-ET] Estaciones de Trabajo (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11741-MN/catalogo_caracteristicas_1787319385273(mon).csv.enc">
-                        [252-CE / 11741-MN] Monitores (.csv.enc)
-                    </option>
-                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11749-PI/catalogo_caracteristicas_1787319614534(paInt).csv.enc">
-                        [252-CE / 11749-PI] Pantallas Interactivas (.csv.enc)
-                    </option>
+                    <optgroup label="Archivos CSV Cifrados (*.csv.enc)">
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11735-CE/catalogo_caracteristicas_1787260422431(ce).csv.enc">
+                            [252-CE / 11735-CE] Computadoras de Escritorio (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11743-CP/catalogo_caracteristicas_1787322007045(cp).csv.enc">
+                            [250-CP / 11743-CP] Computadoras Portátiles (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11744-WSP/catalogo_caracteristicas_1787321661701(wsp).csv.enc">
+                            [250-CP / 11744-WSP] Workstations Portátiles (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11745-TB/catalogo_caracteristicas_1787322375547(tab).csv.enc">
+                            [250-CP / 11745-TB] Tablets (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11740-ET/catalogo_caracteristicas_1787260731605(et).csv.enc">
+                            [252-CE / 11740-ET] Estaciones de Trabajo (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11741-MN/catalogo_caracteristicas_1787319385273(mon).csv.enc">
+                            [252-CE / 11741-MN] Monitores (CSV)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11749-PI/catalogo_caracteristicas_1787319614534(paInt).csv.enc">
+                            [252-CE / 11749-PI] Pantallas Interactivas (CSV)
+                        </option>
+                    </optgroup>
+                    <optgroup label="Archivos JSON Cifrados (*.json.enc)">
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11735-CE/catalogo_caracteristicas_1787260422403(ce).json.enc">
+                            [252-CE / 11735-CE] Computadoras de Escritorio (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11743-CP/catalogo_caracteristicas_1787322006999(cp).json.enc">
+                            [250-CP / 11743-CP] Computadoras Portátiles (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11744-WSP/catalogo_caracteristicas_1787321661691(wsp).json.enc">
+                            [250-CP / 11744-WSP] Workstations Portátiles (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11745-TB/catalogo_caracteristicas_1787322375542(tab).json.enc">
+                            [250-CP / 11745-TB] Tablets (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11740-ET/catalogo_caracteristicas_1787260731599(et).json.enc">
+                            [252-CE / 11740-ET] Estaciones de Trabajo (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11741-MN/catalogo_caracteristicas_1787319385266(mon).json.enc">
+                            [252-CE / 11741-MN] Monitores (JSON)
+                        </option>
+                        <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11749-PI/catalogo_caracteristicas_1787319614517(paInt).json.enc">
+                            [252-CE / 11749-PI] Pantallas Interactivas (JSON)
+                        </option>
+                    </optgroup>
                     <option value="custom">✏️ Ingresar URL personalizada o cargar archivo local...</option>
                 </select>
 
@@ -349,21 +405,21 @@
             <div class="form-group">
                 <label for="secretKey">🔑 Clave Secreta de Desencriptación:</label>
                 <div class="key-input-wrapper">
-                    <input type="password" id="secretKey" placeholder="Pega tu clave Fernet (ej: sUKydlOpZJAAz2QZ0duMzAruER47k0crzwPRUtpkplw=)">
+                    <input type="password" id="secretKey" placeholder="Pega tu clave Fernet (ej: de secret.key)">
                     <button type="button" id="toggleKeyBtn" onclick="toggleKeyVisibility()">Mostrar</button>
                 </div>
                 <small style="color: var(--text-secondary); font-size: 0.75rem;">
-                    Esta clave proviene de <code>F:\proyectos\CaractCatalog\secret.key</code>. Solo se procesa en memoria local en tu navegador.
+                    Esta clave proviene de <code>F:\proyectos\CaractCatalog\secret.key</code>. Se ejecuta 100% en local en tu navegador.
                 </small>
             </div>
         </div>
 
-        <div style="display: flex; gap: 12px; margin-top: 20px;">
+        <div style="display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap;">
             <button class="btn" onclick="desencriptarYMostrar()">
                 ⚡ Descargar, Desencriptar y Mostrar
             </button>
-            <button class="btn btn-outline" id="btnDescargar" style="display: none;" onclick="descargarCSV()">
-                💾 Descargar CSV Desencriptado
+            <button class="btn btn-outline" id="btnDescargar" style="display: none;" onclick="descargarArchivoDesencriptado()">
+                💾 Descargar Archivo Desencriptado
             </button>
         </div>
 
@@ -372,32 +428,43 @@
 
     <div class="card" id="resultsCard" style="display: none;">
         <div class="table-controls">
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <h2>Contenido Desencriptado</h2>
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                <h2 id="resultTitle">Contenido Desencriptado</h2>
                 <span class="stats-badge" id="rowCountBadge">0 registros</span>
+                <div style="display: flex; gap: 6px; margin-left: 10px;" id="viewToggleGroup">
+                    <button class="btn-tab active" id="btnViewTable" onclick="switchView('table')">📊 Vista Tabla</button>
+                    <button class="btn-tab" id="btnViewJson" onclick="switchView('json')" style="display: none;">{ } Vista JSON Crudo</button>
+                </div>
             </div>
             <input type="text" id="tableSearch" class="search-box" placeholder="🔍 Buscar por procesador, marca, valor, ID..." oninput="filtrarTabla()">
         </div>
 
-        <div class="table-container">
-            <table id="dataTable">
-                <thead id="tableHead"></thead>
-                <tbody id="tableBody"></tbody>
-            </table>
+        <div id="tableViewArea">
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead id="tableHead"></thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+
+            <div class="pagination">
+                <span id="pageInfo">Página 1 de 1</span>
+                <div class="pagination-btns">
+                    <button class="page-btn" id="prevBtn" onclick="cambiarPagina(-1)">⬅ Anterior</button>
+                    <button class="page-btn" id="nextBtn" onclick="cambiarPagina(1)">Siguiente ➡</button>
+                </div>
+            </div>
         </div>
 
-        <div class="pagination">
-            <span id="pageInfo">Página 1 de 1</span>
-            <div class="pagination-btns">
-                <button class="page-btn" id="prevBtn" onclick="cambiarPagina(-1)">⬅ Anterior</button>
-                <button class="page-btn" id="nextBtn" onclick="cambiarPagina(1)">Siguiente ➡</button>
-            </div>
+        <div id="jsonViewArea" style="display: none;">
+            <pre class="json-viewer" id="jsonPre"></pre>
         </div>
     </div>
 </div>
 
 <script>
-    let rawCsvContent = "";
+    let rawDecryptedContent = "";
+    let isJsonFormat = false;
     let parsedRows = [];
     let filteredRows = [];
     let headers = [];
@@ -436,7 +503,28 @@
         el.style.display = "block";
     }
 
-    // Helper: Base64URL decode to Uint8Array
+    function switchView(mode) {
+        const tableArea = document.getElementById("tableViewArea");
+        const jsonArea = document.getElementById("jsonViewArea");
+        const btnTable = document.getElementById("btnViewTable");
+        const btnJson = document.getElementById("btnViewJson");
+        const searchBox = document.getElementById("tableSearch");
+
+        if (mode === "table") {
+            tableArea.style.display = "block";
+            jsonArea.style.display = "none";
+            btnTable.classList.add("active");
+            btnJson.classList.remove("active");
+            searchBox.style.display = "block";
+        } else {
+            tableArea.style.display = "none";
+            jsonArea.style.display = "block";
+            btnJson.classList.add("active");
+            btnTable.classList.remove("active");
+            searchBox.style.display = "none";
+        }
+    }
+
     function base64UrlToBytes(base64UrlStr) {
         let base64 = base64UrlStr.replace(/-/g, '+').replace(/_/g, '/');
         while (base64.length % 4) {
@@ -450,7 +538,6 @@
         return bytes;
     }
 
-    // Fernet decrypt in Web Crypto API
     async function decryptFernetToken(tokenStr, keyBase64Url) {
         const rawKey = base64UrlToBytes(keyBase64Url);
         if (rawKey.length !== 32) {
@@ -489,7 +576,6 @@
         return decoder.decode(decryptedBuffer);
     }
 
-    // Simple CSV parser
     function parseCSV(text) {
         const lines = text.trim().split(/\r\n|\n/);
         if (lines.length === 0) return { headers: [], rows: [] };
@@ -521,6 +607,29 @@
             }
         }
         return { headers: head, rows: body };
+    }
+
+    function parseJsonCatalog(jsonData) {
+        const rows = [];
+        const head = ["ID_Caracteristica", "Nombre_Caracteristica", "ID_Valor", "Nombre_Valor"];
+
+        if (Array.isArray(jsonData)) {
+            for (const item of jsonData) {
+                const idCar = item.id_caracteristica || item.ID_Caracteristica || "";
+                const nomCar = item.nombre_caracteristica || item.Nombre_Caracteristica || "";
+                const valores = item.valores || item.Valores || [];
+                if (Array.isArray(valores) && valores.length > 0) {
+                    for (const val of valores) {
+                        const idVal = val.id_valor || val.ID_Valor || "";
+                        const nomVal = val.nombre_valor || val.Nombre_Valor || "";
+                        rows.push([idCar, nomCar, idVal, nomVal]);
+                    }
+                } else {
+                    rows.push([idCar, nomCar, "", ""]);
+                }
+            }
+        }
+        return { headers: head, rows: rows };
     }
 
     async function desencriptarYMostrar() {
@@ -555,28 +664,35 @@
 
             setStatus("🔐 Desencriptando archivo con Web Crypto API (AES-256/Fernet)...", "loading");
             const decryptedText = await decryptFernetToken(tokenText, key);
-            rawCsvContent = decryptedText;
+            rawDecryptedContent = decryptedText;
 
-            setStatus("✅ ¡Desencriptación exitosa! Renderizando tabla...", "success");
+            const trimmed = decryptedText.trim();
+            isJsonFormat = trimmed.startsWith("[") || trimmed.startsWith("{");
 
-            // Parse CSV or JSON
-            if (decryptedText.trim().startsWith("[") || decryptedText.trim().startsWith("{")) {
-                // Is JSON
-                const jsonData = JSON.parse(decryptedText);
-                headers = ["Campo", "Valor"];
-                parsedRows = Object.entries(Array.isArray(jsonData) ? jsonData[0] : jsonData).map(([k, v]) => [k, typeof v === 'object' ? JSON.stringify(v) : v]);
-            } else {
-                const parsed = parseCSV(decryptedText);
+            if (isJsonFormat) {
+                const jsonData = JSON.parse(trimmed);
+                const parsed = parseJsonCatalog(jsonData);
                 headers = parsed.headers;
                 parsedRows = parsed.rows;
+                document.getElementById("jsonPre").textContent = JSON.stringify(jsonData, null, 2);
+                document.getElementById("btnViewJson").style.display = "inline-flex";
+            } else {
+                const parsed = parseCSV(trimmed);
+                headers = parsed.headers;
+                parsedRows = parsed.rows;
+                document.getElementById("btnViewJson").style.display = "none";
             }
 
+            switchView("table");
             filteredRows = [...parsedRows];
             currentPage = 1;
             renderTable();
 
+            setStatus(`✅ ¡Desencriptación exitosa! (${isJsonFormat ? 'JSON' : 'CSV'} procesado correctamente con ${filteredRows.length} registros)`, "success");
+
             document.getElementById("resultsCard").style.display = "block";
             document.getElementById("btnDescargar").style.display = "inline-flex";
+            document.getElementById("btnDescargar").textContent = isJsonFormat ? "💾 Descargar JSON Desencriptado" : "💾 Descargar CSV Desencriptado";
             document.getElementById("rowCountBadge").textContent = `${filteredRows.length} registros`;
 
         } catch (err) {
@@ -589,10 +705,8 @@
         const thead = document.getElementById("tableHead");
         const tbody = document.getElementById("tableBody");
 
-        // Headers
         thead.innerHTML = "<tr>" + headers.map(h => `<th>${h}</th>`).join("") + "</tr>";
 
-        // Rows with pagination
         const start = (currentPage - 1) * rowsPerPage;
         const end = start + rowsPerPage;
         const pageItems = filteredRows.slice(start, end);
@@ -605,7 +719,6 @@
             }).join("");
         }
 
-        // Pagination text
         const totalPages = Math.max(1, Math.ceil(filteredRows.length / rowsPerPage));
         document.getElementById("pageInfo").textContent = `Página ${currentPage} de ${totalPages} (Mostrando ${start + 1}-${Math.min(end, filteredRows.length)} de ${filteredRows.length})`;
         document.getElementById("prevBtn").disabled = currentPage === 1;
@@ -630,13 +743,15 @@
         renderTable();
     }
 
-    function descargarCSV() {
-        if (!rawCsvContent) return;
-        const blob = new Blob([rawCsvContent], { type: "text/csv;charset=utf-8;" });
+    function descargarArchivoDesencriptado() {
+        if (!rawDecryptedContent) return;
+        const mimeType = isJsonFormat ? "application/json;charset=utf-8;" : "text/csv;charset=utf-8;";
+        const filename = isJsonFormat ? "catalogo_desencriptado.json" : "catalogo_desencriptado.csv";
+        const blob = new Blob([rawDecryptedContent], { type: mimeType });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
-        a.download = "catalogo_desencriptado.csv";
+        a.download = filename;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
