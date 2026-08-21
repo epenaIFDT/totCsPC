@@ -1,0 +1,7284 @@
+[
+  {
+    "id_caracteristica": "26366",
+    "nombre_caracteristica": "PROCESADOR",
+    "valores": [
+      {
+        "id_valor": "3928131",
+        "nombre_valor": "PROCESADOR: MEDIATEK DIMENSITY 9300+ OCTA CORE"
+      },
+      {
+        "id_valor": "3928180",
+        "nombre_valor": "PROCESADOR: UNISOC UIS7863 OCTA CORE"
+      },
+      {
+        "id_valor": "3928127",
+        "nombre_valor": "PROCESADOR: EXYNOS 1580 OCTA CORE"
+      },
+      {
+        "id_valor": "1695311",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 870 "
+      },
+      {
+        "id_valor": "1695312",
+        "nombre_valor": "PROCESADOR: SPREADTRUM SC9863A "
+      },
+      {
+        "id_valor": "1695313",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK8167A "
+      },
+      {
+        "id_valor": "1695314",
+        "nombre_valor": "PROCESADOR: UNISOC T610"
+      },
+      {
+        "id_valor": "1695315",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 730G OCTA CORE "
+      },
+      {
+        "id_valor": "1695316",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO P22T "
+      },
+      {
+        "id_valor": "1695317",
+        "nombre_valor": "PROCESADOR: HISILICON KIRIN 710A "
+      },
+      {
+        "id_valor": "1695318",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8768 "
+      },
+      {
+        "id_valor": "1695319",
+        "nombre_valor": "PROCESADOR: INTEL CORE I3-8145U "
+      },
+      {
+        "id_valor": "1695320",
+        "nombre_valor": "PROCESADOR: HISILICON KIRIN 820 "
+      },
+      {
+        "id_valor": "1695321",
+        "nombre_valor": "PROCESADOR: Allwinner A133 (Quad Core)"
+      },
+      {
+        "id_valor": "1695322",
+        "nombre_valor": "PROCESADOR: Mediatek MT8768T OCTA CORE"
+      },
+      {
+        "id_valor": "1695323",
+        "nombre_valor": "PROCESADOR: Qualcomm | SM7225-4-AB OCTA CORE"
+      },
+      {
+        "id_valor": "1695324",
+        "nombre_valor": "PROCESADOR: Qualcomm | SM8450 OCTA CORE"
+      },
+      {
+        "id_valor": "1695325",
+        "nombre_valor": "PROCESADOR: UNISOC | T618 OCTA CORE "
+      },
+      {
+        "id_valor": "1695326",
+        "nombre_valor": "PROCESADOR: HISILICON KIRIN 990 OCTA CORE"
+      },
+      {
+        "id_valor": "1695327",
+        "nombre_valor": "PROCESADOR: ROCKCHIP RK3566 QUAD CORE"
+      },
+      {
+        "id_valor": "1695328",
+        "nombre_valor": "PROCESADOR: INTEL CORE I3-10100T"
+      },
+      {
+        "id_valor": "1695329",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 662 OCTA CORE "
+      },
+      {
+        "id_valor": "1695330",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 865 PLUS OCTA CORE "
+      },
+      {
+        "id_valor": "1695331",
+        "nombre_valor": "PROCESADOR: MediaTek MT8166"
+      },
+      {
+        "id_valor": "1695332",
+        "nombre_valor": "PROCESADOR: EXYNOS 9611 OCTA CORE"
+      },
+      {
+        "id_valor": "1695334",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8765B "
+      },
+      {
+        "id_valor": "1695335",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK8765 QUAD CORE"
+      },
+      {
+        "id_valor": "1695336",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK8167 QUAD CORE"
+      },
+      {
+        "id_valor": "1695337",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8765WB "
+      },
+      {
+        "id_valor": "1695338",
+        "nombre_valor": "PROCESADOR: SPREADTRUM SC9832E A53 CORTEX QUAD CORE"
+      },
+      {
+        "id_valor": "1695339",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK6762 A53 OCTA CORE"
+      },
+      {
+        "id_valor": "1695340",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 439"
+      },
+      {
+        "id_valor": "1695341",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO P22"
+      },
+      {
+        "id_valor": "1695342",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 429 QUAD CORE"
+      },
+      {
+        "id_valor": "1695343",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 855 OCTA CORE "
+      },
+      {
+        "id_valor": "1695344",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 429 OCTA CORE "
+      },
+      {
+        "id_valor": "1695345",
+        "nombre_valor": "PROCESADOR: EXYNOS 7904 OCTA CORE"
+      },
+      {
+        "id_valor": "1695346",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 670 OCTA CORE "
+      },
+      {
+        "id_valor": "1695347",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO A22"
+      },
+      {
+        "id_valor": "1695348",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 450 "
+      },
+      {
+        "id_valor": "1695349",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8167 A/D "
+      },
+      {
+        "id_valor": "1695350",
+        "nombre_valor": "PROCESADOR: HISILICON KIRIN 659  OCTA CORE A53"
+      },
+      {
+        "id_valor": "1695351",
+        "nombre_valor": "PROCESADOR: ROCKCHIP RK3326 QUAD CORE "
+      },
+      {
+        "id_valor": "1695352",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8121 "
+      },
+      {
+        "id_valor": "1695353",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8127 "
+      },
+      {
+        "id_valor": "1695354",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8161 "
+      },
+      {
+        "id_valor": "1695355",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8321 "
+      },
+      {
+        "id_valor": "1695356",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8382 "
+      },
+      {
+        "id_valor": "1695357",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8389 "
+      },
+      {
+        "id_valor": "1695358",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 210 "
+      },
+      {
+        "id_valor": "1695359",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 212 "
+      },
+      {
+        "id_valor": "1695360",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 400 "
+      },
+      {
+        "id_valor": "1695361",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 800 "
+      },
+      {
+        "id_valor": "1695362",
+        "nombre_valor": "PROCESADOR: ROCKCHIP RK3066 "
+      },
+      {
+        "id_valor": "1695363",
+        "nombre_valor": "PROCESADOR: ROCKCHIP RK3126 "
+      },
+      {
+        "id_valor": "1695364",
+        "nombre_valor": "PROCESADOR: ROCKCHIP RK3128 "
+      },
+      {
+        "id_valor": "1695365",
+        "nombre_valor": "PROCESADOR: SAMSUNG EXYNOS 5433 "
+      },
+      {
+        "id_valor": "1695366",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8735 "
+      },
+      {
+        "id_valor": "1695367",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8783T "
+      },
+      {
+        "id_valor": "1695369",
+        "nombre_valor": "PROCESADOR: INTEL CORE I7-5600U VPRO "
+      },
+      {
+        "id_valor": "1695370",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X5-Z8550 "
+      },
+      {
+        "id_valor": "1695371",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8163 "
+      },
+      {
+        "id_valor": "1695373",
+        "nombre_valor": "PROCESADOR: INTEL CORE I5-6300U VPRO "
+      },
+      {
+        "id_valor": "1695374",
+        "nombre_valor": "PROCESADOR: INTEL CORE M5-6Y57 VPRO "
+      },
+      {
+        "id_valor": "1695375",
+        "nombre_valor": "PROCESADOR: INTEL CELERON N2807 "
+      },
+      {
+        "id_valor": "1695376",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 425 QUAD CORE"
+      },
+      {
+        "id_valor": "1695377",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 820 QUAD CORE"
+      },
+      {
+        "id_valor": "1695378",
+        "nombre_valor": "PROCESADOR: EXYNOS 7870 OCTA CORE"
+      },
+      {
+        "id_valor": "1695379",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 652 OCTA CORE"
+      },
+      {
+        "id_valor": "1695380",
+        "nombre_valor": "PROCESADOR: SPREADTRUM 9830 QUAD CORE"
+      },
+      {
+        "id_valor": "1695381",
+        "nombre_valor": "PROCESADOR: INTEL CORE M-5Y71 Vpro "
+      },
+      {
+        "id_valor": "1695382",
+        "nombre_valor": "PROCESADOR: INTEL CORE M-5Y10C "
+      },
+      {
+        "id_valor": "1695383",
+        "nombre_valor": "PROCESADOR: INTEL CORE i7-7600U vPro "
+      },
+      {
+        "id_valor": "1695384",
+        "nombre_valor": "PROCESADOR: INTEL CORE i5-7200"
+      },
+      {
+        "id_valor": "1695385",
+        "nombre_valor": "PROCESADOR: EXYNOS 7870 "
+      },
+      {
+        "id_valor": "1695386",
+        "nombre_valor": "PROCESADOR: INTEL CORE i7-7500U "
+      },
+      {
+        "id_valor": "1695387",
+        "nombre_valor": "PROCESADOR: INTEL CORE i5-7300U vPro "
+      },
+      {
+        "id_valor": "1695388",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X7 - Z8780 "
+      },
+      {
+        "id_valor": "1695389",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X5 - Z8350 "
+      },
+      {
+        "id_valor": "1695390",
+        "nombre_valor": "PROCESADOR: SPREADTRUM SC7731E QUAD CORE"
+      },
+      {
+        "id_valor": "1695391",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X7 - Z8700 "
+      },
+      {
+        "id_valor": "1695392",
+        "nombre_valor": "PROCESADOR: INTEL CORE I7 6600U VPRO "
+      },
+      {
+        "id_valor": "1695393",
+        "nombre_valor": "PROCESADOR: SPREADTRUM 7730 QUAD CORE"
+      },
+      {
+        "id_valor": "1695394",
+        "nombre_valor": "PROCESADOR: INTEL CORE M3 – DUAL CORE"
+      },
+      {
+        "id_valor": "1695395",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8735M "
+      },
+      {
+        "id_valor": "1695396",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8735B "
+      },
+      {
+        "id_valor": "1695397",
+        "nombre_valor": "PROCESADOR: INTEL CELERON N400 "
+      },
+      {
+        "id_valor": "1695398",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 835 OCTA CORE "
+      },
+      {
+        "id_valor": "1695399",
+        "nombre_valor": "PROCESADOR: INTEL CORE I5-8365U "
+      },
+      {
+        "id_valor": "1695400",
+        "nombre_valor": "PROCESADOR: INTEL CORE I5-7Y57 VPRO "
+      },
+      {
+        "id_valor": "1695401",
+        "nombre_valor": "PROCESADOR: INTEL CORE I7-8665U VPRO "
+      },
+      {
+        "id_valor": "1695402",
+        "nombre_valor": "PROCESADOR: INTEL CORE I5-7300U VPRO "
+      },
+      {
+        "id_valor": "1695403",
+        "nombre_valor": "PROCESADOR: INTEL CORE I7-8650U"
+      },
+      {
+        "id_valor": "1695404",
+        "nombre_valor": "PROCESADOR: INTEL CORE I5-8350U"
+      },
+      {
+        "id_valor": "1695405",
+        "nombre_valor": "PROCESADOR: INTEL CORE I3-7100U "
+      },
+      {
+        "id_valor": "1695406",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK6753 CORTEX A53 OCTA CORE "
+      },
+      {
+        "id_valor": "1695407",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 450 OCTA CORE"
+      },
+      {
+        "id_valor": "1695408",
+        "nombre_valor": "PROCESADOR: ALLWINNER A31 "
+      },
+      {
+        "id_valor": "1695409",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X3-C3230RK "
+      },
+      {
+        "id_valor": "1695410",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X5-Z8350 "
+      },
+      {
+        "id_valor": "1695411",
+        "nombre_valor": "PROCESADOR: INTEL ATOM X5-Z8500 "
+      },
+      {
+        "id_valor": "1695412",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z2760 "
+      },
+      {
+        "id_valor": "1695413",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3735F "
+      },
+      {
+        "id_valor": "1695414",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3735G "
+      },
+      {
+        "id_valor": "1695415",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3736F "
+      },
+      {
+        "id_valor": "1695416",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3745 "
+      },
+      {
+        "id_valor": "1695417",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3775 "
+      },
+      {
+        "id_valor": "1695418",
+        "nombre_valor": "PROCESADOR: INTEL ATOM Z3795 "
+      },
+      {
+        "id_valor": "1695419",
+        "nombre_valor": "PROCESADOR: INTEL CELERON 2961Y "
+      },
+      {
+        "id_valor": "1695420",
+        "nombre_valor": "PROCESADOR: INTEL CORE I3-4012Y "
+      },
+      {
+        "id_valor": "1695421",
+        "nombre_valor": "PROCESADOR: INTEL CORE M-5Y51 "
+      },
+      {
+        "id_valor": "1695422",
+        "nombre_valor": "PROCESADOR: INTEL CORE M-5Y71 "
+      },
+      {
+        "id_valor": "1695423",
+        "nombre_valor": "PROCESADOR: MARVELL PXA986 "
+      },
+      {
+        "id_valor": "1695424",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 865 OCTA CORE "
+      },
+      {
+        "id_valor": "1695425",
+        "nombre_valor": "PROCESADOR: SPREADTRUM SC9863 OCTA CORE"
+      },
+      {
+        "id_valor": "1695426",
+        "nombre_valor": "PROCESADOR: UNISOC SOC TIGER T618 OCTA CORE"
+      },
+      {
+        "id_valor": "3922185",
+        "nombre_valor": "PROCESADOR: UNISOC | T615 OCTA CORE"
+      },
+      {
+        "id_valor": "1782582",
+        "nombre_valor": "PROCESADOR: QUALCOMM SNAPDRAGON 680"
+      },
+      {
+        "id_valor": "2553815",
+        "nombre_valor": "PROCESADOR: UNISOC SOC TIGER T616 OCTA CORE"
+      },
+      {
+        "id_valor": "2030612",
+        "nombre_valor": "PROCESADOR: EXYNOS 1380 OCTA CORE"
+      },
+      {
+        "id_valor": "2030613",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8781 OCTA CORE"
+      },
+      {
+        "id_valor": "2534476",
+        "nombre_valor": "PROCESADOR: MEDIATEK DIMENSITY 7050"
+      },
+      {
+        "id_valor": "2534472",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO G88"
+      },
+      {
+        "id_valor": "3850656",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO G85"
+      },
+      {
+        "id_valor": "3850660",
+        "nombre_valor": "PROCESADOR: MEDIATEK DIMENSITY 8300"
+      },
+      {
+        "id_valor": "1738282",
+        "nombre_valor": "PROCESADOR: SC7731C QUAD CORE"
+      },
+      {
+        "id_valor": "1738283",
+        "nombre_valor": "PROCESADOR: SC9863A OCTA CORE"
+      },
+      {
+        "id_valor": "3978269",
+        "nombre_valor": "PROCESADOR: Qualcomm | SM7365 OCTA CORE"
+      },
+      {
+        "id_valor": "1740073",
+        "nombre_valor": "PROCESADOR: Qualcomm | SM7125-1-AB Qualcomm | SM7125-1-AB OCTA CORE"
+      },
+      {
+        "id_valor": "2774465",
+        "nombre_valor": "PROCESADOR: EXYNOS 1280 OCTA CORE"
+      },
+      {
+        "id_valor": "2026075",
+        "nombre_valor": "PROCESADOR: Qualcomm SM8550 OCTA CORE"
+      },
+      {
+        "id_valor": "4139915",
+        "nombre_valor": "PROCESADOR: MEDIATEK DIMENSITY 9400 OCTA-CORE"
+      },
+      {
+        "id_valor": "4139917",
+        "nombre_valor": "PROCESADOR: QUALCOMM SM7635 OCTA-CORE"
+      },
+      {
+        "id_valor": "2749891",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8791"
+      },
+      {
+        "id_valor": "4139919",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8775 OCTA-CORE"
+      },
+      {
+        "id_valor": "2749889",
+        "nombre_valor": "PROCESADOR: MEDIATEK MT8768A"
+      },
+      {
+        "id_valor": "1742155",
+        "nombre_valor": "PROCESADOR: Qualcomm SM7125-1-AB OCTA CORE"
+      },
+      {
+        "id_valor": "2530232",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO G99"
+      },
+      {
+        "id_valor": "3995237",
+        "nombre_valor": "PROCESADOR: MEDIATEK MTK8183"
+      },
+      {
+        "id_valor": "2784579",
+        "nombre_valor": "PROCESADOR: UNISOC T606 OCTA CORE"
+      },
+      {
+        "id_valor": "2144409",
+        "nombre_valor": "PROCESADOR: Qualcomm | SM6375 OCTA CORE"
+      },
+      {
+        "id_valor": "1742157",
+        "nombre_valor": "PROCESADOR: Qualcomm SM7325-2-AB OCTA CORE"
+      },
+      {
+        "id_valor": "2534470",
+        "nombre_valor": "PROCESADOR: MEDIATEK HELIO G80"
+      },
+      {
+        "id_valor": "1764939",
+        "nombre_valor": "PROCESADOR: MEDIATEK KOMPANIO 1300T "
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26367",
+    "nombre_caracteristica": "RAM",
+    "valores": [
+      {
+        "id_valor": "2026071",
+        "nombre_valor": "RAM : 12 GB LPDDR5X 4224MHz"
+      },
+      {
+        "id_valor": "2026073",
+        "nombre_valor": "RAM : 8 GB LPDDR5X 4224MHz"
+      },
+      {
+        "id_valor": "2553800",
+        "nombre_valor": "RAM: 8 GB LPDDR4 1066 MHz"
+      },
+      {
+        "id_valor": "1695427",
+        "nombre_valor": "RAM : 4 GB  LPDDR4X 2133MHz"
+      },
+      {
+        "id_valor": "1695428",
+        "nombre_valor": "RAM: 8 GB LPDDR3 2133 266 MHz"
+      },
+      {
+        "id_valor": "1695429",
+        "nombre_valor": "RAM: 6 GB LPDDR4X 4266 MHz"
+      },
+      {
+        "id_valor": "1695430",
+        "nombre_valor": "RAM: 4 GB LPDDR4X 3200 MHz"
+      },
+      {
+        "id_valor": "1695431",
+        "nombre_valor": "RAM : 8 GB LPDDR5"
+      },
+      {
+        "id_valor": "1695432",
+        "nombre_valor": "RAM: 3 GB LPDDR4X 4266 MHz"
+      },
+      {
+        "id_valor": "1695433",
+        "nombre_valor": "RAM: 3 GB LPDDR4X 3200 MHz"
+      },
+      {
+        "id_valor": "1695434",
+        "nombre_valor": "RAM: 2GB DDR4 1066 Mhz"
+      },
+      {
+        "id_valor": "1695435",
+        "nombre_valor": "RAM : 3 GB  LPDDR3 1866MHz"
+      },
+      {
+        "id_valor": "1695436",
+        "nombre_valor": "RAM : 3 GB LPDDR4X 1866MHz"
+      },
+      {
+        "id_valor": "1695437",
+        "nombre_valor": "RAM : 8 GB LPDDR5 3197MHz"
+      },
+      {
+        "id_valor": "1695438",
+        "nombre_valor": "RAM: 2 GB LPDDR4X 4266 MHz"
+      },
+      {
+        "id_valor": "1695439",
+        "nombre_valor": "RAM : 2GB LPDDR4x 1600 Mhz"
+      },
+      {
+        "id_valor": "1695440",
+        "nombre_valor": "RAM: 6 GB LPDDR4X 3200 MHz"
+      },
+      {
+        "id_valor": "1695441",
+        "nombre_valor": "RAM: 8 GB DDR4 2133 MHz"
+      },
+      {
+        "id_valor": "1695442",
+        "nombre_valor": "RAM: 4 GB LPDDR4X 4266 MHz"
+      },
+      {
+        "id_valor": "1695443",
+        "nombre_valor": "RAM: 4 GB LPDDR4X 2133 MHz"
+      },
+      {
+        "id_valor": "1695444",
+        "nombre_valor": "RAM: 2 GB LPDDR3 933 MHz"
+      },
+      {
+        "id_valor": "1695445",
+        "nombre_valor": "RAM: 6 GB LPDDR4X 1866 MHz"
+      },
+      {
+        "id_valor": "1695446",
+        "nombre_valor": "RAM: 4 GB LPDDR4X 1866 MHz"
+      },
+      {
+        "id_valor": "1695447",
+        "nombre_valor": "RAM: 2 GB LPDDR4X 1866 MHz"
+      },
+      {
+        "id_valor": "1695448",
+        "nombre_valor": "RAM: 2 GB LPDDR4 1866 MHz"
+      },
+      {
+        "id_valor": "1695449",
+        "nombre_valor": "RAM: 2 GB LPDDR3 1333 MHz"
+      },
+      {
+        "id_valor": "1695450",
+        "nombre_valor": "RAM: 2 GB LPDDR3 3200 MHz"
+      },
+      {
+        "id_valor": "1695451",
+        "nombre_valor": "RAM: 2 GB DDR2 800 200 MHz"
+      },
+      {
+        "id_valor": "1695452",
+        "nombre_valor": "RAM: 2 GB DDR3 1333 166 MHz"
+      },
+      {
+        "id_valor": "1695453",
+        "nombre_valor": "RAM: 2 GB DDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695454",
+        "nombre_valor": "RAM: 2 GB DDR3L 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695455",
+        "nombre_valor": "RAM: 2 GB DDR3L 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695456",
+        "nombre_valor": "RAM: 2 GB LPDDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695457",
+        "nombre_valor": "RAM: 2 GB LPDDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695458",
+        "nombre_valor": "RAM: 2 GB LPDDR3 800 100 MHz"
+      },
+      {
+        "id_valor": "1695459",
+        "nombre_valor": "RAM: 3 GB DDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695460",
+        "nombre_valor": "RAM: 4 GB DDR3L 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695461",
+        "nombre_valor": "RAM: 4 GB LPDDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695462",
+        "nombre_valor": "RAM: 4 GB LPDDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695463",
+        "nombre_valor": "RAM: 8 GB LPDDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695464",
+        "nombre_valor": "RAM: 8 GB LPDDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695465",
+        "nombre_valor": "RAM: 2 GB LPDDR3 677 MHz"
+      },
+      {
+        "id_valor": "1695466",
+        "nombre_valor": "RAM: 2 GB DDR3 1 GHz"
+      },
+      {
+        "id_valor": "1695467",
+        "nombre_valor": "RAM: 16 GB LPDDR3 1866 233 MHz"
+      },
+      {
+        "id_valor": "1695468",
+        "nombre_valor": "RAM: 8 GB LPDDR3 1866 233 MHz"
+      },
+      {
+        "id_valor": "1695469",
+        "nombre_valor": "RAM: 32 GB DDR4 2133 MHz"
+      },
+      {
+        "id_valor": "1695470",
+        "nombre_valor": "RAM: 8 GB LPDDR3 SDRAM"
+      },
+      {
+        "id_valor": "1695471",
+        "nombre_valor": "RAM: 4 GB DDR4 2400 300 MHz"
+      },
+      {
+        "id_valor": "1695472",
+        "nombre_valor": "RAM: 3GB LPDDR3 1333 166 MHz"
+      },
+      {
+        "id_valor": "1695473",
+        "nombre_valor": "RAM: 1.5 GB DDR3 533 MHz"
+      },
+      {
+        "id_valor": "1695474",
+        "nombre_valor": "RAM: 4 GB DDR3 1866 MHz"
+      },
+      {
+        "id_valor": "1695475",
+        "nombre_valor": "RAM: 4 GB DDR4  2133 MHz"
+      },
+      {
+        "id_valor": "1695476",
+        "nombre_valor": "RAM: 4 GB LPDDR3 1600 MHz"
+      },
+      {
+        "id_valor": "1695477",
+        "nombre_valor": "RAM: 2 GB LPDDR3 1600 MHz"
+      },
+      {
+        "id_valor": "1695478",
+        "nombre_valor": "RAM: 4 GB DDR4 1800 MHz"
+      },
+      {
+        "id_valor": "1695479",
+        "nombre_valor": "RAM: 2 GB DDR3 667 MHz"
+      },
+      {
+        "id_valor": "1695480",
+        "nombre_valor": "RAM: 3 GB DDR3 933 MHz"
+      },
+      {
+        "id_valor": "1695481",
+        "nombre_valor": "RAM: 3 GB DDR3 667 MHz"
+      },
+      {
+        "id_valor": "1695482",
+        "nombre_valor": "RAM : 1.5 GB DDR3 640 MHz"
+      },
+      {
+        "id_valor": "1695483",
+        "nombre_valor": "RAM: 8 GB DDR3L SDRAM 1600 MHZ"
+      },
+      {
+        "id_valor": "1695484",
+        "nombre_valor": "RAM: 3GB LPDDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695485",
+        "nombre_valor": "RAM: 1 GB LPDDR3 800 MHz"
+      },
+      {
+        "id_valor": "1695486",
+        "nombre_valor": "RAM: 1 GB DDR3 533 MHz"
+      },
+      {
+        "id_valor": "1695487",
+        "nombre_valor": "RAM: 3 GB LPDDR3 800 MHz"
+      },
+      {
+        "id_valor": "1695488",
+        "nombre_valor": "RAM: 2 GB LPDDR3 800 MHz"
+      },
+      {
+        "id_valor": "1695489",
+        "nombre_valor": "RAM: 8 GB DDR3L SDRAM 1866 MHZ"
+      },
+      {
+        "id_valor": "1695490",
+        "nombre_valor": "RAM: 2 GB DDR3 533 MHz"
+      },
+      {
+        "id_valor": "1695491",
+        "nombre_valor": "RAM: 1 GB DDR2 800 200 MHz"
+      },
+      {
+        "id_valor": "1695492",
+        "nombre_valor": "RAM: 1 GB DDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695493",
+        "nombre_valor": "RAM: 1 GB DDR3 1333 166 MHz"
+      },
+      {
+        "id_valor": "1695494",
+        "nombre_valor": "RAM: 1 GB DDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695495",
+        "nombre_valor": "RAM: 1 GB DDR3L 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695496",
+        "nombre_valor": "RAM: 1 GB LPDDR2 400 100 MHz"
+      },
+      {
+        "id_valor": "1695497",
+        "nombre_valor": "RAM: 1 GB LPDDR3 1066 133 MHz"
+      },
+      {
+        "id_valor": "1695498",
+        "nombre_valor": "RAM: 1 GB LPDDR3 1600 200 MHz"
+      },
+      {
+        "id_valor": "1695499",
+        "nombre_valor": "RAM: 6 GB LPDDR5 2750 MHz"
+      },
+      {
+        "id_valor": "1695500",
+        "nombre_valor": "RAM: 2 GB LPDDR3 1866 MHz"
+      },
+      {
+        "id_valor": "1695501",
+        "nombre_valor": "RAM: 6 GB LPDDR5 2736 MHz"
+      },
+      {
+        "id_valor": "4139696",
+        "nombre_valor": "RAM: 12 GB LPDDR5X 4800MHz"
+      },
+      {
+        "id_valor": "4139699",
+        "nombre_valor": "RAM: 6 GB LPDDR5X 3200MHz"
+      },
+      {
+        "id_valor": "2553802",
+        "nombre_valor": "RAM: 6 GB LPDDR4 1066 MHz"
+      },
+      {
+        "id_valor": "2030610",
+        "nombre_valor": "RAM: 8 GB LPDDR4X 2093MHz"
+      },
+      {
+        "id_valor": "2026072",
+        "nombre_valor": "RAM : 16 GB LPDDR5X 4224MHz"
+      },
+      {
+        "id_valor": "1729964",
+        "nombre_valor": "RAM: 2 GB LPDDR4X 2133MHz"
+      },
+      {
+        "id_valor": "1729966",
+        "nombre_valor": "RAM: 2 GB LPDDR4X 3200MHz"
+      },
+      {
+        "id_valor": "2144401",
+        "nombre_valor": "RAM: 6 GB LPDDR4X 2093MHz"
+      },
+      {
+        "id_valor": "1831519",
+        "nombre_valor": "RAM: 8GB DDR4 1066 Mhz"
+      },
+      {
+        "id_valor": "4139697",
+        "nombre_valor": "RAM: 12 GB LPDDR5X 3200MHz"
+      },
+      {
+        "id_valor": "4139698",
+        "nombre_valor": "RAM: 8 GB LPDDR5X 3200MHz"
+      },
+      {
+        "id_valor": "2774463",
+        "nombre_valor": "RAM: 4 GB LPDDR4X 2093 MHz"
+      },
+      {
+        "id_valor": "2144400",
+        "nombre_valor": "RAM: 12 GB LPDDR4X 2093MHz"
+      },
+      {
+        "id_valor": "1843709",
+        "nombre_valor": "RAM: 4 GB LPDDR3 1866 MHz"
+      },
+      {
+        "id_valor": "1732262",
+        "nombre_valor": "RAM: 4 GB LPDDR4 1866MHz"
+      },
+      {
+        "id_valor": "1764951",
+        "nombre_valor": "RAM: 8 GB LPDDR4X 2133 MHz"
+      },
+      {
+        "id_valor": "1764949",
+        "nombre_valor": "RAM: 6 GB LPDDR4X 2133 MHz"
+      },
+      {
+        "id_valor": "1764952",
+        "nombre_valor": "RAM: 3 GB LPDDR4X 2133 MHz"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26368",
+    "nombre_caracteristica": "ALMACENAMIENTO",
+    "valores": [
+      {
+        "id_valor": "1695502",
+        "nombre_valor": "ALMACENAMIENTO: 256 GB UFSS"
+      },
+      {
+        "id_valor": "1695503",
+        "nombre_valor": "ALMACENAMIENTO: 32 GB SD"
+      },
+      {
+        "id_valor": "1695504",
+        "nombre_valor": "ALMACENAMIENTO: 128 GB SSD"
+      },
+      {
+        "id_valor": "1695505",
+        "nombre_valor": "ALMACENAMIENTO: 16 GB SSD"
+      },
+      {
+        "id_valor": "1695506",
+        "nombre_valor": "ALMACENAMIENTO: 180 GB SSD"
+      },
+      {
+        "id_valor": "1695507",
+        "nombre_valor": "ALMACENAMIENTO: 256 GB SSD"
+      },
+      {
+        "id_valor": "1695508",
+        "nombre_valor": "ALMACENAMIENTO: 32 GB SSD"
+      },
+      {
+        "id_valor": "1695509",
+        "nombre_valor": "ALMACENAMIENTO: 64 GB SSD"
+      },
+      {
+        "id_valor": "1695510",
+        "nombre_valor": "ALMACENAMIENTO: 8 GB SSD"
+      },
+      {
+        "id_valor": "1695511",
+        "nombre_valor": "ALMACENAMIENTO: 16 GB EMMC"
+      },
+      {
+        "id_valor": "1695512",
+        "nombre_valor": "ALMACENAMIENTO: 8 GB eMMC"
+      },
+      {
+        "id_valor": "1695513",
+        "nombre_valor": "ALMACENAMIENTO: 64 GB eMMC"
+      },
+      {
+        "id_valor": "1695514",
+        "nombre_valor": "ALMACENAMIENTO: 128 GB eMMC"
+      },
+      {
+        "id_valor": "1695515",
+        "nombre_valor": "ALMACENAMIENTO: 32 GB eMMC"
+      },
+      {
+        "id_valor": "1695516",
+        "nombre_valor": "ALMACENAMIENTO: 512 GB SSD"
+      },
+      {
+        "id_valor": "1695517",
+        "nombre_valor": "ALMACENAMIENTO: 64 GB UFS"
+      },
+      {
+        "id_valor": "1695518",
+        "nombre_valor": "ALMACENAMIENTO: 128 GB UFS"
+      },
+      {
+        "id_valor": "1802424",
+        "nombre_valor": "ALMACENAMIENTO: 64 GB SD"
+      },
+      {
+        "id_valor": "2025980",
+        "nombre_valor": "ALMACENAMIENTO: 256 GB UFS"
+      },
+      {
+        "id_valor": "2025983",
+        "nombre_valor": "ALMACENAMIENTO: 512 GB UFS"
+      },
+      {
+        "id_valor": "2025981",
+        "nombre_valor": "ALMACENAMIENTO: 1 TB UFS"
+      },
+      {
+        "id_valor": "1732265",
+        "nombre_valor": "ALMACENAMIENTO: 64 GB eMCP"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26369",
+    "nombre_caracteristica": "PANTALLA",
+    "valores": [
+      {
+        "id_valor": "3928140",
+        "nombre_valor": "PANTALLA: LCD TACTIL 13.1\" 90Hz 2880X1800 PIXELES"
+      },
+      {
+        "id_valor": "3398334",
+        "nombre_valor": "PANTALLA: LCD TACTIL 11.45\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695519",
+        "nombre_valor": "PANTALLA: 8.7\" WXGA+ TFT LCD 1340 x 800  PIXELES"
+      },
+      {
+        "id_valor": "1695520",
+        "nombre_valor": "PANTALLA: 12.4\" Super AMOLED 2800 x 1752 (WQXGA+)  PIXELES"
+      },
+      {
+        "id_valor": "1695521",
+        "nombre_valor": "PANTALLA: 11.1\" TFT LCD 2560 x 1600 (WQXGA)  PIXELES"
+      },
+      {
+        "id_valor": "1695522",
+        "nombre_valor": "PANTALLA: LCD TACTIL 9.7\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695523",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.95\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695524",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.4\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695525",
+        "nombre_valor": "PANTALLA: OLED TACTIL 11.5\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695526",
+        "nombre_valor": "PANTALLA: LCD TACTIL 12.6\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695527",
+        "nombre_valor": "PANTALLA: LCD TACTIL 8¨ IPS 1280*800 PIXELES"
+      },
+      {
+        "id_valor": "1695528",
+        "nombre_valor": "PANTALLA: 10.5\" TFT LCD 1920 x 1200 (WUXGA)PIXELES"
+      },
+      {
+        "id_valor": "1695529",
+        "nombre_valor": "PANTALLA: 14.6\" Super AMOLED 2960 x 1848 (WQXGA+)  PIXELES"
+      },
+      {
+        "id_valor": "1695530",
+        "nombre_valor": "PANTALLA: 12.4\" TFT LCD 2560 x 1600 (WQXGA)PIXELES"
+      },
+      {
+        "id_valor": "1695531",
+        "nombre_valor": "PANTALLA: LED TACTIL 11.0\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695532",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 10.8\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695533",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 10.4\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695534",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.1\" 1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695535",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.1\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695536",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.1\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695537",
+        "nombre_valor": "PANTALLA: LED TACTIL 11.6\" 1920X1080 PIXELES"
+      },
+      {
+        "id_valor": "1695538",
+        "nombre_valor": "PANTALLA: LED TACTIL 12.3\" 1600X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695539",
+        "nombre_valor": "PANTALLA: LED TACTIL 12.5\" 1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695540",
+        "nombre_valor": "PANTALLA: LED TACTIL 13.3\" 2560X1440 PIXELES"
+      },
+      {
+        "id_valor": "1695541",
+        "nombre_valor": "PANTALLA: LED TACTIL 7.0\" 1024X600 PIXELES"
+      },
+      {
+        "id_valor": "1695542",
+        "nombre_valor": "PANTALLA: LED TACTIL 7.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695543",
+        "nombre_valor": "PANTALLA: LED TACTIL 7.0\" 800X480 PIXELES"
+      },
+      {
+        "id_valor": "1695544",
+        "nombre_valor": "PANTALLA: LED TACTIL 7.8\" 2048X1536 PIXELES"
+      },
+      {
+        "id_valor": "1695545",
+        "nombre_valor": "PANTALLA: LED TACTIL 7.9\" 2048X1536 PIXELES"
+      },
+      {
+        "id_valor": "1695546",
+        "nombre_valor": "PANTALLA: LED TACTIL 8.0\" 1024X768 PIXELES"
+      },
+      {
+        "id_valor": "1695547",
+        "nombre_valor": "PANTALLA: LED TACTIL 8.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695548",
+        "nombre_valor": "PANTALLA: LED TACTIL 8.0\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695549",
+        "nombre_valor": "PANTALLA: LED TACTIL 8.0\" 800X1280 PIXELES"
+      },
+      {
+        "id_valor": "1695550",
+        "nombre_valor": "PANTALLA: LED TACTIL 9.7\" 1024X768 PIXELES"
+      },
+      {
+        "id_valor": "1695551",
+        "nombre_valor": "PANTALLA: OLED TACTIL 8.0\" 2048X1536 PIXELES"
+      },
+      {
+        "id_valor": "1695552",
+        "nombre_valor": "PANTALLA: OLED TACTIL 9.7\" 2048X1536 PIXELES"
+      },
+      {
+        "id_valor": "1695553",
+        "nombre_valor": "PANTALLA: LCD TACTIL 8.0” 800X1280 PIXELES"
+      },
+      {
+        "id_valor": "1695554",
+        "nombre_valor": "PANTALLA: LED TACTIL 8.0\" 1200X1920 PIXELES"
+      },
+      {
+        "id_valor": "1695555",
+        "nombre_valor": "PANTALLA: LCD TACTIL 9.6” 800X1280 PIXELES"
+      },
+      {
+        "id_valor": "1695556",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.6’’ 1920X1280 PIXELES"
+      },
+      {
+        "id_valor": "1695557",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 10.1\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695558",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 8.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695559",
+        "nombre_valor": "PANTALLA: SUPER AMOLED TACTIL 10.5\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695560",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.3\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695561",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.3\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695562",
+        "nombre_valor": "PANTALLA: LCD TACTIL 6.9\" 1080X2160 PIXELES"
+      },
+      {
+        "id_valor": "1695563",
+        "nombre_valor": "PANTALLA: LED TACTIL 6.9\" 1080X2160 PIXELES"
+      },
+      {
+        "id_valor": "1695564",
+        "nombre_valor": "PANTALLA: LCD TACTIL 8.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695565",
+        "nombre_valor": "PANTALLA: OLED TACTIL 10.5\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695566",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.5\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695567",
+        "nombre_valor": "PANTALLA: LED TACTIL 11.6\" 1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695568",
+        "nombre_valor": "PANTALLA:  LCD 14.0\"  1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695569",
+        "nombre_valor": "PANTALLA: LCD  8.1\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695570",
+        "nombre_valor": "PANTALLA: LCD 10.1\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695571",
+        "nombre_valor": "PANTALLA: LCD 7.0\" 1280X720 PIXELES"
+      },
+      {
+        "id_valor": "1695572",
+        "nombre_valor": "PANTALLA: LCD 11.6\"  1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695573",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.1” 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695574",
+        "nombre_valor": "PANTALLA: LED TACTIL 9.7’’ 2048X1536 PIXELES"
+      },
+      {
+        "id_valor": "1695575",
+        "nombre_valor": "PANTALLA: LCD TACTIL 7.0’’ 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695576",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.1\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695577",
+        "nombre_valor": "PANTALLA: LCD TACTIL 7.0\" 1024X600 PIXELES"
+      },
+      {
+        "id_valor": "1695578",
+        "nombre_valor": "PANTALLA: LCD TACTIL 7.0\" 1024X768 PIXELES"
+      },
+      {
+        "id_valor": "1695579",
+        "nombre_valor": "PANTALLA: LCD TACTIL 8.0\" 1024X768 PIXELES"
+      },
+      {
+        "id_valor": "1695580",
+        "nombre_valor": "PANTALLA: LCD TACTIL 9.7\" 1024X768 PIXELES"
+      },
+      {
+        "id_valor": "1695581",
+        "nombre_valor": "PANTALLA: LED 10.1\" 1366X768 PIXELES"
+      },
+      {
+        "id_valor": "1695582",
+        "nombre_valor": "PANTALLA: LED 10.1\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "1695583",
+        "nombre_valor": "PANTALLA: LED 8.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695584",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.0\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695585",
+        "nombre_valor": "PANTALLA: LED TACTIL 10.1\" 1280X800 PIXELES"
+      },
+      {
+        "id_valor": "1695586",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 11.0\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "1695587",
+        "nombre_valor": "PANTALLA: SUPER AMOLED TACTIL 12.4\" 2800X1752 PIXELES"
+      },
+      {
+        "id_valor": "1695588",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 10.1\" 2560X1600 PIXELES"
+      },
+      {
+        "id_valor": "3922188",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.1” 800X1340 PIXELES"
+      },
+      {
+        "id_valor": "3922187",
+        "nombre_valor": "PANTALLA: LCD TACTIL 8.68” 800X1340 PIXELES"
+      },
+      {
+        "id_valor": "4139685",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 11.0\" 1920X1200 (WUXGA) PIXELES"
+      },
+      {
+        "id_valor": "2553807",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.36\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "2030617",
+        "nombre_valor": "PANTALLA: LCD PLS 12.4\" 2560 x 1600 (WQXGA)"
+      },
+      {
+        "id_valor": "2030618",
+        "nombre_valor": "PANTALLA: LCD PLS 8.6\" 1340 x 800 (WXGA+)"
+      },
+      {
+        "id_valor": "2030783",
+        "nombre_valor": "PANTALLA: LCD PLS 10.9\" 2304 x 1440 (WUXGA+)"
+      },
+      {
+        "id_valor": "3850675",
+        "nombre_valor": "PANTALLA: LCD TACTIL 12.7\" 2944X1840 PIXELES"
+      },
+      {
+        "id_valor": "2144416",
+        "nombre_valor": "PANTALLA: LCD PLS 11\" 1920 x 1200 (WUXGA)"
+      },
+      {
+        "id_valor": "2769455",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 8.0\" 1920X1200 (WUXGA) PIXELES"
+      },
+      {
+        "id_valor": "2026025",
+        "nombre_valor": "PANTALLA: DYNAMIC AMOLED 2X 11\" 2560 X 1600 (WQXGA) PIXELES"
+      },
+      {
+        "id_valor": "2026037",
+        "nombre_valor": "PANTALLA: DYNAMIC AMOLED 2X 12.4\" 2800 X 1752 (WQXGA+) PIXELES"
+      },
+      {
+        "id_valor": "2026039",
+        "nombre_valor": "PANTALLA: DYNAMIC AMOLED 2X 14.6\" 2960 x 1848 (WQXGA+) PIXELES"
+      },
+      {
+        "id_valor": "1782584",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.6\" 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "2943545",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.95\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "2747047",
+        "nombre_valor": "PANTALLA: LCD TACTIL 9.0’’ 1340X800 PIXELES"
+      },
+      {
+        "id_valor": "4139684",
+        "nombre_valor": "PANTALLA: TFT LCD TACTIL 10.9\" 2112X1320 (WUXGA+) PIXELES"
+      },
+      {
+        "id_valor": "1804238",
+        "nombre_valor": "PANTALLA: OLED TACTIL 11.2\" 2560X1536 PIXELES"
+      },
+      {
+        "id_valor": "2630655",
+        "nombre_valor": "PANTALLA: LCD TACTIL 11.0\" 1920X1200 PIXELES"
+      },
+      {
+        "id_valor": "2534478",
+        "nombre_valor": "PANTALLA: LCD TACTIL 11.5\" 2K 2000X1200 PIXELES"
+      },
+      {
+        "id_valor": "1764962",
+        "nombre_valor": "PANTALLA: LED TACTIL 11.2\" 2560X1536 PIXELES"
+      },
+      {
+        "id_valor": "2553809",
+        "nombre_valor": "PANTALLA: LCD TACTIL 10.51\" 1200X1920 PIXELES"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26370",
+    "nombre_caracteristica": "CONECTIVIDAD_WLAN",
+    "valores": [
+      {
+        "id_valor": "1695589",
+        "nombre_valor": "WLAN: SI"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26371",
+    "nombre_caracteristica": "CONECTIVIDAD_BLUETOOTH",
+    "valores": [
+      {
+        "id_valor": "1695590",
+        "nombre_valor": "BLUETOOTH: NO"
+      },
+      {
+        "id_valor": "1695591",
+        "nombre_valor": "BLUETOOTH: SI"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26372",
+    "nombre_caracteristica": "VIDEO_HDMI",
+    "valores": [
+      {
+        "id_valor": "1695592",
+        "nombre_valor": "HDMI: NO"
+      },
+      {
+        "id_valor": "1695593",
+        "nombre_valor": "HDMI: SI"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26373",
+    "nombre_caracteristica": "SISTEMA_OPERATIVO",
+    "valores": [
+      {
+        "id_valor": "1695594",
+        "nombre_valor": "SIST. OPER: ANDROID 12 - 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695595",
+        "nombre_valor": "SIST. OPER: HARMONYOS 2"
+      },
+      {
+        "id_valor": "1695596",
+        "nombre_valor": "SIST. OPER: EMUI 10.1"
+      },
+      {
+        "id_valor": "1695597",
+        "nombre_valor": "SIST. OPER: EMUI 10.0.1"
+      },
+      {
+        "id_valor": "1695598",
+        "nombre_valor": "SIST. OPER: ANDROID 11.0 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695599",
+        "nombre_valor": "SIST. OPER: ANDROID 11 (GO EDITION) - 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695600",
+        "nombre_valor": "SIST. OPER: ANDROID 10 - 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695601",
+        "nombre_valor": "SIST. OPER: ANDROID 10 PIE 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695602",
+        "nombre_valor": "SIST. OPER: ANDROID 9 PIE 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695603",
+        "nombre_valor": "SIST. OPER: ANDROID 9 PIE 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695604",
+        "nombre_valor": "SIST. OPER: ANDROID 4.1 JELLY BEAN 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695605",
+        "nombre_valor": "SIST. OPER: ANDROID 4.2 JELLY BEAN 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695606",
+        "nombre_valor": "SIST. OPER: ANDROID 4.4 KITKAT 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695607",
+        "nombre_valor": "SIST. OPER: ANDROID 4.4 KITKAT 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695608",
+        "nombre_valor": "SIST. OPER: ANDROID 5.0 LOLLIPOP 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695609",
+        "nombre_valor": "SIST. OPER: ANDROID 5.0 LOLLIPOP 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695610",
+        "nombre_valor": "SIST. OPER: ANDROID 5.1 LOLLIPOP 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695611",
+        "nombre_valor": "SIST. OPER: ANDROID 6.0 MARSHMALLOW 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695612",
+        "nombre_valor": "SIST. OPER: WINDOWS 10 HOME 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695613",
+        "nombre_valor": "SIST. OPER: WINDOWS 10 HOME 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695614",
+        "nombre_valor": "SIST. OPER: WINDOWS 10 PRO 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695615",
+        "nombre_valor": "SIST. OPER: WINDOWS 10 PRO 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695616",
+        "nombre_valor": "SIST. OPER: WINDOWS 8 PRO 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695617",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695618",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695619",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 PRO 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695620",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 PRO 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695621",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 SL 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695622",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 SST 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695623",
+        "nombre_valor": "SIST. OPER: WINDOWS 8.1 WITH BING FOR SMALL TABLETS 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695624",
+        "nombre_valor": "SIST. OPER: ANDROID 7.0 NOUGAT 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695625",
+        "nombre_valor": "SIST. OPER: ANDROID 7.0 NOUGAT 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695626",
+        "nombre_valor": "SIST. OPER: ANDROID 6.0 MARSHMALLOW 32 BIT ESPAÑOL"
+      },
+      {
+        "id_valor": "1695627",
+        "nombre_valor": "SIST. OPER: ANDROID 8.1 OREO 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695628",
+        "nombre_valor": "SIST. OPER: ANDROID 8.1 OREO 32 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695629",
+        "nombre_valor": "SIST. OPER: ANDROID 8.0 OREO 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1695630",
+        "nombre_valor": "SIST. OPER: ANDROID 10 PIE 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "3922189",
+        "nombre_valor": "SIST. OPER: ANDROID 15.0 - 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "4139713",
+        "nombre_valor": "SIST. OPER: ANDROID 16.0 - 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "2747235",
+        "nombre_valor": "SIST. OPER: ANDROID 14 - 64 BITS ESPAÑOL"
+      },
+      {
+        "id_valor": "1732267",
+        "nombre_valor": "SIST. OPER: ANDROID 13 - 64 BITS ESPAÑOL"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26374",
+    "nombre_caracteristica": "BATERIA",
+    "valores": [
+      {
+        "id_valor": "1695631",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 7040mAh"
+      },
+      {
+        "id_valor": "1695632",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 7400mAh"
+      },
+      {
+        "id_valor": "1695633",
+        "nombre_valor": "BATERIA: LI-ION 4000 mAh"
+      },
+      {
+        "id_valor": "1695634",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 10090mAh"
+      },
+      {
+        "id_valor": "1695635",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 8000mAh"
+      },
+      {
+        "id_valor": "1695636",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 5100mAh"
+      },
+      {
+        "id_valor": "1695637",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 11200mAh"
+      },
+      {
+        "id_valor": "1695638",
+        "nombre_valor": "BATERIA: LI-ON 5000 mAh"
+      },
+      {
+        "id_valor": "1695639",
+        "nombre_valor": "BATERIA: LI-ON 9 CELDAS"
+      },
+      {
+        "id_valor": "1695640",
+        "nombre_valor": "BATERIA: LITHIUM POLYMER"
+      },
+      {
+        "id_valor": "1695641",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA"
+      },
+      {
+        "id_valor": "1695642",
+        "nombre_valor": "BATERIA: LI-ION 2 CELDAS"
+      },
+      {
+        "id_valor": "1695643",
+        "nombre_valor": "BATERIA: LI-ION 3 CELDAS"
+      },
+      {
+        "id_valor": "1695644",
+        "nombre_valor": "BATERIA: LI-ION 4 CELDAS"
+      },
+      {
+        "id_valor": "3922192",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 5000mAh"
+      },
+      {
+        "id_valor": "4139673",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 10100mAh"
+      },
+      {
+        "id_valor": "3850668",
+        "nombre_valor": "BATERIA: LI-ION POLYMER 8600 mAh"
+      },
+      {
+        "id_valor": "3850688",
+        "nombre_valor": "BATERIA: LI-ION POLYMER 10200 mAh"
+      },
+      {
+        "id_valor": "1738281",
+        "nombre_valor": "BATERIA: LI-ION 2800 mAh"
+      },
+      {
+        "id_valor": "2026054",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 8400mAh"
+      },
+      {
+        "id_valor": "2557984",
+        "nombre_valor": "BATERIA: LI-ION 7700 mAh"
+      },
+      {
+        "id_valor": "1831521",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 7000mAh"
+      },
+      {
+        "id_valor": "4139672",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 11600mAh"
+      },
+      {
+        "id_valor": "2774473",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 5050 mAh"
+      },
+      {
+        "id_valor": "1742163",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 7600mAh"
+      },
+      {
+        "id_valor": "1732266",
+        "nombre_valor": "BATERIA: LI-ION 1 CELDA 6000mAh"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26375",
+    "nombre_caracteristica": "PESO",
+    "valores": [
+      {
+        "id_valor": "2026003",
+        "nombre_valor": "PESO: 0.498 kg"
+      },
+      {
+        "id_valor": "3928133",
+        "nombre_valor": "PESO: 0.523 kg"
+      },
+      {
+        "id_valor": "3928136",
+        "nombre_valor": "PESO: 0.571 kg"
+      },
+      {
+        "id_valor": "3928134",
+        "nombre_valor": "PESO: 0.718 kg"
+      },
+      {
+        "id_valor": "2553816",
+        "nombre_valor": "PESO: 0.51 kg"
+      },
+      {
+        "id_valor": "1695645",
+        "nombre_valor": "PESO: 0.503 kg"
+      },
+      {
+        "id_valor": "1695646",
+        "nombre_valor": "PESO: 0.508 kg"
+      },
+      {
+        "id_valor": "1695647",
+        "nombre_valor": "PESO: 0.608 kg"
+      },
+      {
+        "id_valor": "1695648",
+        "nombre_valor": "PESO: 0.726 kg"
+      },
+      {
+        "id_valor": "1695649",
+        "nombre_valor": "PESO: 0.371 kg"
+      },
+      {
+        "id_valor": "1695650",
+        "nombre_valor": "PESO: 0.567 kg"
+      },
+      {
+        "id_valor": "1695651",
+        "nombre_valor": "PESO: 0.312 KG"
+      },
+      {
+        "id_valor": "1695652",
+        "nombre_valor": "PESO: 0.23 kg"
+      },
+      {
+        "id_valor": "1695653",
+        "nombre_valor": "PESO: 0.26 kg"
+      },
+      {
+        "id_valor": "1695654",
+        "nombre_valor": "PESO: 0.27 kg"
+      },
+      {
+        "id_valor": "1695655",
+        "nombre_valor": "PESO: 0.29 kg"
+      },
+      {
+        "id_valor": "1695656",
+        "nombre_valor": "PESO: 0.30 kg"
+      },
+      {
+        "id_valor": "1695657",
+        "nombre_valor": "PESO: 0.31 kg"
+      },
+      {
+        "id_valor": "1695658",
+        "nombre_valor": "PESO: 0.33 kg"
+      },
+      {
+        "id_valor": "1695659",
+        "nombre_valor": "PESO: 0.34 kg"
+      },
+      {
+        "id_valor": "1695660",
+        "nombre_valor": "PESO: 0.35 kg"
+      },
+      {
+        "id_valor": "1695661",
+        "nombre_valor": "PESO: 0.36 kg"
+      },
+      {
+        "id_valor": "1695662",
+        "nombre_valor": "PESO: 0.37 kg"
+      },
+      {
+        "id_valor": "1695663",
+        "nombre_valor": "PESO: 0.38 kg"
+      },
+      {
+        "id_valor": "1695664",
+        "nombre_valor": "PESO: 0.39 kg"
+      },
+      {
+        "id_valor": "1695665",
+        "nombre_valor": "PESO: 0.40 kg"
+      },
+      {
+        "id_valor": "1695666",
+        "nombre_valor": "PESO: 0.45 kg"
+      },
+      {
+        "id_valor": "1695667",
+        "nombre_valor": "PESO: 0.47 kg"
+      },
+      {
+        "id_valor": "1695668",
+        "nombre_valor": "PESO: 0.48 kg"
+      },
+      {
+        "id_valor": "1695669",
+        "nombre_valor": "PESO: 0.49 kg"
+      },
+      {
+        "id_valor": "1695670",
+        "nombre_valor": "PESO: 0.50 kg"
+      },
+      {
+        "id_valor": "1695671",
+        "nombre_valor": "PESO: 0.52 kg"
+      },
+      {
+        "id_valor": "1695672",
+        "nombre_valor": "PESO: 0.56 kg"
+      },
+      {
+        "id_valor": "1695673",
+        "nombre_valor": "PESO: 0.58 kg"
+      },
+      {
+        "id_valor": "1695674",
+        "nombre_valor": "PESO: 0.60 kg"
+      },
+      {
+        "id_valor": "1695675",
+        "nombre_valor": "PESO: 0.61 kg"
+      },
+      {
+        "id_valor": "1695676",
+        "nombre_valor": "PESO: 0.65 kg"
+      },
+      {
+        "id_valor": "1695677",
+        "nombre_valor": "PESO: 0.66 kg"
+      },
+      {
+        "id_valor": "1695678",
+        "nombre_valor": "PESO: 0.68 kg"
+      },
+      {
+        "id_valor": "1695679",
+        "nombre_valor": "PESO: 0.70 kg"
+      },
+      {
+        "id_valor": "1695680",
+        "nombre_valor": "PESO: 0.75 kg"
+      },
+      {
+        "id_valor": "1695681",
+        "nombre_valor": "PESO: 0.82 kg"
+      },
+      {
+        "id_valor": "1695682",
+        "nombre_valor": "PESO: 0.83 kg"
+      },
+      {
+        "id_valor": "1695683",
+        "nombre_valor": "PESO: 0.85 kg"
+      },
+      {
+        "id_valor": "1695684",
+        "nombre_valor": "PESO: 0.86 kg"
+      },
+      {
+        "id_valor": "1695685",
+        "nombre_valor": "PESO: 0.87 kg"
+      },
+      {
+        "id_valor": "1695686",
+        "nombre_valor": "PESO: 0.91 kg"
+      },
+      {
+        "id_valor": "1695687",
+        "nombre_valor": "PESO: 0.93 kg"
+      },
+      {
+        "id_valor": "1695688",
+        "nombre_valor": "PESO: 0.95 kg"
+      },
+      {
+        "id_valor": "1695689",
+        "nombre_valor": "PESO: 0.97 kg"
+      },
+      {
+        "id_valor": "1695690",
+        "nombre_valor": "PESO: 1.10 kg"
+      },
+      {
+        "id_valor": "1695691",
+        "nombre_valor": "PESO: 1.45 kg"
+      },
+      {
+        "id_valor": "1695692",
+        "nombre_valor": "PESO: 1.54 kg"
+      },
+      {
+        "id_valor": "1695693",
+        "nombre_valor": "PESO: 1.65 kg"
+      },
+      {
+        "id_valor": "1695694",
+        "nombre_valor": "PESO: 1.36 kg"
+      },
+      {
+        "id_valor": "1695695",
+        "nombre_valor": "PESO: 0.54 kg"
+      },
+      {
+        "id_valor": "1695696",
+        "nombre_valor": "PESO: 0.59 Kg"
+      },
+      {
+        "id_valor": "1695697",
+        "nombre_valor": "PESO: 0.80 kg"
+      },
+      {
+        "id_valor": "1695698",
+        "nombre_valor": "PESO: 0.55 Kg"
+      },
+      {
+        "id_valor": "1695699",
+        "nombre_valor": "PESO: 1.39 Kg"
+      },
+      {
+        "id_valor": "1695700",
+        "nombre_valor": "PESO: 0.78 Kg."
+      },
+      {
+        "id_valor": "1695701",
+        "nombre_valor": "PESO: 1.20 kg"
+      },
+      {
+        "id_valor": "1695702",
+        "nombre_valor": "PESO: 2.30 Kg."
+      },
+      {
+        "id_valor": "1695703",
+        "nombre_valor": "PESO: 1.48 Kg"
+      },
+      {
+        "id_valor": "1695704",
+        "nombre_valor": "PESO: 0.88 Kg"
+      },
+      {
+        "id_valor": "1695705",
+        "nombre_valor": "PESO: 0.43 kg"
+      },
+      {
+        "id_valor": "1695706",
+        "nombre_valor": "PESO: 0.42 kg"
+      },
+      {
+        "id_valor": "1695707",
+        "nombre_valor": "PESO: 0.53 kg"
+      },
+      {
+        "id_valor": "1695708",
+        "nombre_valor": "PESO: 1.30 kg"
+      },
+      {
+        "id_valor": "1695709",
+        "nombre_valor": "PESO: 1.26 kg"
+      },
+      {
+        "id_valor": "1695710",
+        "nombre_valor": "PESO: 0.46 kg"
+      },
+      {
+        "id_valor": "1802425",
+        "nombre_valor": "PESO: 0.465 kg"
+      },
+      {
+        "id_valor": "4139688",
+        "nombre_valor": "PESO: 0.469 kg"
+      },
+      {
+        "id_valor": "2030614",
+        "nombre_valor": "PESO: 0.524 kg"
+      },
+      {
+        "id_valor": "2030615",
+        "nombre_valor": "PESO: 0.627 kg"
+      },
+      {
+        "id_valor": "2030616",
+        "nombre_valor": "PESO: 0.332 kg"
+      },
+      {
+        "id_valor": "3850694",
+        "nombre_valor": "PESO: 0.62 kg"
+      },
+      {
+        "id_valor": "1738284",
+        "nombre_valor": "PESO: 0.25 kg"
+      },
+      {
+        "id_valor": "2026006",
+        "nombre_valor": "PESO: 0.581 kg"
+      },
+      {
+        "id_valor": "2026008",
+        "nombre_valor": "PESO: 0.732 kg"
+      },
+      {
+        "id_valor": "2144403",
+        "nombre_valor": "PESO: 0.628 kg"
+      },
+      {
+        "id_valor": "2144404",
+        "nombre_valor": "PESO: 0.491 kg"
+      },
+      {
+        "id_valor": "3978277",
+        "nombre_valor": "PESO: 0.683 kg"
+      },
+      {
+        "id_valor": "1740071",
+        "nombre_valor": "PESO: 0.467 kg"
+      },
+      {
+        "id_valor": "2794855",
+        "nombre_valor": "PESO: 0.63 kg"
+      },
+      {
+        "id_valor": "1831523",
+        "nombre_valor": "PESO: 0.495 kg"
+      },
+      {
+        "id_valor": "4139689",
+        "nombre_valor": "PESO: 0.692 kg"
+      },
+      {
+        "id_valor": "2144405",
+        "nombre_valor": "PESO: 0.333 kg"
+      },
+      {
+        "id_valor": "1843710",
+        "nombre_valor": "PESO: 0.366 kg"
+      },
+      {
+        "id_valor": "1742156",
+        "nombre_valor": "PESO: 0.674 kg"
+      },
+      {
+        "id_valor": "1764969",
+        "nombre_valor": "PESO: 0.32 kg"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26376",
+    "nombre_caracteristica": "CAMARA_WEB",
+    "valores": [
+      {
+        "id_valor": "1695711",
+        "nombre_valor": "CAMARA WEB: SI"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26377",
+    "nombre_caracteristica": "SUITE_OFIMATICA",
+    "valores": [
+      {
+        "id_valor": "1695712",
+        "nombre_valor": "SUITE OFIMATICA: NO"
+      },
+      {
+        "id_valor": "1695713",
+        "nombre_valor": "SUITE OFIMATICA: SI"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26378",
+    "nombre_caracteristica": "GARANTIA_DE_FABRICA",
+    "valores": [
+      {
+        "id_valor": "1695714",
+        "nombre_valor": "G. F: 18 MESES CARRY-IN"
+      },
+      {
+        "id_valor": "1695715",
+        "nombre_valor": "G. F: 18 MESES ON-SITE"
+      },
+      {
+        "id_valor": "1695716",
+        "nombre_valor": "G. F: 24 MESES ON-SITE"
+      },
+      {
+        "id_valor": "1695717",
+        "nombre_valor": "G. F: 24 MESES CARRY-IN"
+      },
+      {
+        "id_valor": "1695718",
+        "nombre_valor": "G. F: 12 MESES CARRY-IN"
+      },
+      {
+        "id_valor": "1695719",
+        "nombre_valor": "G. F: 12 MESES ON-SITE"
+      },
+      {
+        "id_valor": "1695720",
+        "nombre_valor": "G. F: 36 MESES ON-SITE"
+      },
+      {
+        "id_valor": "1695721",
+        "nombre_valor": "G. F: 36 MESES CARRY-IN"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26379",
+    "nombre_caracteristica": "UNIDAD",
+    "valores": [
+      {
+        "id_valor": "1695722",
+        "nombre_valor": "UNIDAD"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26380",
+    "nombre_caracteristica": "MARCA",
+    "valores": [
+      {
+        "id_valor": "4022965",
+        "nombre_valor": "OSB"
+      },
+      {
+        "id_valor": "4040695",
+        "nombre_valor": "ECONORACKS"
+      },
+      {
+        "id_valor": "1714667",
+        "nombre_valor": "MADI-TEK"
+      },
+      {
+        "id_valor": "4040439",
+        "nombre_valor": "ANAX"
+      },
+      {
+        "id_valor": "1729990",
+        "nombre_valor": "QUAMTU"
+      },
+      {
+        "id_valor": "4223528",
+        "nombre_valor": "TCL"
+      },
+      {
+        "id_valor": "3916493",
+        "nombre_valor": "MEGA CHAMBI"
+      },
+      {
+        "id_valor": "1695723",
+        "nombre_valor": "NEW KRAL"
+      },
+      {
+        "id_valor": "1695724",
+        "nombre_valor": "HAO TECH"
+      },
+      {
+        "id_valor": "1695726",
+        "nombre_valor": "SILVER VOLT"
+      },
+      {
+        "id_valor": "1695727",
+        "nombre_valor": "RHINOBOX"
+      },
+      {
+        "id_valor": "1695728",
+        "nombre_valor": "QOSOFT"
+      },
+      {
+        "id_valor": "1695729",
+        "nombre_valor": "G4U GAME FOR YOU"
+      },
+      {
+        "id_valor": "1695730",
+        "nombre_valor": "E4U"
+      },
+      {
+        "id_valor": "1695731",
+        "nombre_valor": "CLICKUP"
+      },
+      {
+        "id_valor": "1695732",
+        "nombre_valor": "Q T-GLICH"
+      },
+      {
+        "id_valor": "1695733",
+        "nombre_valor": "TECLAST"
+      },
+      {
+        "id_valor": "1695734",
+        "nombre_valor": "JUMPER"
+      },
+      {
+        "id_valor": "1695735",
+        "nombre_valor": "CREATIC"
+      },
+      {
+        "id_valor": "1695736",
+        "nombre_valor": "DYNABOOK"
+      },
+      {
+        "id_valor": "1695737",
+        "nombre_valor": "M4X"
+      },
+      {
+        "id_valor": "1695738",
+        "nombre_valor": "WACOM"
+      },
+      {
+        "id_valor": "1695739",
+        "nombre_valor": "GCS"
+      },
+      {
+        "id_valor": "1695740",
+        "nombre_valor": "MAXTIC"
+      },
+      {
+        "id_valor": "1695741",
+        "nombre_valor": "ADVANCE"
+      },
+      {
+        "id_valor": "1695742",
+        "nombre_valor": "AOC"
+      },
+      {
+        "id_valor": "1695743",
+        "nombre_valor": "DELL"
+      },
+      {
+        "id_valor": "1695744",
+        "nombre_valor": "HP"
+      },
+      {
+        "id_valor": "1695745",
+        "nombre_valor": "LENOVO"
+      },
+      {
+        "id_valor": "1695746",
+        "nombre_valor": "NEUIMAGE"
+      },
+      {
+        "id_valor": "1695747",
+        "nombre_valor": "SAMSUNG"
+      },
+      {
+        "id_valor": "1695748",
+        "nombre_valor": "PANASONIC"
+      },
+      {
+        "id_valor": "1695749",
+        "nombre_valor": "ADLINK"
+      },
+      {
+        "id_valor": "1695750",
+        "nombre_valor": "GETAC"
+      },
+      {
+        "id_valor": "1695751",
+        "nombre_valor": "KENYA"
+      },
+      {
+        "id_valor": "1695752",
+        "nombre_valor": "HANDEEL"
+      },
+      {
+        "id_valor": "1695753",
+        "nombre_valor": "BRENTA"
+      },
+      {
+        "id_valor": "1695754",
+        "nombre_valor": "HUAWEI"
+      },
+      {
+        "id_valor": "1695755",
+        "nombre_valor": "CIBER"
+      },
+      {
+        "id_valor": "1695756",
+        "nombre_valor": "INSOMED"
+      },
+      {
+        "id_valor": "4104524",
+        "nombre_valor": "(H)TOOLS"
+      },
+      {
+        "id_valor": "2149557",
+        "nombre_valor": "PERBOX"
+      },
+      {
+        "id_valor": "2553798",
+        "nombre_valor": "CHUWI"
+      },
+      {
+        "id_valor": "4104523",
+        "nombre_valor": "BUGUI(H)"
+      },
+      {
+        "id_valor": "1754452",
+        "nombre_valor": "SIKER"
+      },
+      {
+        "id_valor": "4219329",
+        "nombre_valor": "SKYON"
+      },
+      {
+        "id_valor": "1937460",
+        "nombre_valor": "JFA TECHNOLOGY"
+      },
+      {
+        "id_valor": "1937442",
+        "nombre_valor": "ARTEC"
+      },
+      {
+        "id_valor": "4136782",
+        "nombre_valor": "SURCO"
+      },
+      {
+        "id_valor": "3755293",
+        "nombre_valor": "H HANERT"
+      },
+      {
+        "id_valor": "4103493",
+        "nombre_valor": "EBSAN"
+      },
+      {
+        "id_valor": "4275356",
+        "nombre_valor": "T ITED"
+      },
+      {
+        "id_valor": "1835927",
+        "nombre_valor": "ALLWIYA"
+      },
+      {
+        "id_valor": "2611068",
+        "nombre_valor": "WORLDLIFE"
+      },
+      {
+        "id_valor": "2023553",
+        "nombre_valor": "ASUS"
+      },
+      {
+        "id_valor": "4220366",
+        "nombre_valor": "ROTEXOR"
+      },
+      {
+        "id_valor": "1730136",
+        "nombre_valor": "HAITECH"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26381",
+    "nombre_caracteristica": "MODELO",
+    "valores": [
+      {
+        "id_valor": "1780892",
+        "nombre_valor": "TAB M10 PLUS (3RD GEN)"
+      },
+      {
+        "id_valor": "3969621",
+        "nombre_valor": "DYTAB E12-WA"
+      },
+      {
+        "id_valor": "2529975",
+        "nombre_valor": "CHUWI TABLET HIPAD MAX"
+      },
+      {
+        "id_valor": "3969942",
+        "nombre_valor": "TAD12W-00606PC"
+      },
+      {
+        "id_valor": "3951549",
+        "nombre_valor": "GALAXY TAB S10 FE"
+      },
+      {
+        "id_valor": "4232137",
+        "nombre_valor": "GALAXY TAB A11 LTE"
+      },
+      {
+        "id_valor": "1827350",
+        "nombre_valor": "TECLAST TABLET T40PRO"
+      },
+      {
+        "id_valor": "2124211",
+        "nombre_valor": "GALAXY TAB S9 FE PLUS LTE"
+      },
+      {
+        "id_valor": "2555561",
+        "nombre_valor": "LENOVO TAB P11 (2ND GEN)"
+      },
+      {
+        "id_valor": "3956158",
+        "nombre_valor": "GALAXY TAB S10 FE 5G"
+      },
+      {
+        "id_valor": "3956209",
+        "nombre_valor": "GALAXY TAB S10 FE PLUS 5G"
+      },
+      {
+        "id_valor": "1902575",
+        "nombre_valor": "HPADIAT185M426"
+      },
+      {
+        "id_valor": "1801367",
+        "nombre_valor": "GALAXY TAB A8 10.5\"+ 64G WI-FI"
+      },
+      {
+        "id_valor": "2914240",
+        "nombre_valor": "HPAD-IP1185"
+      },
+      {
+        "id_valor": "1733487",
+        "nombre_valor": "NOVAT-15"
+      },
+      {
+        "id_valor": "2925512",
+        "nombre_valor": "TAGORE-W19GK"
+      },
+      {
+        "id_valor": "2925660",
+        "nombre_valor": "TAGORE-W09C"
+      },
+      {
+        "id_valor": "2773138",
+        "nombre_valor": "TAB S6 LITE 2024"
+      },
+      {
+        "id_valor": "2773150",
+        "nombre_valor": "GALAXY TAB S6 LITE 2024 LTE"
+      },
+      {
+        "id_valor": "2911006",
+        "nombre_valor": "AGASSI6-W09DP"
+      },
+      {
+        "id_valor": "3732505",
+        "nombre_valor": "DYTAB E11-WA"
+      },
+      {
+        "id_valor": "2555799",
+        "nombre_valor": "F-SMX516BZA-02"
+      },
+      {
+        "id_valor": "2811941",
+        "nombre_valor": "SM-P620NZAEPEO-12W"
+      },
+      {
+        "id_valor": "2770331",
+        "nombre_valor": "GALAXY TABACTIVE 5"
+      },
+      {
+        "id_valor": "2770352",
+        "nombre_valor": "SM-P625"
+      },
+      {
+        "id_valor": "2778682",
+        "nombre_valor": "TABLET X1"
+      },
+      {
+        "id_valor": "2630295",
+        "nombre_valor": "TAB K11 (ENHANCED EDITION)"
+      },
+      {
+        "id_valor": "3780908",
+        "nombre_valor": "LENOVO IDEA TAB PRO"
+      },
+      {
+        "id_valor": "3780930",
+        "nombre_valor": "NP6090"
+      },
+      {
+        "id_valor": "3398610",
+        "nombre_valor": "TAB K11 PLUS"
+      },
+      {
+        "id_valor": "2028578",
+        "nombre_valor": "GALAXY TAB S9 FE"
+      },
+      {
+        "id_valor": "2028626",
+        "nombre_valor": "GALAXY TAB A9"
+      },
+      {
+        "id_valor": "1901296",
+        "nombre_valor": "HPAD-IAT1085M"
+      },
+      {
+        "id_valor": "1695757",
+        "nombre_valor": "ADVANCE"
+      },
+      {
+        "id_valor": "1695758",
+        "nombre_valor": "53012NJGN12"
+      },
+      {
+        "id_valor": "1695759",
+        "nombre_valor": "EB-T595S"
+      },
+      {
+        "id_valor": "1695760",
+        "nombre_valor": "TABLET  BUSSINES TOP 10.1 \""
+      },
+      {
+        "id_valor": "1695761",
+        "nombre_valor": "TABLET BUSSINES TOP 10.1 \""
+      },
+      {
+        "id_valor": "1695762",
+        "nombre_valor": "ADVANCE PRO"
+      },
+      {
+        "id_valor": "1695763",
+        "nombre_valor": "TAB M10 (3RD GEN)"
+      },
+      {
+        "id_valor": "1695764",
+        "nombre_valor": "TAB M10"
+      },
+      {
+        "id_valor": "1695765",
+        "nombre_valor": "TAB M8 HD (2ND GEN)"
+      },
+      {
+        "id_valor": "1695766",
+        "nombre_valor": "SM-T970NZKUPEO"
+      },
+      {
+        "id_valor": "1695767",
+        "nombre_valor": "T640EI"
+      },
+      {
+        "id_valor": "1695768",
+        "nombre_valor": "TAB364001SAN2"
+      },
+      {
+        "id_valor": "1695769",
+        "nombre_valor": "SM-T735NZKLPEO"
+      },
+      {
+        "id_valor": "1695770",
+        "nombre_valor": "SM-X700NZAVPEO"
+      },
+      {
+        "id_valor": "1695771",
+        "nombre_valor": "TR7998"
+      },
+      {
+        "id_valor": "1695772",
+        "nombre_valor": "ZA88"
+      },
+      {
+        "id_valor": "1695773",
+        "nombre_valor": "TAB364001"
+      },
+      {
+        "id_valor": "1695774",
+        "nombre_valor": "TABLET P80"
+      },
+      {
+        "id_valor": "1695775",
+        "nombre_valor": "SP5775"
+      },
+      {
+        "id_valor": "1695776",
+        "nombre_valor": "CTL4100"
+      },
+      {
+        "id_valor": "1695777",
+        "nombre_valor": "TAB 7"
+      },
+      {
+        "id_valor": "1695778",
+        "nombre_valor": "SM-T225CZAAPEO"
+      },
+      {
+        "id_valor": "1695779",
+        "nombre_valor": "TAB M10 FHD PLUS (2ND GEN)"
+      },
+      {
+        "id_valor": "1695780",
+        "nombre_valor": "SM-T575NZKLPEO"
+      },
+      {
+        "id_valor": "1695781",
+        "nombre_valor": "SM-T733NZKLPEO"
+      },
+      {
+        "id_valor": "1695782",
+        "nombre_valor": "LENOVO TAB P11"
+      },
+      {
+        "id_valor": "1695783",
+        "nombre_valor": "SM-T500NZAAPEO"
+      },
+      {
+        "id_valor": "1695784",
+        "nombre_valor": "SM-T505NZAEPEO"
+      },
+      {
+        "id_valor": "1695785",
+        "nombre_valor": "PR5860"
+      },
+      {
+        "id_valor": "1695786",
+        "nombre_valor": "TAB M8 (3RD GEN)"
+      },
+      {
+        "id_valor": "4158553",
+        "nombre_valor": "HPAD-GB1186"
+      },
+      {
+        "id_valor": "1695787",
+        "nombre_valor": "SM-P619NZALPEO"
+      },
+      {
+        "id_valor": "1695788",
+        "nombre_valor": "TAB M10 HD (2ND GEN)"
+      },
+      {
+        "id_valor": "1695789",
+        "nombre_valor": "EB-T595SPE001"
+      },
+      {
+        "id_valor": "1695790",
+        "nombre_valor": "EB-T590S"
+      },
+      {
+        "id_valor": "1695791",
+        "nombre_valor": "EB-T595C"
+      },
+      {
+        "id_valor": "1695792",
+        "nombre_valor": "SM-T225NZAAPEO"
+      },
+      {
+        "id_valor": "1695793",
+        "nombre_valor": "LATITUDE 7220 RUGGED"
+      },
+      {
+        "id_valor": "1695794",
+        "nombre_valor": "SM-X205NZALPEO"
+      },
+      {
+        "id_valor": "1695795",
+        "nombre_valor": "AGRK-L09B"
+      },
+      {
+        "id_valor": "1695796",
+        "nombre_valor": "AGS3K-W19D"
+      },
+      {
+        "id_valor": "1695797",
+        "nombre_valor": "SP3701"
+      },
+      {
+        "id_valor": "1695798",
+        "nombre_valor": "PR5749"
+      },
+      {
+        "id_valor": "1695799",
+        "nombre_valor": "PR7145"
+      },
+      {
+        "id_valor": "1695800",
+        "nombre_valor": "SP5712"
+      },
+      {
+        "id_valor": "1695801",
+        "nombre_valor": "SP4872"
+      },
+      {
+        "id_valor": "1695802",
+        "nombre_valor": "DEBUSSY-W09CS"
+      },
+      {
+        "id_valor": "1695803",
+        "nombre_valor": "AGASSIR-W09B"
+      },
+      {
+        "id_valor": "1695804",
+        "nombre_valor": "TECLAST TABLET P80"
+      },
+      {
+        "id_valor": "1695805",
+        "nombre_valor": "BACH3-W59FS"
+      },
+      {
+        "id_valor": "1695806",
+        "nombre_valor": "KOBE2-W09A"
+      },
+      {
+        "id_valor": "1695807",
+        "nombre_valor": "AGS3K-L09D"
+      },
+      {
+        "id_valor": "1695808",
+        "nombre_valor": "AGASSI3-W09A"
+      },
+      {
+        "id_valor": "1695809",
+        "nombre_valor": "DEBUSSY-W09DS"
+      },
+      {
+        "id_valor": "1695810",
+        "nombre_valor": "SM-X800NZAVPEO"
+      },
+      {
+        "id_valor": "1695811",
+        "nombre_valor": "SM-X900NZAVPEO"
+      },
+      {
+        "id_valor": "1695812",
+        "nombre_valor": "WACOM INTUOS SMALL"
+      },
+      {
+        "id_valor": "1695813",
+        "nombre_valor": "THINKSTATION  P350"
+      },
+      {
+        "id_valor": "1695814",
+        "nombre_valor": "MATEPAD PRO"
+      },
+      {
+        "id_valor": "1695815",
+        "nombre_valor": "SM-T870NZKUPEO"
+      },
+      {
+        "id_valor": "1695816",
+        "nombre_valor": "SM-T725"
+      },
+      {
+        "id_valor": "1695817",
+        "nombre_valor": "SM-T295"
+      },
+      {
+        "id_valor": "1695818",
+        "nombre_valor": "SM-T865"
+      },
+      {
+        "id_valor": "1695819",
+        "nombre_valor": "SM-T515"
+      },
+      {
+        "id_valor": "1695820",
+        "nombre_valor": "TAB M7"
+      },
+      {
+        "id_valor": "1695821",
+        "nombre_valor": "SM-T830"
+      },
+      {
+        "id_valor": "1695822",
+        "nombre_valor": "SM-T595"
+      },
+      {
+        "id_valor": "1695823",
+        "nombre_valor": "SM-T835"
+      },
+      {
+        "id_valor": "1695824",
+        "nombre_valor": "SM-T590"
+      },
+      {
+        "id_valor": "1695825",
+        "nombre_valor": "SM-T720"
+      },
+      {
+        "id_valor": "1695826",
+        "nombre_valor": "SM-T290"
+      },
+      {
+        "id_valor": "1695827",
+        "nombre_valor": "SM-T510"
+      },
+      {
+        "id_valor": "1695828",
+        "nombre_valor": "TOUGHPAD FZ-G1"
+      },
+      {
+        "id_valor": "1695829",
+        "nombre_valor": "A726N"
+      },
+      {
+        "id_valor": "1695830",
+        "nombre_valor": "A726R"
+      },
+      {
+        "id_valor": "1695831",
+        "nombre_valor": "A727"
+      },
+      {
+        "id_valor": "1695832",
+        "nombre_valor": "A7600"
+      },
+      {
+        "id_valor": "1695833",
+        "nombre_valor": "ELITE X2 1011 G1"
+      },
+      {
+        "id_valor": "1695834",
+        "nombre_valor": "ELITEPAD 1000 G2"
+      },
+      {
+        "id_valor": "1695835",
+        "nombre_valor": "GALAXY TAB A"
+      },
+      {
+        "id_valor": "1695836",
+        "nombre_valor": "GALAXY TAB A WITH S PEN"
+      },
+      {
+        "id_valor": "1695837",
+        "nombre_valor": "GALAXY TAB E 7 BLACK"
+      },
+      {
+        "id_valor": "1695838",
+        "nombre_valor": "GALAXY TAB E 7 WHITE"
+      },
+      {
+        "id_valor": "1695839",
+        "nombre_valor": "GALAXY TAB S2"
+      },
+      {
+        "id_valor": "1695840",
+        "nombre_valor": "SM-T220NZAAPEO"
+      },
+      {
+        "id_valor": "1695841",
+        "nombre_valor": "AGRK-W19B"
+      },
+      {
+        "id_valor": "1695842",
+        "nombre_valor": "MATEPAD 10.4\""
+      },
+      {
+        "id_valor": "1695843",
+        "nombre_valor": "SP4175"
+      },
+      {
+        "id_valor": "1695844",
+        "nombre_valor": "SP4702"
+      },
+      {
+        "id_valor": "1695845",
+        "nombre_valor": "SP5702"
+      },
+      {
+        "id_valor": "1695846",
+        "nombre_valor": "SM-P613NZALPEO"
+      },
+      {
+        "id_valor": "1695847",
+        "nombre_valor": "SM-T870"
+      },
+      {
+        "id_valor": "1695848",
+        "nombre_valor": "LENOVO TAB K10"
+      },
+      {
+        "id_valor": "1695849",
+        "nombre_valor": "SM-T970"
+      },
+      {
+        "id_valor": "2027277",
+        "nombre_valor": "HTL-CPM82T"
+      },
+      {
+        "id_valor": "1695850",
+        "nombre_valor": "IDEAPAD MIIX 310"
+      },
+      {
+        "id_valor": "1695851",
+        "nombre_valor": "LATITUDE 10"
+      },
+      {
+        "id_valor": "1695852",
+        "nombre_valor": "NIT-704QB"
+      },
+      {
+        "id_valor": "1695853",
+        "nombre_valor": "NIT-704QN"
+      },
+      {
+        "id_valor": "1695854",
+        "nombre_valor": "NIT-704QR"
+      },
+      {
+        "id_valor": "1695855",
+        "nombre_valor": "NIT-704QW"
+      },
+      {
+        "id_valor": "1695856",
+        "nombre_valor": "NIT-709QB"
+      },
+      {
+        "id_valor": "1695857",
+        "nombre_valor": "NIT-709QN"
+      },
+      {
+        "id_valor": "1695858",
+        "nombre_valor": "NIT-709QP"
+      },
+      {
+        "id_valor": "1695859",
+        "nombre_valor": "NIT-709QR"
+      },
+      {
+        "id_valor": "1695860",
+        "nombre_valor": "NIT-709QW"
+      },
+      {
+        "id_valor": "1695861",
+        "nombre_valor": "NIT-805QW"
+      },
+      {
+        "id_valor": "1695862",
+        "nombre_valor": "PRO 10 EE G1"
+      },
+      {
+        "id_valor": "1695863",
+        "nombre_valor": "PRO 408 G1"
+      },
+      {
+        "id_valor": "1695864",
+        "nombre_valor": "PRO SLATE 10 EE G1"
+      },
+      {
+        "id_valor": "1695865",
+        "nombre_valor": "PRO SLATE 12"
+      },
+      {
+        "id_valor": "1695866",
+        "nombre_valor": "PRO SLATE 8"
+      },
+      {
+        "id_valor": "1695867",
+        "nombre_valor": "PRO TABLET 10 EE G1"
+      },
+      {
+        "id_valor": "1695868",
+        "nombre_valor": "PRO TABLET 408 G1"
+      },
+      {
+        "id_valor": "1695869",
+        "nombre_valor": "PRO TABLET 610 G1"
+      },
+      {
+        "id_valor": "1695870",
+        "nombre_valor": "PRO X2 612 G1"
+      },
+      {
+        "id_valor": "1695871",
+        "nombre_valor": "SLATE 8 PRO"
+      },
+      {
+        "id_valor": "1695872",
+        "nombre_valor": "SP 5206"
+      },
+      {
+        "id_valor": "1695873",
+        "nombre_valor": "SP 5757"
+      },
+      {
+        "id_valor": "1695874",
+        "nombre_valor": "TAB 2 A10-30"
+      },
+      {
+        "id_valor": "1695875",
+        "nombre_valor": "TAB 2 A8-50"
+      },
+      {
+        "id_valor": "1695876",
+        "nombre_valor": "TAB 3 A7"
+      },
+      {
+        "id_valor": "1695877",
+        "nombre_valor": "TAB2 A7-30"
+      },
+      {
+        "id_valor": "1695878",
+        "nombre_valor": "TOUGHPAD FZ-M1"
+      },
+      {
+        "id_valor": "1695879",
+        "nombre_valor": "YOGA TABLET 3 -8 LTE"
+      },
+      {
+        "id_valor": "1695880",
+        "nombre_valor": "LATITUDE 7212 RUGGED TABLET"
+      },
+      {
+        "id_valor": "1695881",
+        "nombre_valor": "BR1080"
+      },
+      {
+        "id_valor": "1695882",
+        "nombre_valor": "YOGA 330"
+      },
+      {
+        "id_valor": "1695883",
+        "nombre_valor": "A140"
+      },
+      {
+        "id_valor": "1695884",
+        "nombre_valor": "RX10"
+      },
+      {
+        "id_valor": "1695885",
+        "nombre_valor": "RX10H"
+      },
+      {
+        "id_valor": "1695886",
+        "nombre_valor": "SM-P580"
+      },
+      {
+        "id_valor": "1695887",
+        "nombre_valor": "F110"
+      },
+      {
+        "id_valor": "1695888",
+        "nombre_valor": "EX80"
+      },
+      {
+        "id_valor": "1695889",
+        "nombre_valor": "T800"
+      },
+      {
+        "id_valor": "1695890",
+        "nombre_valor": "ZX70"
+      },
+      {
+        "id_valor": "1695891",
+        "nombre_valor": "T800_EX"
+      },
+      {
+        "id_valor": "1695892",
+        "nombre_valor": "T800 - EX"
+      },
+      {
+        "id_valor": "1695893",
+        "nombre_valor": "T800_G2"
+      },
+      {
+        "id_valor": "1695894",
+        "nombre_valor": "SM-P585M"
+      },
+      {
+        "id_valor": "1695895",
+        "nombre_valor": "SM-T819Y"
+      },
+      {
+        "id_valor": "1695896",
+        "nombre_valor": "SM-T285M"
+      },
+      {
+        "id_valor": "1695897",
+        "nombre_valor": "SM-T825"
+      },
+      {
+        "id_valor": "1695898",
+        "nombre_valor": "SM-T385M"
+      },
+      {
+        "id_valor": "1695899",
+        "nombre_valor": "PANASONIC TOUGHPAD FZ-G1 I5"
+      },
+      {
+        "id_valor": "1695900",
+        "nombre_valor": "PANASONIC TOUGHPAD FZ-M1 M5"
+      },
+      {
+        "id_valor": "1695901",
+        "nombre_valor": "PANASONIC TOUGHPAD FZ-G1 I7-PNP"
+      },
+      {
+        "id_valor": "1695902",
+        "nombre_valor": "PANASONIC TOUGHPAD FZ-G1 I7"
+      },
+      {
+        "id_valor": "1695903",
+        "nombre_valor": "PANASONIC TOUGHPAD FZ-B2 ATOM"
+      },
+      {
+        "id_valor": "1695904",
+        "nombre_valor": "PR4157"
+      },
+      {
+        "id_valor": "1695905",
+        "nombre_valor": "A1032"
+      },
+      {
+        "id_valor": "1695906",
+        "nombre_valor": "A1032 CON TECLADO"
+      },
+      {
+        "id_valor": "1695907",
+        "nombre_valor": "TOUGHPAD FZ-M1 M5"
+      },
+      {
+        "id_valor": "1695908",
+        "nombre_valor": "TOUGHPAD FZ-G1 I5"
+      },
+      {
+        "id_valor": "1695909",
+        "nombre_valor": "TOUGHPAD FZ-B2 ATOM"
+      },
+      {
+        "id_valor": "1695910",
+        "nombre_valor": "TOUGHPAD FZ-G1 I7"
+      },
+      {
+        "id_valor": "1695911",
+        "nombre_valor": "A831L-D"
+      },
+      {
+        "id_valor": "1695912",
+        "nombre_valor": "A831L"
+      },
+      {
+        "id_valor": "1695913",
+        "nombre_valor": "A832"
+      },
+      {
+        "id_valor": "1695914",
+        "nombre_valor": "TAB S2 DE 8\""
+      },
+      {
+        "id_valor": "1695915",
+        "nombre_valor": "PR4137"
+      },
+      {
+        "id_valor": "1695916",
+        "nombre_valor": "A1032-D"
+      },
+      {
+        "id_valor": "1695917",
+        "nombre_valor": "TOUGHPAD FZ-G1 I7-PNP"
+      },
+      {
+        "id_valor": "1695918",
+        "nombre_valor": "GALAXY TAB A 10.1 SPEN NEGRA"
+      },
+      {
+        "id_valor": "1695919",
+        "nombre_valor": "GALAXY TAB S2 9,7\" NEGRA"
+      },
+      {
+        "id_valor": "1695920",
+        "nombre_valor": "GALAXY TAB S2 8\" NEGRA"
+      },
+      {
+        "id_valor": "1695921",
+        "nombre_valor": "GALAXY TAB S2 9,7\" DORADA"
+      },
+      {
+        "id_valor": "1695922",
+        "nombre_valor": "GALAXY BOOK 10.6\" NEGRA + COVER"
+      },
+      {
+        "id_valor": "1695923",
+        "nombre_valor": "GALAXY BOOK 10.6\" BLANCA + COVER"
+      },
+      {
+        "id_valor": "1695924",
+        "nombre_valor": "GALAXY TAB A 7\" NEGRA"
+      },
+      {
+        "id_valor": "1695925",
+        "nombre_valor": "F-SM-T820NZSAP"
+      },
+      {
+        "id_valor": "1695926",
+        "nombre_valor": "GALAXY TAB S3 9.7\" SILVER + COVER"
+      },
+      {
+        "id_valor": "1695927",
+        "nombre_valor": "GALAXY TAB A 7\" BLANCA"
+      },
+      {
+        "id_valor": "1695928",
+        "nombre_valor": "A831L-T"
+      },
+      {
+        "id_valor": "1695929",
+        "nombre_valor": "YOGA 3-8 LTE"
+      },
+      {
+        "id_valor": "1695930",
+        "nombre_valor": "1000 G2"
+      },
+      {
+        "id_valor": "1695931",
+        "nombre_valor": "408 G1"
+      },
+      {
+        "id_valor": "1695932",
+        "nombre_valor": "A5500"
+      },
+      {
+        "id_valor": "1695933",
+        "nombre_valor": "A724G"
+      },
+      {
+        "id_valor": "1695934",
+        "nombre_valor": "A725"
+      },
+      {
+        "id_valor": "1695935",
+        "nombre_valor": "A726B"
+      },
+      {
+        "id_valor": "1695936",
+        "nombre_valor": "TAB3 10 BUSINESS"
+      },
+      {
+        "id_valor": "1695937",
+        "nombre_valor": "THINKPAD 10"
+      },
+      {
+        "id_valor": "1695938",
+        "nombre_valor": "THINKPAD TABLET 2"
+      },
+      {
+        "id_valor": "1695939",
+        "nombre_valor": "U107"
+      },
+      {
+        "id_valor": "1695940",
+        "nombre_valor": "YOGA TAB 3 PRO"
+      },
+      {
+        "id_valor": "1695941",
+        "nombre_valor": "YOGA TABLET 2"
+      },
+      {
+        "id_valor": "1695942",
+        "nombre_valor": "YOGA TABLET 2 -10"
+      },
+      {
+        "id_valor": "1695943",
+        "nombre_valor": "YOGA TABLET 2 -8"
+      },
+      {
+        "id_valor": "1695944",
+        "nombre_valor": "YOGA TABLET 2 PRO"
+      },
+      {
+        "id_valor": "1695945",
+        "nombre_valor": "YOGA TABLET 3"
+      },
+      {
+        "id_valor": "1695946",
+        "nombre_valor": "YOGA TABLET 3 -10"
+      },
+      {
+        "id_valor": "1695947",
+        "nombre_valor": "YOGA TABLET 3 -8"
+      },
+      {
+        "id_valor": "1695948",
+        "nombre_valor": "YOGA TABLET 8"
+      },
+      {
+        "id_valor": "1695949",
+        "nombre_valor": "SM-T719Y"
+      },
+      {
+        "id_valor": "1695950",
+        "nombre_valor": "SM-T713"
+      },
+      {
+        "id_valor": "1695951",
+        "nombre_valor": "SM-713"
+      },
+      {
+        "id_valor": "1695952",
+        "nombre_valor": "SM-W620"
+      },
+      {
+        "id_valor": "1695953",
+        "nombre_valor": "SM-T560"
+      },
+      {
+        "id_valor": "1695954",
+        "nombre_valor": "SM-T395"
+      },
+      {
+        "id_valor": "1695955",
+        "nombre_valor": "SM-T380"
+      },
+      {
+        "id_valor": "1695956",
+        "nombre_valor": "SM-T813"
+      },
+      {
+        "id_valor": "1695957",
+        "nombre_valor": "SM-T820"
+      },
+      {
+        "id_valor": "1695958",
+        "nombre_valor": "YOGA TABLET 3 -8 LTE"
+      },
+      {
+        "id_valor": "1695959",
+        "nombre_valor": "A831L- D"
+      },
+      {
+        "id_valor": "1695960",
+        "nombre_valor": "SMARTPAD SP4872"
+      },
+      {
+        "id_valor": "1695961",
+        "nombre_valor": "SMARTPAD SP4873"
+      },
+      {
+        "id_valor": "1695962",
+        "nombre_valor": "SMARTPAD SP4871"
+      },
+      {
+        "id_valor": "1695963",
+        "nombre_valor": "SM-T280"
+      },
+      {
+        "id_valor": "1695964",
+        "nombre_valor": "SM-T860"
+      },
+      {
+        "id_valor": "1695965",
+        "nombre_valor": "TAB M10 FHD"
+      },
+      {
+        "id_valor": "1695966",
+        "nombre_valor": "Q10107"
+      },
+      {
+        "id_valor": "1695967",
+        "nombre_valor": "O10107L"
+      },
+      {
+        "id_valor": "1695968",
+        "nombre_valor": "Q10107L"
+      },
+      {
+        "id_valor": "1695969",
+        "nombre_valor": "TAB M8 HD"
+      },
+      {
+        "id_valor": "1695970",
+        "nombre_valor": "TAB M10 HD"
+      },
+      {
+        "id_valor": "1695971",
+        "nombre_valor": "Q7106L"
+      },
+      {
+        "id_valor": "1695972",
+        "nombre_valor": "O10108L"
+      },
+      {
+        "id_valor": "1695973",
+        "nombre_valor": "YOGA SMART TAB"
+      },
+      {
+        "id_valor": "3761848",
+        "nombre_valor": "GALAXY TAB S6 LITE LTE"
+      },
+      {
+        "id_valor": "2775623",
+        "nombre_valor": "GALAXY TAB ACTIVE 5"
+      },
+      {
+        "id_valor": "1695974",
+        "nombre_valor": "MEDIAPAD T5 10\""
+      },
+      {
+        "id_valor": "1695975",
+        "nombre_valor": "MEDIAPAD M5 LITE 10\""
+      },
+      {
+        "id_valor": "1695976",
+        "nombre_valor": "LENOVO TAB M10"
+      },
+      {
+        "id_valor": "1695977",
+        "nombre_valor": "TAB M10 FHD PLUS"
+      },
+      {
+        "id_valor": "1695978",
+        "nombre_valor": "LENOVO TAB M7"
+      },
+      {
+        "id_valor": "1695979",
+        "nombre_valor": "SM-T545"
+      },
+      {
+        "id_valor": "1695980",
+        "nombre_valor": "BUSINESS 6500"
+      },
+      {
+        "id_valor": "1695981",
+        "nombre_valor": "SP4703"
+      },
+      {
+        "id_valor": "1695982",
+        "nombre_valor": "SP4704"
+      },
+      {
+        "id_valor": "1695983",
+        "nombre_valor": "PR7547"
+      },
+      {
+        "id_valor": "1695984",
+        "nombre_valor": "SP5015"
+      },
+      {
+        "id_valor": "1695985",
+        "nombre_valor": "PR6070"
+      },
+      {
+        "id_valor": "1695986",
+        "nombre_valor": "PR7546"
+      },
+      {
+        "id_valor": "1695987",
+        "nombre_valor": "SM-P615"
+      },
+      {
+        "id_valor": "1695988",
+        "nombre_valor": "SP3951"
+      },
+      {
+        "id_valor": "1695989",
+        "nombre_valor": "PR5850"
+      },
+      {
+        "id_valor": "1695990",
+        "nombre_valor": "SM-P610"
+      },
+      {
+        "id_valor": "1695991",
+        "nombre_valor": "MEDIAPAD T5 10\" WIFI VERSION"
+      },
+      {
+        "id_valor": "1695992",
+        "nombre_valor": "MEDIAPAD T5 10\" WIFI"
+      },
+      {
+        "id_valor": "1695993",
+        "nombre_valor": "BUSINESS 7500"
+      },
+      {
+        "id_valor": "1695994",
+        "nombre_valor": "MEDIAPAD T5 10\" LTE VERSION"
+      },
+      {
+        "id_valor": "1695995",
+        "nombre_valor": "MEDIAPAD T5 10\" LTE"
+      },
+      {
+        "id_valor": "1695996",
+        "nombre_valor": "SP5760"
+      },
+      {
+        "id_valor": "1695997",
+        "nombre_valor": "SP7145"
+      },
+      {
+        "id_valor": "1695998",
+        "nombre_valor": "SP5749"
+      },
+      {
+        "id_valor": "1695999",
+        "nombre_valor": "53011KCX"
+      },
+      {
+        "id_valor": "1696000",
+        "nombre_valor": "MEDIAPAD T3 10\" LTE"
+      },
+      {
+        "id_valor": "1696001",
+        "nombre_valor": "SP7246"
+      },
+      {
+        "id_valor": "1696002",
+        "nombre_valor": "TAB P12 PRO"
+      },
+      {
+        "id_valor": "1696003",
+        "nombre_valor": "TAB M7 (3RD GEN)"
+      },
+      {
+        "id_valor": "1802039",
+        "nombre_valor": "GALAXY TAB A8 10.5\""
+      },
+      {
+        "id_valor": "2506138",
+        "nombre_valor": "GALAXY TAB A9 - ENTERPRISE EDITION"
+      },
+      {
+        "id_valor": "2912688",
+        "nombre_valor": "AGS6-W09DP"
+      },
+      {
+        "id_valor": "4222534",
+        "nombre_valor": "TAB 10L GEN4"
+      },
+      {
+        "id_valor": "2533531",
+        "nombre_valor": "CHUWI TABLET HIPAD XPRO"
+      },
+      {
+        "id_valor": "4118451",
+        "nombre_valor": "GALAXY TAB A11"
+      },
+      {
+        "id_valor": "3865983",
+        "nombre_valor": "NP5052"
+      },
+      {
+        "id_valor": "2913097",
+        "nombre_valor": "AGASSI6-W09BE"
+      },
+      {
+        "id_valor": "1718804",
+        "nombre_valor": "GALAXY TAB S6 LITE"
+      },
+      {
+        "id_valor": "1718821",
+        "nombre_valor": "GALAXY TAB ACTIVE 4 PRO"
+      },
+      {
+        "id_valor": "4140250",
+        "nombre_valor": "GALAXY TAB S10 LITE 5G"
+      },
+      {
+        "id_valor": "1747538",
+        "nombre_valor": "HPAD-IAT1085S4A"
+      },
+      {
+        "id_valor": "4140261",
+        "nombre_valor": "GALAXY TAB S11"
+      },
+      {
+        "id_valor": "4140265",
+        "nombre_valor": "GALAXY TAB S11 ULTRA"
+      },
+      {
+        "id_valor": "1747800",
+        "nombre_valor": "HPAD-IAT1085S4AB"
+      },
+      {
+        "id_valor": "3398640",
+        "nombre_valor": "TAB PLUS"
+      },
+      {
+        "id_valor": "1831681",
+        "nombre_valor": "GALAXY TAB A7 LITE"
+      },
+      {
+        "id_valor": "2799048",
+        "nombre_valor": "GALAXY TAB A9 LTE - ENTERPRISE EDITION"
+      },
+      {
+        "id_valor": "2895118",
+        "nombre_valor": "TAB A11 PRO X1"
+      },
+      {
+        "id_valor": "2631882",
+        "nombre_valor": "SP5732"
+      },
+      {
+        "id_valor": "2139591",
+        "nombre_valor": "GALAXY TAB A9 5G"
+      },
+      {
+        "id_valor": "2746519",
+        "nombre_valor": "HPAD-GM20"
+      },
+      {
+        "id_valor": "2746523",
+        "nombre_valor": "HPAD-IP8T"
+      },
+      {
+        "id_valor": "2124221",
+        "nombre_valor": "GALAXY TAB S9 FE LTE"
+      },
+      {
+        "id_valor": "3139089",
+        "nombre_valor": "HPAD IP1185-A"
+      },
+      {
+        "id_valor": "3139092",
+        "nombre_valor": "HPADIP1185-A"
+      },
+      {
+        "id_valor": "3139095",
+        "nombre_valor": "HPADIP1185A"
+      },
+      {
+        "id_valor": "3139096",
+        "nombre_valor": "HPAD IP1185"
+      },
+      {
+        "id_valor": "4119840",
+        "nombre_valor": "GALAXY TAB A11+"
+      },
+      {
+        "id_valor": "3952871",
+        "nombre_valor": "GALAXY TAB S10 FE PLUS"
+      },
+      {
+        "id_valor": "1764041",
+        "nombre_valor": "TAB M8 (4TH GEN)"
+      },
+      {
+        "id_valor": "2770295",
+        "nombre_valor": "SM-P620"
+      },
+      {
+        "id_valor": "2794803",
+        "nombre_valor": "GALAXY TAB S9 FE PLUS 5G"
+      },
+      {
+        "id_valor": "2026167",
+        "nombre_valor": "GALAXY TAB S9 PLUS"
+      },
+      {
+        "id_valor": "3862065",
+        "nombre_valor": "NP6050"
+      },
+      {
+        "id_valor": "3862088",
+        "nombre_valor": "SP4705"
+      },
+      {
+        "id_valor": "3862120",
+        "nombre_valor": "NP5050"
+      },
+      {
+        "id_valor": "2026138",
+        "nombre_valor": "GALAXY TAB S9 ULTRA"
+      },
+      {
+        "id_valor": "2026156",
+        "nombre_valor": "GALAXY TAB S9"
+      },
+      {
+        "id_valor": "2793124",
+        "nombre_valor": "GALAXY TAB A9 PLUS"
+      },
+      {
+        "id_valor": "4096747",
+        "nombre_valor": "IDEA TAB"
+      },
+      {
+        "id_valor": "1731536",
+        "nombre_valor": "F-23 RAPPTOR"
+      },
+      {
+        "id_valor": "2030437",
+        "nombre_valor": "GALAXY TAB S9 FE PLUS"
+      },
+      {
+        "id_valor": "1831691",
+        "nombre_valor": "GALAXY TAB S7 FE"
+      },
+      {
+        "id_valor": "2944706",
+        "nombre_valor": "HPAD-IP1185F"
+      },
+      {
+        "id_valor": "1763981",
+        "nombre_valor": "TAB P11 PRO (2ND GEN)"
+      },
+      {
+        "id_valor": "3862026",
+        "nombre_valor": "NP6070"
+      },
+      {
+        "id_valor": "2747006",
+        "nombre_valor": "TAB M9"
+      },
+      {
+        "id_valor": "1727800",
+        "nombre_valor": "TAB880 E4U"
+      },
+      {
+        "id_valor": "2476962",
+        "nombre_valor": "SM-X710NZEHPEO"
+      },
+      {
+        "id_valor": "1784381",
+        "nombre_valor": "TAB P11 (2ND GEN)"
+      },
+      {
+        "id_valor": "1727825",
+        "nombre_valor": "TAB900 E4U"
+      },
+      {
+        "id_valor": "1727632",
+        "nombre_valor": "HPAD-IAT1085S4"
+      },
+      {
+        "id_valor": "2777759",
+        "nombre_valor": "HPAD-C104M"
+      },
+      {
+        "id_valor": "3851353",
+        "nombre_valor": "TB305XU"
+      },
+      {
+        "id_valor": "3851447",
+        "nombre_valor": "TAB ONE"
+      },
+      {
+        "id_valor": "2452220",
+        "nombre_valor": "GALAXY TAB A9 PLUS 5G"
+      },
+      {
+        "id_valor": "2576150",
+        "nombre_valor": "SPXXXX"
+      },
+      {
+        "id_valor": "2793554",
+        "nombre_valor": "GALAXY TAB S9 FE 5G"
+      },
+      {
+        "id_valor": "2778099",
+        "nombre_valor": "HI10 XPRO"
+      },
+      {
+        "id_valor": "2587962",
+        "nombre_valor": "F-SMX110NZA-01A"
+      },
+      {
+        "id_valor": "4119881",
+        "nombre_valor": "GALAXY TAB ACTIVE5 PRO"
+      },
+      {
+        "id_valor": "4119950",
+        "nombre_valor": "GALAXY TAB S10 LITE"
+      },
+      {
+        "id_valor": "3969079",
+        "nombre_valor": "TABLET R1"
+      },
+      {
+        "id_valor": "2630588",
+        "nombre_valor": "TAB M11"
+      },
+      {
+        "id_valor": "2139579",
+        "nombre_valor": "GALAXY TAB A9 LTE"
+      },
+      {
+        "id_valor": "1748869",
+        "nombre_valor": "B610A426"
+      },
+      {
+        "id_valor": "2630781",
+        "nombre_valor": "TABM11-ZADB"
+      },
+      {
+        "id_valor": "2890043",
+        "nombre_valor": "TABLET X3"
+      },
+      {
+        "id_valor": "3780757",
+        "nombre_valor": "LENOVO TAB"
+      },
+      {
+        "id_valor": "2778780",
+        "nombre_valor": "TABLET X2"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26382",
+    "nombre_caracteristica": "NRO_PARTE",
+    "valores": [
+      {
+        "id_valor": "1748919",
+        "nombre_valor": "B610A436"
+      },
+      {
+        "id_valor": "1748850",
+        "nombre_valor": "B610A425"
+      },
+      {
+        "id_valor": "2747679",
+        "nombre_valor": "ZAC50022PE"
+      },
+      {
+        "id_valor": "1780882",
+        "nombre_valor": "ZAAN0094"
+      },
+      {
+        "id_valor": "1748844",
+        "nombre_valor": "B610A426"
+      },
+      {
+        "id_valor": "2747634",
+        "nombre_valor": "ZAC50003PE"
+      },
+      {
+        "id_valor": "4073741",
+        "nombre_valor": "B610A346A"
+      },
+      {
+        "id_valor": "3969627",
+        "nombre_valor": "TAD12W-00500P"
+      },
+      {
+        "id_valor": "4073679",
+        "nombre_valor": "B610A346"
+      },
+      {
+        "id_valor": "2795143",
+        "nombre_valor": "SM-X210NZAAPEO-12W"
+      },
+      {
+        "id_valor": "3969706",
+        "nombre_valor": "TAD12W-00500PC"
+      },
+      {
+        "id_valor": "3969893",
+        "nombre_valor": "BUSINESS 6500"
+      },
+      {
+        "id_valor": "3969783",
+        "nombre_valor": "B610A415K"
+      },
+      {
+        "id_valor": "3951550",
+        "nombre_valor": "SM-X520NZAAPEO-36W"
+      },
+      {
+        "id_valor": "3969843",
+        "nombre_valor": "TAD12W-00606P"
+      },
+      {
+        "id_valor": "3969907",
+        "nombre_valor": "B610A415A"
+      },
+      {
+        "id_valor": "4249305",
+        "nombre_valor": "SM-X133NZAAPEO"
+      },
+      {
+        "id_valor": "1827351",
+        "nombre_valor": "TAETEVT40PRO"
+      },
+      {
+        "id_valor": "1731112",
+        "nombre_valor": "ZA8R0025PE-1"
+      },
+      {
+        "id_valor": "2533532",
+        "nombre_valor": "TAECWVHIPADXPRO"
+      },
+      {
+        "id_valor": "4249347",
+        "nombre_valor": "SM-X135GZAAPEO"
+      },
+      {
+        "id_valor": "4249476",
+        "nombre_valor": "SM-X526BZAAL08"
+      },
+      {
+        "id_valor": "1749305",
+        "nombre_valor": "TF23-2464M12"
+      },
+      {
+        "id_valor": "4232464",
+        "nombre_valor": "SM-X135GZAEL08"
+      },
+      {
+        "id_valor": "2630301",
+        "nombre_valor": "ZADK0018PE-P1G"
+      },
+      {
+        "id_valor": "4249671",
+        "nombre_valor": "SM-X520NZAAPEO"
+      },
+      {
+        "id_valor": "1721449",
+        "nombre_valor": "ZA5H0144 PE"
+      },
+      {
+        "id_valor": "2797445",
+        "nombre_valor": "SM-X510NZAHPEO-12W"
+      },
+      {
+        "id_valor": "2779552",
+        "nombre_valor": "TABM11-ZADB-3"
+      },
+      {
+        "id_valor": "3840083",
+        "nombre_valor": "LTABG8546410FPH"
+      },
+      {
+        "id_valor": "2477020",
+        "nombre_valor": "SM-X610NLIHPEO"
+      },
+      {
+        "id_valor": "2477034",
+        "nombre_valor": "SM-X610NZADPEO"
+      },
+      {
+        "id_valor": "3956159",
+        "nombre_valor": "SM-X526BZAAPEO-12W"
+      },
+      {
+        "id_valor": "1741011",
+        "nombre_valor": "B610A416"
+      },
+      {
+        "id_valor": "3956210",
+        "nombre_valor": "SM-X626BZAAPEO-12W"
+      },
+      {
+        "id_valor": "1902577",
+        "nombre_valor": "HPADIAT185M426"
+      },
+      {
+        "id_valor": "3969943",
+        "nombre_valor": "TAD12W-00606PC"
+      },
+      {
+        "id_valor": "1801371",
+        "nombre_valor": "SM-X200NZAMPEO"
+      },
+      {
+        "id_valor": "3969965",
+        "nombre_valor": "TAD12W-00500PC-A"
+      },
+      {
+        "id_valor": "2911010",
+        "nombre_valor": "53014AYX"
+      },
+      {
+        "id_valor": "1766078",
+        "nombre_valor": "B610A415C"
+      },
+      {
+        "id_valor": "3862025",
+        "nombre_valor": "TBADVNP6070AM"
+      },
+      {
+        "id_valor": "1766092",
+        "nombre_valor": "B610A416C"
+      },
+      {
+        "id_valor": "1766100",
+        "nombre_valor": "B610A425C"
+      },
+      {
+        "id_valor": "2123929",
+        "nombre_valor": "F-SMX610NLI-01"
+      },
+      {
+        "id_valor": "2123977",
+        "nombre_valor": "F-SMX610NLI-02"
+      },
+      {
+        "id_valor": "1781663",
+        "nombre_valor": "NOVAT-15"
+      },
+      {
+        "id_valor": "3142168",
+        "nombre_valor": "B610A415I"
+      },
+      {
+        "id_valor": "1750041",
+        "nombre_valor": "B610A426C"
+      },
+      {
+        "id_valor": "2925516",
+        "nombre_valor": "53014ATA"
+      },
+      {
+        "id_valor": "2925589",
+        "nombre_valor": "53014ATN"
+      },
+      {
+        "id_valor": "2773144",
+        "nombre_valor": "SM-P620NZAEPEO-A"
+      },
+      {
+        "id_valor": "2773151",
+        "nombre_valor": "SM-P625NZAEPEO-A"
+      },
+      {
+        "id_valor": "2773181",
+        "nombre_valor": "SM-P625NZAEPEO-B"
+      },
+      {
+        "id_valor": "2476878",
+        "nombre_valor": "SM-X910NZEDPEO"
+      },
+      {
+        "id_valor": "2030422",
+        "nombre_valor": "F-SMX510NZA-02"
+      },
+      {
+        "id_valor": "2925662",
+        "nombre_valor": "53014DSA"
+      },
+      {
+        "id_valor": "2030388",
+        "nombre_valor": "F-SMX510NZA-01"
+      },
+      {
+        "id_valor": "2030430",
+        "nombre_valor": "F-SMX610NZA-02"
+      },
+      {
+        "id_valor": "3732506",
+        "nombre_valor": "TAD12U-00300L-C"
+      },
+      {
+        "id_valor": "3732535",
+        "nombre_valor": "TAD12U-00300K"
+      },
+      {
+        "id_valor": "2773139",
+        "nombre_valor": "SM-P620NZAEPEO-B"
+      },
+      {
+        "id_valor": "2812032",
+        "nombre_valor": "SM-P625NZAEPEO-12"
+      },
+      {
+        "id_valor": "2555800",
+        "nombre_valor": "F-SMX516BZA-02"
+      },
+      {
+        "id_valor": "2123661",
+        "nombre_valor": "F-SMX910NZA-06"
+      },
+      {
+        "id_valor": "2123667",
+        "nombre_valor": "F-SMX910NZE-06"
+      },
+      {
+        "id_valor": "2123679",
+        "nombre_valor": "F-SMX910NZE-07"
+      },
+      {
+        "id_valor": "2123681",
+        "nombre_valor": "F-SMX810NZA-06"
+      },
+      {
+        "id_valor": "2811865",
+        "nombre_valor": "SM-P620NZAEPEO-36W"
+      },
+      {
+        "id_valor": "2812033",
+        "nombre_valor": "SM-P625NZAEPEO-12W"
+      },
+      {
+        "id_valor": "2123665",
+        "nombre_valor": "F-SMX910NZA-05"
+      },
+      {
+        "id_valor": "2123670",
+        "nombre_valor": "F-SMX910NZA-07"
+      },
+      {
+        "id_valor": "4249623",
+        "nombre_valor": "SM-X236BZAAPEO"
+      },
+      {
+        "id_valor": "2811998",
+        "nombre_valor": "SM-P625NZAEPEO-36W"
+      },
+      {
+        "id_valor": "2628864",
+        "nombre_valor": "F-SMX216BZA-E"
+      },
+      {
+        "id_valor": "2628970",
+        "nombre_valor": "F-SMX216BZA-I"
+      },
+      {
+        "id_valor": "2811942",
+        "nombre_valor": "SM-P620NZAEPEO-12W"
+      },
+      {
+        "id_valor": "2770297",
+        "nombre_valor": "SM-P620NZAEPEO"
+      },
+      {
+        "id_valor": "2628904",
+        "nombre_valor": "F-SMX216BZA-G"
+      },
+      {
+        "id_valor": "2630306",
+        "nombre_valor": "ZADK0018PE-B3G"
+      },
+      {
+        "id_valor": "3780837",
+        "nombre_valor": "LTABG85412810F"
+      },
+      {
+        "id_valor": "3780859",
+        "nombre_valor": "TK11P680612811"
+      },
+      {
+        "id_valor": "3780758",
+        "nombre_valor": "LTABG8546410FP"
+      },
+      {
+        "id_valor": "2442128",
+        "nombre_valor": "SM-X616BZAAPEO"
+      },
+      {
+        "id_valor": "2442135",
+        "nombre_valor": "SM-X516BZAAPEO"
+      },
+      {
+        "id_valor": "4117086",
+        "nombre_valor": "SM-X620NZAEPEO-36W-A"
+      },
+      {
+        "id_valor": "2476965",
+        "nombre_valor": "SM-X710NZEHPEO"
+      },
+      {
+        "id_valor": "2476984",
+        "nombre_valor": "SM-X710NZEDPEO"
+      },
+      {
+        "id_valor": "2476999",
+        "nombre_valor": "SM-X610NZAHPEO"
+      },
+      {
+        "id_valor": "3780884",
+        "nombre_valor": "TK11P680825611"
+      },
+      {
+        "id_valor": "3780913",
+        "nombre_valor": "ITP8300825610KP"
+      },
+      {
+        "id_valor": "4248821",
+        "nombre_valor": "SM-X520NZAAL08"
+      },
+      {
+        "id_valor": "2630300",
+        "nombre_valor": "ZADK0018PE"
+      },
+      {
+        "id_valor": "2477058",
+        "nombre_valor": "SM-X510NZAHPEO"
+      },
+      {
+        "id_valor": "3780791",
+        "nombre_valor": "LTABG8546411F"
+      },
+      {
+        "id_valor": "2788685",
+        "nombre_valor": "SM-X110NZAAPEO-01"
+      },
+      {
+        "id_valor": "2476943",
+        "nombre_valor": "SM-X810NZEDPEO"
+      },
+      {
+        "id_valor": "3780931",
+        "nombre_valor": "TBADVNP6090AM"
+      },
+      {
+        "id_valor": "2477043",
+        "nombre_valor": "SM-X610NZSDPEO"
+      },
+      {
+        "id_valor": "2477069",
+        "nombre_valor": "SM-X510NZSHPEO"
+      },
+      {
+        "id_valor": "2788664",
+        "nombre_valor": "SM-X110NZAAL08-01"
+      },
+      {
+        "id_valor": "4248840",
+        "nombre_valor": "SM-X230NZAAL08"
+      },
+      {
+        "id_valor": "2123908",
+        "nombre_valor": "F-SMX610NZA-01"
+      },
+      {
+        "id_valor": "3398611",
+        "nombre_valor": "ZADT0058PE"
+      },
+      {
+        "id_valor": "3398631",
+        "nombre_valor": "ZADT0058PE36"
+      },
+      {
+        "id_valor": "3398648",
+        "nombre_valor": "ZADX0112PE36"
+      },
+      {
+        "id_valor": "2128590",
+        "nombre_valor": "F-SMX710NZE-08"
+      },
+      {
+        "id_valor": "2630880",
+        "nombre_valor": "TABM11-ZADB-P13G"
+      },
+      {
+        "id_valor": "2630850",
+        "nombre_valor": "TABM11-ZADB-B13G"
+      },
+      {
+        "id_valor": "2631883",
+        "nombre_valor": "TBADVSP5732BK"
+      },
+      {
+        "id_valor": "2588430",
+        "nombre_valor": "SM-X616BZAAPEO1"
+      },
+      {
+        "id_valor": "3953015",
+        "nombre_valor": "SM-X216BZAAPEO-B"
+      },
+      {
+        "id_valor": "2588354",
+        "nombre_valor": "SM-X516BZAAPEO1"
+      },
+      {
+        "id_valor": "2803339",
+        "nombre_valor": "ZA9D0076PE-2"
+      },
+      {
+        "id_valor": "2803363",
+        "nombre_valor": "ZA9D0076PE-HF"
+      },
+      {
+        "id_valor": "3852156",
+        "nombre_valor": "TBADVNP6090AMO"
+      },
+      {
+        "id_valor": "1802067",
+        "nombre_valor": "SM-X200NZALPEO"
+      },
+      {
+        "id_valor": "4158554",
+        "nombre_valor": "HPAD10464"
+      },
+      {
+        "id_valor": "1728512",
+        "nombre_valor": "ZA8R0025 PE"
+      },
+      {
+        "id_valor": "1728513",
+        "nombre_valor": "ZA8R0025"
+      },
+      {
+        "id_valor": "1728514",
+        "nombre_valor": "ZAAH0021PE"
+      },
+      {
+        "id_valor": "2895140",
+        "nombre_valor": "T0X1T505"
+      },
+      {
+        "id_valor": "1696004",
+        "nombre_valor": "TBADVSP4702SL4G"
+      },
+      {
+        "id_valor": "1696005",
+        "nombre_valor": "TBADVSP4702SL5G"
+      },
+      {
+        "id_valor": "1696006",
+        "nombre_valor": "TBADVSP57752G"
+      },
+      {
+        "id_valor": "1696007",
+        "nombre_valor": "82H0001ULM"
+      },
+      {
+        "id_valor": "1696008",
+        "nombre_valor": "53012NJGN12"
+      },
+      {
+        "id_valor": "1696009",
+        "nombre_valor": "53012NJGN36"
+      },
+      {
+        "id_valor": "1696010",
+        "nombre_valor": "TBADVSP4702SL4E"
+      },
+      {
+        "id_valor": "1696011",
+        "nombre_valor": "TBADVSP4702SL5E"
+      },
+      {
+        "id_valor": "1696012",
+        "nombre_valor": "53012NFXN12"
+      },
+      {
+        "id_valor": "1696013",
+        "nombre_valor": "53012NFXN36"
+      },
+      {
+        "id_valor": "1696014",
+        "nombre_valor": "TBADVSP5760BK"
+      },
+      {
+        "id_valor": "1696015",
+        "nombre_valor": "TB4RAM64HD4G10.1TOP"
+      },
+      {
+        "id_valor": "1696016",
+        "nombre_valor": "TB4RAM32HD4G10.1TOP"
+      },
+      {
+        "id_valor": "1696017",
+        "nombre_valor": "TB4RAM32HD4G10.1TOPMD"
+      },
+      {
+        "id_valor": "1696018",
+        "nombre_valor": "TBADVPR5850BL3"
+      },
+      {
+        "id_valor": "1696019",
+        "nombre_valor": "ZA5A0021PE"
+      },
+      {
+        "id_valor": "1696020",
+        "nombre_valor": "QOT103#2020"
+      },
+      {
+        "id_valor": "1696021",
+        "nombre_valor": "QOT104#2020"
+      },
+      {
+        "id_valor": "1696022",
+        "nombre_valor": "TBADVPR5860BK"
+      },
+      {
+        "id_valor": "1696023",
+        "nombre_valor": "ZA590028PE"
+      },
+      {
+        "id_valor": "1696024",
+        "nombre_valor": "ZA620037PE"
+      },
+      {
+        "id_valor": "1696025",
+        "nombre_valor": "ZA620038PE"
+      },
+      {
+        "id_valor": "1696026",
+        "nombre_valor": "ZA5A0022PE"
+      },
+      {
+        "id_valor": "1696027",
+        "nombre_valor": "ZA590027PE"
+      },
+      {
+        "id_valor": "1696028",
+        "nombre_valor": "B610A103H"
+      },
+      {
+        "id_valor": "1696029",
+        "nombre_valor": "TBADVPR5749BK"
+      },
+      {
+        "id_valor": "1696030",
+        "nombre_valor": "TBADVSP3701GRY"
+      },
+      {
+        "id_valor": "1696031",
+        "nombre_valor": "CTL4100"
+      },
+      {
+        "id_valor": "1696032",
+        "nombre_valor": "EB-T640EIPE003"
+      },
+      {
+        "id_valor": "1696033",
+        "nombre_valor": "B610A215H"
+      },
+      {
+        "id_valor": "1696034",
+        "nombre_valor": "SM-X700NZAVPEO"
+      },
+      {
+        "id_valor": "1696035",
+        "nombre_valor": "TBADVSP4702PL3"
+      },
+      {
+        "id_valor": "2895120",
+        "nombre_valor": "T0X1T504"
+      },
+      {
+        "id_valor": "1696036",
+        "nombre_valor": "ZA7V0036PE"
+      },
+      {
+        "id_valor": "1696037",
+        "nombre_valor": "TBADVSP4702PHL"
+      },
+      {
+        "id_valor": "1696038",
+        "nombre_valor": "TBADVTR7998BPL"
+      },
+      {
+        "id_valor": "1696039",
+        "nombre_valor": "ZA88"
+      },
+      {
+        "id_valor": "1696040",
+        "nombre_valor": "TBADVTR7998BHL"
+      },
+      {
+        "id_valor": "1696041",
+        "nombre_valor": "ZA8R0061PE"
+      },
+      {
+        "id_valor": "1696042",
+        "nombre_valor": "ZA8R0068PE"
+      },
+      {
+        "id_valor": "1696043",
+        "nombre_valor": "53012FCEN36"
+      },
+      {
+        "id_valor": "1696044",
+        "nombre_valor": "VAST001"
+      },
+      {
+        "id_valor": "1696045",
+        "nombre_valor": "VAST001SAN"
+      },
+      {
+        "id_valor": "1696046",
+        "nombre_valor": "53012FCEN12"
+      },
+      {
+        "id_valor": "1696047",
+        "nombre_valor": "TBADVSP5775"
+      },
+      {
+        "id_valor": "1696048",
+        "nombre_valor": "TAETEVP80."
+      },
+      {
+        "id_valor": "1696049",
+        "nombre_valor": "TBADVSP57752"
+      },
+      {
+        "id_valor": "1696050",
+        "nombre_valor": "SM-T220NZAAPEO"
+      },
+      {
+        "id_valor": "1696051",
+        "nombre_valor": "SM-T225CZAAPEO"
+      },
+      {
+        "id_valor": "1696052",
+        "nombre_valor": "B610A214"
+      },
+      {
+        "id_valor": "1696053",
+        "nombre_valor": "SM-T575NZKLPEO"
+      },
+      {
+        "id_valor": "1696054",
+        "nombre_valor": "SM-T733NZKLPEO"
+      },
+      {
+        "id_valor": "1696055",
+        "nombre_valor": "ZA7W0048PE"
+      },
+      {
+        "id_valor": "1696056",
+        "nombre_valor": "ZA7S0142PE"
+      },
+      {
+        "id_valor": "1696057",
+        "nombre_valor": "ZA8R0025PE"
+      },
+      {
+        "id_valor": "1696058",
+        "nombre_valor": "TBADVSP57752E"
+      },
+      {
+        "id_valor": "1696059",
+        "nombre_valor": "ZA7V0029PE"
+      },
+      {
+        "id_valor": "1696060",
+        "nombre_valor": "B610A113G"
+      },
+      {
+        "id_valor": "1696061",
+        "nombre_valor": "SM-T505NZAEPEO"
+      },
+      {
+        "id_valor": "1696062",
+        "nombre_valor": "SM-T500NZAAPEO"
+      },
+      {
+        "id_valor": "1696063",
+        "nombre_valor": "B610A115N"
+      },
+      {
+        "id_valor": "1696064",
+        "nombre_valor": "ZAAF0072PE"
+      },
+      {
+        "id_valor": "1696065",
+        "nombre_valor": "ZA880074PEH"
+      },
+      {
+        "id_valor": "1696066",
+        "nombre_valor": "ZA870120PEH"
+      },
+      {
+        "id_valor": "1696067",
+        "nombre_valor": "ZA880074PEHF"
+      },
+      {
+        "id_valor": "1696068",
+        "nombre_valor": "ZA870120PEHF"
+      },
+      {
+        "id_valor": "1696069",
+        "nombre_valor": "ZA5H0144PE"
+      },
+      {
+        "id_valor": "1696070",
+        "nombre_valor": "ZA5T0165PE"
+      },
+      {
+        "id_valor": "1696071",
+        "nombre_valor": "B610A215"
+      },
+      {
+        "id_valor": "1696072",
+        "nombre_valor": "TBADPR5860RD"
+      },
+      {
+        "id_valor": "1696073",
+        "nombre_valor": "B610A115H"
+      },
+      {
+        "id_valor": "1696074",
+        "nombre_valor": "B610A213"
+      },
+      {
+        "id_valor": "1696075",
+        "nombre_valor": "TBADPR5860BL"
+      },
+      {
+        "id_valor": "1696076",
+        "nombre_valor": "ZA870120PE"
+      },
+      {
+        "id_valor": "1696077",
+        "nombre_valor": "QOT102#2021"
+      },
+      {
+        "id_valor": "1696078",
+        "nombre_valor": "QOT103#2021"
+      },
+      {
+        "id_valor": "1696079",
+        "nombre_valor": "QOT101#2021"
+      },
+      {
+        "id_valor": "1696080",
+        "nombre_valor": "TBADVPR5850BK2"
+      },
+      {
+        "id_valor": "1696081",
+        "nombre_valor": "EB-T595SPE001"
+      },
+      {
+        "id_valor": "1696082",
+        "nombre_valor": "ZA7C0133PE"
+      },
+      {
+        "id_valor": "1696083",
+        "nombre_valor": "ZA880074PE"
+      },
+      {
+        "id_valor": "1696084",
+        "nombre_valor": "ZA7V0029PE-O"
+      },
+      {
+        "id_valor": "1696085",
+        "nombre_valor": "QOT2012022"
+      },
+      {
+        "id_valor": "1696086",
+        "nombre_valor": "QOT2032022"
+      },
+      {
+        "id_valor": "1696087",
+        "nombre_valor": "QOT801#2021"
+      },
+      {
+        "id_valor": "1696088",
+        "nombre_valor": "EB-T590SPE001"
+      },
+      {
+        "id_valor": "1696089",
+        "nombre_valor": "EB-T595CPE002"
+      },
+      {
+        "id_valor": "1696090",
+        "nombre_valor": "SM-T225NZAAPEO"
+      },
+      {
+        "id_valor": "1696091",
+        "nombre_valor": "SM-X205NZALPEO"
+      },
+      {
+        "id_valor": "1696092",
+        "nombre_valor": "1PTL72T-3825SS3"
+      },
+      {
+        "id_valor": "1696093",
+        "nombre_valor": "QOT2022022"
+      },
+      {
+        "id_valor": "1696094",
+        "nombre_valor": "QOT2042022"
+      },
+      {
+        "id_valor": "1696095",
+        "nombre_valor": "53012NJG"
+      },
+      {
+        "id_valor": "1696096",
+        "nombre_valor": "ZA5T"
+      },
+      {
+        "id_valor": "1696097",
+        "nombre_valor": "TBADVSP5712BK"
+      },
+      {
+        "id_valor": "1696098",
+        "nombre_valor": "TBADVSP4872BK"
+      },
+      {
+        "id_valor": "2914241",
+        "nombre_valor": "IP1185"
+      },
+      {
+        "id_valor": "1696099",
+        "nombre_valor": "53011UDN"
+      },
+      {
+        "id_valor": "1696100",
+        "nombre_valor": "53012NDY"
+      },
+      {
+        "id_valor": "1696101",
+        "nombre_valor": "53012FCE"
+      },
+      {
+        "id_valor": "1696102",
+        "nombre_valor": "ZA5H"
+      },
+      {
+        "id_valor": "1696103",
+        "nombre_valor": "ZA5V"
+      },
+      {
+        "id_valor": "1696104",
+        "nombre_valor": "ZA62"
+      },
+      {
+        "id_valor": "1696105",
+        "nombre_valor": "TBADVSP3701BK"
+      },
+      {
+        "id_valor": "1696106",
+        "nombre_valor": "TBADVSP3701SLV"
+      },
+      {
+        "id_valor": "1696107",
+        "nombre_valor": "53012DFG"
+      },
+      {
+        "id_valor": "1696108",
+        "nombre_valor": "53012NFX"
+      },
+      {
+        "id_valor": "1696109",
+        "nombre_valor": "53011FBA"
+      },
+      {
+        "id_valor": "1696110",
+        "nombre_valor": "TAETEVP80"
+      },
+      {
+        "id_valor": "1696111",
+        "nombre_valor": "ZA9D0076PE"
+      },
+      {
+        "id_valor": "1696112",
+        "nombre_valor": "ZA7S0121PE"
+      },
+      {
+        "id_valor": "1696113",
+        "nombre_valor": "EB-T640EIPE004"
+      },
+      {
+        "id_valor": "1696114",
+        "nombre_valor": "SM-T735NZKLPEO"
+      },
+      {
+        "id_valor": "1696115",
+        "nombre_valor": "SM-X800NZAVPEO"
+      },
+      {
+        "id_valor": "1696116",
+        "nombre_valor": "ZA7S0025PE"
+      },
+      {
+        "id_valor": "1696117",
+        "nombre_valor": "SM-X900NZAVPEO"
+      },
+      {
+        "id_valor": "1696118",
+        "nombre_valor": "MARX-AL09DS"
+      },
+      {
+        "id_valor": "1696119",
+        "nombre_valor": "ZA7S0010PE"
+      },
+      {
+        "id_valor": "1696120",
+        "nombre_valor": "TBADPR7546T1RD"
+      },
+      {
+        "id_valor": "1696121",
+        "nombre_valor": "TBADPR7547RD"
+      },
+      {
+        "id_valor": "1696122",
+        "nombre_valor": "TBADSP4703"
+      },
+      {
+        "id_valor": "1696123",
+        "nombre_valor": "TBADPR5850BL"
+      },
+      {
+        "id_valor": "1696124",
+        "nombre_valor": "TBADPR5850BL2"
+      },
+      {
+        "id_valor": "1696125",
+        "nombre_valor": "TBADPR5850RD2"
+      },
+      {
+        "id_valor": "1696126",
+        "nombre_valor": "TBADPR6070BK2"
+      },
+      {
+        "id_valor": "1696127",
+        "nombre_valor": "TBADPR7547BK"
+      },
+      {
+        "id_valor": "1696128",
+        "nombre_valor": "B708A001"
+      },
+      {
+        "id_valor": "1696129",
+        "nombre_valor": "B710A002"
+      },
+      {
+        "id_valor": "1696130",
+        "nombre_valor": "B708A103"
+      },
+      {
+        "id_valor": "1696131",
+        "nombre_valor": "B710A101"
+      },
+      {
+        "id_valor": "1696132",
+        "nombre_valor": "ZA5V0018PE"
+      },
+      {
+        "id_valor": "1696133",
+        "nombre_valor": "B710A102"
+      },
+      {
+        "id_valor": "1696134",
+        "nombre_valor": "TBADPR7546T1BK"
+      },
+      {
+        "id_valor": "1696135",
+        "nombre_valor": "TBADPR6070BK"
+      },
+      {
+        "id_valor": "1696136",
+        "nombre_valor": "TBADPR6070SLV"
+      },
+      {
+        "id_valor": "1696137",
+        "nombre_valor": "TBADPR6070SLV2"
+      },
+      {
+        "id_valor": "1696138",
+        "nombre_valor": "TBADSP5015"
+      },
+      {
+        "id_valor": "1696139",
+        "nombre_valor": "TBADTR3951ORG-G"
+      },
+      {
+        "id_valor": "1696140",
+        "nombre_valor": "TBADSP4704"
+      },
+      {
+        "id_valor": "1696141",
+        "nombre_valor": "SM-T719YZKLPEO"
+      },
+      {
+        "id_valor": "1696142",
+        "nombre_valor": "A832"
+      },
+      {
+        "id_valor": "1696143",
+        "nombre_valor": "A831L"
+      },
+      {
+        "id_valor": "1696144",
+        "nombre_valor": "A831L-D"
+      },
+      {
+        "id_valor": "1696145",
+        "nombre_valor": "A1032-D"
+      },
+      {
+        "id_valor": "1696146",
+        "nombre_valor": "A1032"
+      },
+      {
+        "id_valor": "1696147",
+        "nombre_valor": "TBADPR415701"
+      },
+      {
+        "id_valor": "1696148",
+        "nombre_valor": "FZ-G1P5991TP-PNP"
+      },
+      {
+        "id_valor": "1696149",
+        "nombre_valor": "FZ-G1P5991TP"
+      },
+      {
+        "id_valor": "1696150",
+        "nombre_valor": "FZ-M1F307AVM"
+      },
+      {
+        "id_valor": "1696151",
+        "nombre_valor": "FZ-B2D000GAM"
+      },
+      {
+        "id_valor": "1696152",
+        "nombre_valor": "FZ-G1P5951TP"
+      },
+      {
+        "id_valor": "1696153",
+        "nombre_valor": "T800 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696154",
+        "nombre_valor": "SM-T825NZKAPEO"
+      },
+      {
+        "id_valor": "1696155",
+        "nombre_valor": "SM-T285MZKAPEO"
+      },
+      {
+        "id_valor": "1696156",
+        "nombre_valor": "ZX70 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696157",
+        "nombre_valor": "SM-T819YZKLPEO"
+      },
+      {
+        "id_valor": "1696158",
+        "nombre_valor": "RX10 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696159",
+        "nombre_valor": "A140 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696160",
+        "nombre_valor": "RX10H  - FULLY RUGGED TABLET FOR HEALDTHCARE"
+      },
+      {
+        "id_valor": "1696161",
+        "nombre_valor": "F110 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696162",
+        "nombre_valor": "SM-P585MZKAPEO"
+      },
+      {
+        "id_valor": "1696163",
+        "nombre_valor": "EX80 - FULLY RUGGED TABLET"
+      },
+      {
+        "id_valor": "1696164",
+        "nombre_valor": "SM-T385MZKAPEO"
+      },
+      {
+        "id_valor": "1696165",
+        "nombre_valor": "F110"
+      },
+      {
+        "id_valor": "1696166",
+        "nombre_valor": "PREMIUM"
+      },
+      {
+        "id_valor": "1696167",
+        "nombre_valor": "ZX70 - PREMIUM"
+      },
+      {
+        "id_valor": "1696168",
+        "nombre_valor": "BASICA"
+      },
+      {
+        "id_valor": "1696169",
+        "nombre_valor": "F110 PREMIUM"
+      },
+      {
+        "id_valor": "1696170",
+        "nombre_valor": "EX80 - PREMIUM"
+      },
+      {
+        "id_valor": "1696171",
+        "nombre_valor": "T800 - PREMIUM"
+      },
+      {
+        "id_valor": "1696172",
+        "nombre_valor": "A140 - PREMIUM"
+      },
+      {
+        "id_valor": "1696173",
+        "nombre_valor": "RX10 - PREMIUM"
+      },
+      {
+        "id_valor": "1696174",
+        "nombre_valor": "RX10H - PREMIUM"
+      },
+      {
+        "id_valor": "1696175",
+        "nombre_valor": "81A6002GLM"
+      },
+      {
+        "id_valor": "1696176",
+        "nombre_valor": "7757030000021"
+      },
+      {
+        "id_valor": "1696177",
+        "nombre_valor": "9PTL72T-7812SS3"
+      },
+      {
+        "id_valor": "1696178",
+        "nombre_valor": "ZA0B0052VEG"
+      },
+      {
+        "id_valor": "1696179",
+        "nombre_valor": "FZ-M1JEBJAVM"
+      },
+      {
+        "id_valor": "1696180",
+        "nombre_valor": "FZ-G1U6225VM"
+      },
+      {
+        "id_valor": "1696181",
+        "nombre_valor": "FZ-G1U2637VM"
+      },
+      {
+        "id_valor": "1696182",
+        "nombre_valor": "FZ-G1U1586VM"
+      },
+      {
+        "id_valor": "1696183",
+        "nombre_valor": "FZ-G1U1586VM-ACC"
+      },
+      {
+        "id_valor": "1696184",
+        "nombre_valor": "FZ-M1JX10AVM"
+      },
+      {
+        "id_valor": "1696185",
+        "nombre_valor": "FZ-M1JEW5XVM"
+      },
+      {
+        "id_valor": "1696186",
+        "nombre_valor": "FZ-G1U1649VM"
+      },
+      {
+        "id_valor": "1696187",
+        "nombre_valor": "SM-T510NZKLPEO"
+      },
+      {
+        "id_valor": "1696188",
+        "nombre_valor": "TBADPR5850RD"
+      },
+      {
+        "id_valor": "1696189",
+        "nombre_valor": "ZA5V0161PE"
+      },
+      {
+        "id_valor": "1696190",
+        "nombre_valor": "ZA570155PE"
+      },
+      {
+        "id_valor": "1696191",
+        "nombre_valor": "B708A102"
+      },
+      {
+        "id_valor": "1696192",
+        "nombre_valor": "BAH2-W19C"
+      },
+      {
+        "id_valor": "1696193",
+        "nombre_valor": "AGS2-W09"
+      },
+      {
+        "id_valor": "1696194",
+        "nombre_valor": "BACH2-W19C"
+      },
+      {
+        "id_valor": "1696195",
+        "nombre_valor": "AGS2-L03B"
+      },
+      {
+        "id_valor": "1696196",
+        "nombre_valor": "ZA3V0020PE"
+      },
+      {
+        "id_valor": "1696197",
+        "nombre_valor": "ZA4G0017PE32"
+      },
+      {
+        "id_valor": "1696198",
+        "nombre_valor": "ZA570155PE32"
+      },
+      {
+        "id_valor": "1696199",
+        "nombre_valor": "ZA5V0122PE"
+      },
+      {
+        "id_valor": "1696200",
+        "nombre_valor": "O10107L"
+      },
+      {
+        "id_valor": "1696201",
+        "nombre_valor": "Q10107L"
+      },
+      {
+        "id_valor": "1696202",
+        "nombre_valor": "ZA4G0017PE"
+      },
+      {
+        "id_valor": "1696203",
+        "nombre_valor": "Q7106L"
+      },
+      {
+        "id_valor": "1696204",
+        "nombre_valor": "Q10107"
+      },
+      {
+        "id_valor": "1696205",
+        "nombre_valor": "ZA550020PE"
+      },
+      {
+        "id_valor": "1696206",
+        "nombre_valor": "ZA4G0125PA"
+      },
+      {
+        "id_valor": "1696207",
+        "nombre_valor": "B708A002"
+      },
+      {
+        "id_valor": "1696208",
+        "nombre_valor": "B710A103"
+      },
+      {
+        "id_valor": "1696209",
+        "nombre_valor": "ZA5G0078PE"
+      },
+      {
+        "id_valor": "1696210",
+        "nombre_valor": "B710A003"
+      },
+      {
+        "id_valor": "1696211",
+        "nombre_valor": "B708A003"
+      },
+      {
+        "id_valor": "1696212",
+        "nombre_valor": "ZA5C0067PE"
+      },
+      {
+        "id_valor": "1696213",
+        "nombre_valor": "BUSINESS 7500"
+      },
+      {
+        "id_valor": "1696214",
+        "nombre_valor": "B708A101"
+      },
+      {
+        "id_valor": "1696215",
+        "nombre_valor": "B10A102"
+      },
+      {
+        "id_valor": "1696216",
+        "nombre_valor": "ZA570155PE322"
+      },
+      {
+        "id_valor": "1696217",
+        "nombre_valor": "O10108L"
+      },
+      {
+        "id_valor": "1696218",
+        "nombre_valor": "SM-T860NZBAPEO"
+      },
+      {
+        "id_valor": "1696219",
+        "nombre_valor": "59387702"
+      },
+      {
+        "id_valor": "1696220",
+        "nombre_valor": "59407785"
+      },
+      {
+        "id_valor": "1696221",
+        "nombre_valor": "NIT-709QW"
+      },
+      {
+        "id_valor": "1696222",
+        "nombre_valor": "NIT-805QW"
+      },
+      {
+        "id_valor": "1696223",
+        "nombre_valor": "P7P69LT#ABM"
+      },
+      {
+        "id_valor": "2895404",
+        "nombre_valor": "B608A215"
+      },
+      {
+        "id_valor": "1801978",
+        "nombre_valor": "SM-P613NZALPEO"
+      },
+      {
+        "id_valor": "1696224",
+        "nombre_valor": "P7P70LT#ABM"
+      },
+      {
+        "id_valor": "1696225",
+        "nombre_valor": "P7Q12LT#ABM"
+      },
+      {
+        "id_valor": "1696226",
+        "nombre_valor": "P7Q16LT#ABM"
+      },
+      {
+        "id_valor": "1696227",
+        "nombre_valor": "SM-P350NZAAPEO"
+      },
+      {
+        "id_valor": "1696228",
+        "nombre_valor": "SM-P350NZWAPEO"
+      },
+      {
+        "id_valor": "1696229",
+        "nombre_valor": "SM-P355MZAAPET"
+      },
+      {
+        "id_valor": "1696230",
+        "nombre_valor": "SM-P5500NZAAPEO"
+      },
+      {
+        "id_valor": "1696231",
+        "nombre_valor": "SM-P550NZAAPEO"
+      },
+      {
+        "id_valor": "1696232",
+        "nombre_valor": "SM-P550NZWAPEO"
+      },
+      {
+        "id_valor": "1696233",
+        "nombre_valor": "SM-P555MZAAPET"
+      },
+      {
+        "id_valor": "1696234",
+        "nombre_valor": "SM-T113NDWUPEO"
+      },
+      {
+        "id_valor": "1696235",
+        "nombre_valor": "SM-T113NYKUPEO"
+      },
+      {
+        "id_valor": "1696236",
+        "nombre_valor": "SM-T710NZKEPEO"
+      },
+      {
+        "id_valor": "1696237",
+        "nombre_valor": "SM-T715YZKLPET"
+      },
+      {
+        "id_valor": "1696238",
+        "nombre_valor": "SM-T810NZKEPEO"
+      },
+      {
+        "id_valor": "1696239",
+        "nombre_valor": "SM-T815YZKLPET"
+      },
+      {
+        "id_valor": "1696240",
+        "nombre_valor": "T3L64LT#ABM"
+      },
+      {
+        "id_valor": "1696241",
+        "nombre_valor": "T3L65LT#ABM"
+      },
+      {
+        "id_valor": "1696242",
+        "nombre_valor": "T3L67LT#ABM"
+      },
+      {
+        "id_valor": "1696243",
+        "nombre_valor": "T3L68LT#ABM"
+      },
+      {
+        "id_valor": "1696244",
+        "nombre_valor": "T3L71LT#ABM"
+      },
+      {
+        "id_valor": "1696245",
+        "nombre_valor": "T5D80AA#ABM"
+      },
+      {
+        "id_valor": "1696246",
+        "nombre_valor": "T5D81AA#ABM"
+      },
+      {
+        "id_valor": "1696247",
+        "nombre_valor": "T5N75AW#ABM"
+      },
+      {
+        "id_valor": "1696248",
+        "nombre_valor": "T5N77AW#ABM"
+      },
+      {
+        "id_valor": "1696249",
+        "nombre_valor": "T5N79AA#ABM"
+      },
+      {
+        "id_valor": "1696250",
+        "nombre_valor": "T5N80AA#ABM"
+      },
+      {
+        "id_valor": "1696251",
+        "nombre_valor": "T5N81AA#ABM"
+      },
+      {
+        "id_valor": "1696252",
+        "nombre_valor": "T5N82AA#ABM"
+      },
+      {
+        "id_valor": "1696253",
+        "nombre_valor": "T6E46LT#ABM"
+      },
+      {
+        "id_valor": "1696254",
+        "nombre_valor": "T6H70AW#ABM"
+      },
+      {
+        "id_valor": "1696255",
+        "nombre_valor": "T6H72AW#ABM"
+      },
+      {
+        "id_valor": "1696256",
+        "nombre_valor": "TBADSP520601"
+      },
+      {
+        "id_valor": "1696257",
+        "nombre_valor": "TBADSP575701"
+      },
+      {
+        "id_valor": "1696258",
+        "nombre_valor": "U107"
+      },
+      {
+        "id_valor": "1696259",
+        "nombre_valor": "V0K95AA#ABM"
+      },
+      {
+        "id_valor": "1696260",
+        "nombre_valor": "ZA030074VE"
+      },
+      {
+        "id_valor": "1696261",
+        "nombre_valor": "ZA090016VE"
+      },
+      {
+        "id_valor": "1696262",
+        "nombre_valor": "ZA090016VER"
+      },
+      {
+        "id_valor": "1696263",
+        "nombre_valor": "ZA0B0002VE"
+      },
+      {
+        "id_valor": "1696264",
+        "nombre_valor": "ZA0B0002VER"
+      },
+      {
+        "id_valor": "1696265",
+        "nombre_valor": "ZA0C0016VE"
+      },
+      {
+        "id_valor": "1696266",
+        "nombre_valor": "ZA0F0051VE"
+      },
+      {
+        "id_valor": "1696267",
+        "nombre_valor": "ZA0H0026VE"
+      },
+      {
+        "id_valor": "1696268",
+        "nombre_valor": "ZA0H0026VER"
+      },
+      {
+        "id_valor": "1696269",
+        "nombre_valor": "ZA0K0015VE"
+      },
+      {
+        "id_valor": "1696270",
+        "nombre_valor": "ZA0K0015VER"
+      },
+      {
+        "id_valor": "1696271",
+        "nombre_valor": "ZA0R0004VE"
+      },
+      {
+        "id_valor": "1696272",
+        "nombre_valor": "ZA0S0016VE"
+      },
+      {
+        "id_valor": "1696273",
+        "nombre_valor": "ZA0X0020VE"
+      },
+      {
+        "id_valor": "1696274",
+        "nombre_valor": "ZA0X0020VER"
+      },
+      {
+        "id_valor": "1696275",
+        "nombre_valor": "ZA090081VE"
+      },
+      {
+        "id_valor": "1696276",
+        "nombre_valor": "A831L-T"
+      },
+      {
+        "id_valor": "1696277",
+        "nombre_valor": "F-SM-T820NZSAP"
+      },
+      {
+        "id_valor": "1696278",
+        "nombre_valor": "SM-T280NZKAPEO"
+      },
+      {
+        "id_valor": "1696279",
+        "nombre_valor": "SM-T280NZWAPEO"
+      },
+      {
+        "id_valor": "1696280",
+        "nombre_valor": "TBADPR413701"
+      },
+      {
+        "id_valor": "1696281",
+        "nombre_valor": "SM-W620NZKBPEO"
+      },
+      {
+        "id_valor": "1696282",
+        "nombre_valor": "SM-T813NZDEPEO"
+      },
+      {
+        "id_valor": "1696283",
+        "nombre_valor": "SM-P580NZKAPEO"
+      },
+      {
+        "id_valor": "1696284",
+        "nombre_valor": "SM-P580NZKA-1"
+      },
+      {
+        "id_valor": "1696285",
+        "nombre_valor": "SM-T713NZKEPEO"
+      },
+      {
+        "id_valor": "2551989",
+        "nombre_valor": "NINGUNA"
+      },
+      {
+        "id_valor": "1696286",
+        "nombre_valor": "SM-T813NZKEPEO"
+      },
+      {
+        "id_valor": "1696287",
+        "nombre_valor": "SM-W620NZWBPEO"
+      },
+      {
+        "id_valor": "1696288",
+        "nombre_valor": "ZA0S0060VE"
+      },
+      {
+        "id_valor": "1696289",
+        "nombre_valor": "SM-P355MZAAPEO"
+      },
+      {
+        "id_valor": "1696290",
+        "nombre_valor": "SM-T290NZKAPEO"
+      },
+      {
+        "id_valor": "1696291",
+        "nombre_valor": "SM-T720NZKAPEO"
+      },
+      {
+        "id_valor": "1696292",
+        "nombre_valor": "9PTL72T-5812SS3"
+      },
+      {
+        "id_valor": "1696293",
+        "nombre_valor": "9PTL72R-5812SS3"
+      },
+      {
+        "id_valor": "1696294",
+        "nombre_valor": "9PTL72T-3812SS3"
+      },
+      {
+        "id_valor": "1696295",
+        "nombre_valor": "9PTL72T-71612SS3"
+      },
+      {
+        "id_valor": "1696296",
+        "nombre_valor": "SM-T590NZKLPEO"
+      },
+      {
+        "id_valor": "1696297",
+        "nombre_valor": "SM-T835LZKAPEO"
+      },
+      {
+        "id_valor": "1696298",
+        "nombre_valor": "SM-T595NZKLPEO"
+      },
+      {
+        "id_valor": "1696299",
+        "nombre_valor": "SM-T830NZKAPEO"
+      },
+      {
+        "id_valor": "1696300",
+        "nombre_valor": "TBADVPR5850RD3"
+      },
+      {
+        "id_valor": "1696301",
+        "nombre_valor": "BACH3-W59DS"
+      },
+      {
+        "id_valor": "1696302",
+        "nombre_valor": "53012NCV"
+      },
+      {
+        "id_valor": "1696303",
+        "nombre_valor": "53011KCX"
+      },
+      {
+        "id_valor": "1696304",
+        "nombre_valor": "53012FCC"
+      },
+      {
+        "id_valor": "1696305",
+        "nombre_valor": "TBADVPR5850BK3"
+      },
+      {
+        "id_valor": "1696306",
+        "nombre_valor": ""
+      },
+      {
+        "id_valor": "1696307",
+        "nombre_valor": "ZA7Y0009PE"
+      },
+      {
+        "id_valor": "1696308",
+        "nombre_valor": "TBADVSP4702SL3"
+      },
+      {
+        "id_valor": "1696309",
+        "nombre_valor": "TBADVSP4702SL4"
+      },
+      {
+        "id_valor": "1696310",
+        "nombre_valor": "TBADPR7145SVR"
+      },
+      {
+        "id_valor": "1696311",
+        "nombre_valor": "TBADVSP4702SL2"
+      },
+      {
+        "id_valor": "1696312",
+        "nombre_valor": "TBADVSP5702SL"
+      },
+      {
+        "id_valor": "1696313",
+        "nombre_valor": "TBADVSP4702SL5"
+      },
+      {
+        "id_valor": "1696314",
+        "nombre_valor": "SM-P615NZALPEO"
+      },
+      {
+        "id_valor": "1696315",
+        "nombre_valor": "1PTL72T-5825SS3"
+      },
+      {
+        "id_valor": "1696316",
+        "nombre_valor": "TBADVSP5702BK3"
+      },
+      {
+        "id_valor": "1696317",
+        "nombre_valor": "TBADVSP57751"
+      },
+      {
+        "id_valor": "1696318",
+        "nombre_valor": "SM-T970NZKUPEO"
+      },
+      {
+        "id_valor": "1696319",
+        "nombre_valor": "TBADVSP5702BK2"
+      },
+      {
+        "id_valor": "1696320",
+        "nombre_valor": "ZA5G0135PE"
+      },
+      {
+        "id_valor": "1696321",
+        "nombre_valor": "ZA8RG"
+      },
+      {
+        "id_valor": "1696322",
+        "nombre_valor": "TBADVSP4702PL5"
+      },
+      {
+        "id_valor": "1696323",
+        "nombre_valor": "B608AE01"
+      },
+      {
+        "id_valor": "1696324",
+        "nombre_valor": "775703000021"
+      },
+      {
+        "id_valor": "1696325",
+        "nombre_valor": "BR1080-775703000021"
+      },
+      {
+        "id_valor": "1696326",
+        "nombre_valor": "ZA570155PE2"
+      },
+      {
+        "id_valor": "1696327",
+        "nombre_valor": "SM-T515NZKLPEO"
+      },
+      {
+        "id_valor": "1696328",
+        "nombre_valor": "SM-T295NZKAPEO"
+      },
+      {
+        "id_valor": "1696329",
+        "nombre_valor": "SM-T725LZKAPEO"
+      },
+      {
+        "id_valor": "1696330",
+        "nombre_valor": "AGS2-W19B"
+      },
+      {
+        "id_valor": "1696331",
+        "nombre_valor": "AGASSI2-W19B"
+      },
+      {
+        "id_valor": "1696332",
+        "nombre_valor": "B710A001"
+      },
+      {
+        "id_valor": "1696333",
+        "nombre_valor": "AGASSI2-L03B"
+      },
+      {
+        "id_valor": "1696334",
+        "nombre_valor": "B610A103"
+      },
+      {
+        "id_valor": "1696335",
+        "nombre_valor": "59413347"
+      },
+      {
+        "id_valor": "1696336",
+        "nombre_valor": "59427818"
+      },
+      {
+        "id_valor": "1696337",
+        "nombre_valor": "59427818R"
+      },
+      {
+        "id_valor": "1696338",
+        "nombre_valor": "59428013"
+      },
+      {
+        "id_valor": "1696339",
+        "nombre_valor": "59428013R"
+      },
+      {
+        "id_valor": "1696340",
+        "nombre_valor": "59428223"
+      },
+      {
+        "id_valor": "1696341",
+        "nombre_valor": "59428223R"
+      },
+      {
+        "id_valor": "1696342",
+        "nombre_valor": "59429313R"
+      },
+      {
+        "id_valor": "1696343",
+        "nombre_valor": "59429475"
+      },
+      {
+        "id_valor": "1696344",
+        "nombre_valor": "59435550"
+      },
+      {
+        "id_valor": "1696345",
+        "nombre_valor": "59442925"
+      },
+      {
+        "id_valor": "1696346",
+        "nombre_valor": "80SG001JLM"
+      },
+      {
+        "id_valor": "1696347",
+        "nombre_valor": "A724G"
+      },
+      {
+        "id_valor": "1696348",
+        "nombre_valor": "A725"
+      },
+      {
+        "id_valor": "2895485",
+        "nombre_valor": "ZABG004912-2"
+      },
+      {
+        "id_valor": "1802041",
+        "nombre_valor": "SM-X205NZAMPEO"
+      },
+      {
+        "id_valor": "1696349",
+        "nombre_valor": "A726B"
+      },
+      {
+        "id_valor": "1696350",
+        "nombre_valor": "A726N"
+      },
+      {
+        "id_valor": "1696351",
+        "nombre_valor": "A726R"
+      },
+      {
+        "id_valor": "1696352",
+        "nombre_valor": "A727"
+      },
+      {
+        "id_valor": "1696353",
+        "nombre_valor": "F-SMT710NZK-01"
+      },
+      {
+        "id_valor": "1696354",
+        "nombre_valor": "F-SMT810NZK-01"
+      },
+      {
+        "id_valor": "1696355",
+        "nombre_valor": "G4T06LT#ABM"
+      },
+      {
+        "id_valor": "1696356",
+        "nombre_valor": "G4U91LT#ABM"
+      },
+      {
+        "id_valor": "1696357",
+        "nombre_valor": "G6X12AW#ABM"
+      },
+      {
+        "id_valor": "1696358",
+        "nombre_valor": "G6X14AW#ABM"
+      },
+      {
+        "id_valor": "1696359",
+        "nombre_valor": "G7L46AA#ABM"
+      },
+      {
+        "id_valor": "1696360",
+        "nombre_valor": "J5N73LT#ABM"
+      },
+      {
+        "id_valor": "1696361",
+        "nombre_valor": "J5N74LT#ABM"
+      },
+      {
+        "id_valor": "1696362",
+        "nombre_valor": "J5P41LT#ABM"
+      },
+      {
+        "id_valor": "1696363",
+        "nombre_valor": "J5P43LT#ABM"
+      },
+      {
+        "id_valor": "1696364",
+        "nombre_valor": "J6T86AW#ABM"
+      },
+      {
+        "id_valor": "1696365",
+        "nombre_valor": "SM-T870NZKUPEO"
+      },
+      {
+        "id_valor": "1696366",
+        "nombre_valor": "B610AE01"
+      },
+      {
+        "id_valor": "1696367",
+        "nombre_valor": "ZA8R0"
+      },
+      {
+        "id_valor": "1696368",
+        "nombre_valor": "K4K16LT#ABM"
+      },
+      {
+        "id_valor": "1696369",
+        "nombre_valor": "K4K68LT#ABM"
+      },
+      {
+        "id_valor": "1696370",
+        "nombre_valor": "K7X61AA#ABM"
+      },
+      {
+        "id_valor": "1696371",
+        "nombre_valor": "K7X62AA#ABM"
+      },
+      {
+        "id_valor": "1696372",
+        "nombre_valor": "K7X87AA#ABM"
+      },
+      {
+        "id_valor": "1696373",
+        "nombre_valor": "K9Y56LT#ABM"
+      },
+      {
+        "id_valor": "1696374",
+        "nombre_valor": "L2J88AA#ABM"
+      },
+      {
+        "id_valor": "1696375",
+        "nombre_valor": "L2J89AA#ABM"
+      },
+      {
+        "id_valor": "1696376",
+        "nombre_valor": "L2J92AA#ABM"
+      },
+      {
+        "id_valor": "1696377",
+        "nombre_valor": "L2J94AA#ABM"
+      },
+      {
+        "id_valor": "1696378",
+        "nombre_valor": "L2J95AA#ABM"
+      },
+      {
+        "id_valor": "1696379",
+        "nombre_valor": "L2J96AA#ABM"
+      },
+      {
+        "id_valor": "1696380",
+        "nombre_valor": "L4A14LT#ABM"
+      },
+      {
+        "id_valor": "1696381",
+        "nombre_valor": "L4A15LT#ABM"
+      },
+      {
+        "id_valor": "1696382",
+        "nombre_valor": "L4A66LT#ABM"
+      },
+      {
+        "id_valor": "1696383",
+        "nombre_valor": "L4A67LT#ABM"
+      },
+      {
+        "id_valor": "1696384",
+        "nombre_valor": "L4A68LT#ABM"
+      },
+      {
+        "id_valor": "1696385",
+        "nombre_valor": "L4H89AW#ABM"
+      },
+      {
+        "id_valor": "1696386",
+        "nombre_valor": "L4H91AW#ABM"
+      },
+      {
+        "id_valor": "1696387",
+        "nombre_valor": "L5T78AA#ABM"
+      },
+      {
+        "id_valor": "1696388",
+        "nombre_valor": "L5T79AA#ABM"
+      },
+      {
+        "id_valor": "1696389",
+        "nombre_valor": "L5T81AA#ABM"
+      },
+      {
+        "id_valor": "1696390",
+        "nombre_valor": "L5T82AA#ABM"
+      },
+      {
+        "id_valor": "1696391",
+        "nombre_valor": "L8E68LT#ABM"
+      },
+      {
+        "id_valor": "1696392",
+        "nombre_valor": "L8E69LT#ABM"
+      },
+      {
+        "id_valor": "1696393",
+        "nombre_valor": "L8E70LT#ABM"
+      },
+      {
+        "id_valor": "1696394",
+        "nombre_valor": "L9H07LT#ABM"
+      },
+      {
+        "id_valor": "1696395",
+        "nombre_valor": "N2S24LA#ABM"
+      },
+      {
+        "id_valor": "1696396",
+        "nombre_valor": "N2S25LA#ABM"
+      },
+      {
+        "id_valor": "1696397",
+        "nombre_valor": "N2S26LA#ABM"
+      },
+      {
+        "id_valor": "1696398",
+        "nombre_valor": "N2S66LA#ABM"
+      },
+      {
+        "id_valor": "1696399",
+        "nombre_valor": "NIT-704QB"
+      },
+      {
+        "id_valor": "1696400",
+        "nombre_valor": "NIT-704QN"
+      },
+      {
+        "id_valor": "1696401",
+        "nombre_valor": "NIT-704QR"
+      },
+      {
+        "id_valor": "1696402",
+        "nombre_valor": "NIT-704QW"
+      },
+      {
+        "id_valor": "1696403",
+        "nombre_valor": "NIT-709QB"
+      },
+      {
+        "id_valor": "1696404",
+        "nombre_valor": "NIT-709QN"
+      },
+      {
+        "id_valor": "1696405",
+        "nombre_valor": "NIT-709QP"
+      },
+      {
+        "id_valor": "1696406",
+        "nombre_valor": "NIT-709QR"
+      },
+      {
+        "id_valor": "1696407",
+        "nombre_valor": "TBADSP4871TS1"
+      },
+      {
+        "id_valor": "1696408",
+        "nombre_valor": "TBADSP487301"
+      },
+      {
+        "id_valor": "1696409",
+        "nombre_valor": "TBADSP487201"
+      },
+      {
+        "id_valor": "1696410",
+        "nombre_valor": "SM-T719YZKLPEO/32GB"
+      },
+      {
+        "id_valor": "1696411",
+        "nombre_valor": "A831L- D"
+      },
+      {
+        "id_valor": "2895536",
+        "nombre_valor": "ZAC50022PE-2"
+      },
+      {
+        "id_valor": "2895556",
+        "nombre_valor": "TABM11-ZADB-P3G2"
+      },
+      {
+        "id_valor": "1696412",
+        "nombre_valor": "ZA0B0052VE"
+      },
+      {
+        "id_valor": "1696413",
+        "nombre_valor": "SM-T820NZKAPEO"
+      },
+      {
+        "id_valor": "1696414",
+        "nombre_valor": "SM-T395NZKAPEO"
+      },
+      {
+        "id_valor": "1696415",
+        "nombre_valor": "SM-T380NZKAPEO"
+      },
+      {
+        "id_valor": "1696416",
+        "nombre_valor": "SM-T560NZKAPEO"
+      },
+      {
+        "id_valor": "1696417",
+        "nombre_valor": "SM-T719YZKLPEO."
+      },
+      {
+        "id_valor": "1696418",
+        "nombre_valor": "20C3A00604"
+      },
+      {
+        "id_valor": "1696419",
+        "nombre_valor": "3679"
+      },
+      {
+        "id_valor": "1696420",
+        "nombre_valor": "4PTL10-A02SOP1"
+      },
+      {
+        "id_valor": "1696421",
+        "nombre_valor": "ZA8R"
+      },
+      {
+        "id_valor": "1696422",
+        "nombre_valor": "B610A114"
+      },
+      {
+        "id_valor": "1696423",
+        "nombre_valor": "SM-P610NZALPEO"
+      },
+      {
+        "id_valor": "1696424",
+        "nombre_valor": "TBADVSP5712BK-I"
+      },
+      {
+        "id_valor": "1696425",
+        "nombre_valor": "53011FBAN12"
+      },
+      {
+        "id_valor": "1696426",
+        "nombre_valor": "EB-T640EIPE005"
+      },
+      {
+        "id_valor": "1696427",
+        "nombre_valor": "B610A103A"
+      },
+      {
+        "id_valor": "1696428",
+        "nombre_valor": "B610A113"
+      },
+      {
+        "id_valor": "1696429",
+        "nombre_valor": "53012NDYN12"
+      },
+      {
+        "id_valor": "1696430",
+        "nombre_valor": "53011FBAN36"
+      },
+      {
+        "id_valor": "1696431",
+        "nombre_valor": "53012NDYN36"
+      },
+      {
+        "id_valor": "1696432",
+        "nombre_valor": "B610A115M"
+      },
+      {
+        "id_valor": "1696433",
+        "nombre_valor": "AGASSI-L03"
+      },
+      {
+        "id_valor": "1696434",
+        "nombre_valor": "B610A115G"
+      },
+      {
+        "id_valor": "1696435",
+        "nombre_valor": "53011MYP"
+      },
+      {
+        "id_valor": "1696436",
+        "nombre_valor": "B610A014"
+      },
+      {
+        "id_valor": "1696437",
+        "nombre_valor": "ZA5G0138PE"
+      },
+      {
+        "id_valor": "1696438",
+        "nombre_valor": "ZA8C0056PE"
+      },
+      {
+        "id_valor": "1696439",
+        "nombre_valor": "ZA5G0160PE"
+      },
+      {
+        "id_valor": "1696440",
+        "nombre_valor": "QOT101#2020"
+      },
+      {
+        "id_valor": "1696441",
+        "nombre_valor": "QOT102#2020"
+      },
+      {
+        "id_valor": "1696442",
+        "nombre_valor": "53012FCC_MG"
+      },
+      {
+        "id_valor": "1696443",
+        "nombre_valor": "QOT105#2020"
+      },
+      {
+        "id_valor": "1696444",
+        "nombre_valor": "QOT106#2020"
+      },
+      {
+        "id_valor": "1696445",
+        "nombre_valor": "TBADSP7246BK"
+      },
+      {
+        "id_valor": "1696446",
+        "nombre_valor": "TBADVPR5749RD"
+      },
+      {
+        "id_valor": "1696447",
+        "nombre_valor": "ZA9D0076PE-H"
+      },
+      {
+        "id_valor": "1696448",
+        "nombre_valor": "QOT802#2021"
+      },
+      {
+        "id_valor": "2912690",
+        "nombre_valor": "53014AYY"
+      },
+      {
+        "id_valor": "2487816",
+        "nombre_valor": "SM-X110NZAAPEO"
+      },
+      {
+        "id_valor": "3865984",
+        "nombre_valor": "TBADVNP5052ON"
+      },
+      {
+        "id_valor": "2913099",
+        "nombre_valor": "53014AYH"
+      },
+      {
+        "id_valor": "4018880",
+        "nombre_valor": "B610A415R"
+      },
+      {
+        "id_valor": "1745209",
+        "nombre_valor": "ZAAH0021PE-H"
+      },
+      {
+        "id_valor": "1718822",
+        "nombre_valor": "SM-T636BZKLPEO"
+      },
+      {
+        "id_valor": "2630302",
+        "nombre_valor": "ZADK0018PE-P3G"
+      },
+      {
+        "id_valor": "4140203",
+        "nombre_valor": "SM-X400NZAAPEO-36W"
+      },
+      {
+        "id_valor": "4140205",
+        "nombre_valor": "SM-X400NZAEPEO"
+      },
+      {
+        "id_valor": "1718961",
+        "nombre_valor": "ZA8R0025PE."
+      },
+      {
+        "id_valor": "4140251",
+        "nombre_valor": "SM-X406BZAAPEO"
+      },
+      {
+        "id_valor": "4140262",
+        "nombre_valor": "SM-X730NZAHPEO"
+      },
+      {
+        "id_valor": "4140266",
+        "nombre_valor": "SM-X930NZAHPEO"
+      },
+      {
+        "id_valor": "1747795",
+        "nombre_valor": "1"
+      },
+      {
+        "id_valor": "3896154",
+        "nombre_valor": "TBADV2NP6070AM"
+      },
+      {
+        "id_valor": "3398641",
+        "nombre_valor": "ZADX0112PE"
+      },
+      {
+        "id_valor": "3825672",
+        "nombre_valor": "53014AYW"
+      },
+      {
+        "id_valor": "2776735",
+        "nombre_valor": "IP8T"
+      },
+      {
+        "id_valor": "1831682",
+        "nombre_valor": "SM-T220NZAFPEO"
+      },
+      {
+        "id_valor": "1831692",
+        "nombre_valor": "SM-T733NZKMPEO"
+      },
+      {
+        "id_valor": "2641803",
+        "nombre_valor": "F-SMX115NZA-B"
+      },
+      {
+        "id_valor": "3955124",
+        "nombre_valor": "LTABG85412810FH"
+      },
+      {
+        "id_valor": "2799226",
+        "nombre_valor": "SM-X510NZAHPEO-----"
+      },
+      {
+        "id_valor": "2799049",
+        "nombre_valor": "SM-X115NZAAL08-36W"
+      },
+      {
+        "id_valor": "2641801",
+        "nombre_valor": "F-SMX115NZA-A"
+      },
+      {
+        "id_valor": "2631013",
+        "nombre_valor": "ZA9D0076PE-F"
+      },
+      {
+        "id_valor": "2630305",
+        "nombre_valor": "ZADK0018PE-B1G"
+      },
+      {
+        "id_valor": "4118800",
+        "nombre_valor": "SM-X133NZAEPEO"
+      },
+      {
+        "id_valor": "2139607",
+        "nombre_valor": "F-SMX210NZA-01"
+      },
+      {
+        "id_valor": "2627700",
+        "nombre_valor": "F-SMX216BZA-A"
+      },
+      {
+        "id_valor": "2627850",
+        "nombre_valor": "F-SMX216BZA-D"
+      },
+      {
+        "id_valor": "2895158",
+        "nombre_valor": "T0X1T506"
+      },
+      {
+        "id_valor": "2558425",
+        "nombre_valor": "ZABG004912"
+      },
+      {
+        "id_valor": "2627840",
+        "nombre_valor": "F-SMX216BZA-C"
+      },
+      {
+        "id_valor": "2123795",
+        "nombre_valor": "F-SMX810NZE-07"
+      },
+      {
+        "id_valor": "2123815",
+        "nombre_valor": "F-SMX810NZE-08"
+      },
+      {
+        "id_valor": "2123828",
+        "nombre_valor": "F-SMX710NZA-07"
+      },
+      {
+        "id_valor": "2123834",
+        "nombre_valor": "F-SMX710NZE-07"
+      },
+      {
+        "id_valor": "2123801",
+        "nombre_valor": "F-SMX810NZA-07"
+      },
+      {
+        "id_valor": "2139593",
+        "nombre_valor": "F-SMX216BZA-01"
+      },
+      {
+        "id_valor": "2123923",
+        "nombre_valor": "F-SMX610NZS-01"
+      },
+      {
+        "id_valor": "2123989",
+        "nombre_valor": "F-SMX510NZS-01"
+      },
+      {
+        "id_valor": "2123845",
+        "nombre_valor": "F-SMX710NZA-08"
+      },
+      {
+        "id_valor": "2123971",
+        "nombre_valor": "F-SMX610NZS-02"
+      },
+      {
+        "id_valor": "2747693",
+        "nombre_valor": "ZAC50022PE36"
+      },
+      {
+        "id_valor": "2124012",
+        "nombre_valor": "F-SMX510NLI-02"
+      },
+      {
+        "id_valor": "2746520",
+        "nombre_valor": "GM20MT8791"
+      },
+      {
+        "id_valor": "2747652",
+        "nombre_valor": "ZAC50003PE36"
+      },
+      {
+        "id_valor": "2747717",
+        "nombre_valor": "ZAC60042PE36"
+      },
+      {
+        "id_valor": "2123992",
+        "nombre_valor": "F-SMX510NLI-01"
+      },
+      {
+        "id_valor": "2124009",
+        "nombre_valor": "F-SMX510NZS-02"
+      },
+      {
+        "id_valor": "3969217",
+        "nombre_valor": "MDT2505E4I8UE"
+      },
+      {
+        "id_valor": "2747706",
+        "nombre_valor": "ZAC60042PE"
+      },
+      {
+        "id_valor": "2124212",
+        "nombre_valor": "F-SMX616BZA-01"
+      },
+      {
+        "id_valor": "2124222",
+        "nombre_valor": "F-SMX516BZA-01"
+      },
+      {
+        "id_valor": "2746524",
+        "nombre_valor": "IP8TMT8768"
+      },
+      {
+        "id_valor": "2789339",
+        "nombre_valor": "SM-X110NZAAL08-EW"
+      },
+      {
+        "id_valor": "4119623",
+        "nombre_valor": "SM-X135GZAAL08"
+      },
+      {
+        "id_valor": "4119647",
+        "nombre_valor": "SM-X135GZAEPEO"
+      },
+      {
+        "id_valor": "4019918",
+        "nombre_valor": "MDT2506K0ZF5D"
+      },
+      {
+        "id_valor": "3139084",
+        "nombre_valor": "IP118"
+      },
+      {
+        "id_valor": "3139094",
+        "nombre_valor": "IP118-A"
+      },
+      {
+        "id_valor": "1926776",
+        "nombre_valor": "B610A103G"
+      },
+      {
+        "id_valor": "1926769",
+        "nombre_valor": "B610A103I"
+      },
+      {
+        "id_valor": "2779397",
+        "nombre_valor": "TAB M10 (3RD GEN)-ZAAH-P3G"
+      },
+      {
+        "id_valor": "2779422",
+        "nombre_valor": "TAB M10 (3RD GEN)-ZAAH-P1G"
+      },
+      {
+        "id_valor": "2779476",
+        "nombre_valor": "TABM11-ZADB-P13G-1"
+      },
+      {
+        "id_valor": "2779479",
+        "nombre_valor": "TABM11-ZADB-B1G-2"
+      },
+      {
+        "id_valor": "4119841",
+        "nombre_valor": "SM-X230NZAEPEO"
+      },
+      {
+        "id_valor": "4119867",
+        "nombre_valor": "SM-X236CZAGCHC"
+      },
+      {
+        "id_valor": "4119884",
+        "nombre_valor": "SM-X356BZGAL08"
+      },
+      {
+        "id_valor": "2779396",
+        "nombre_valor": "TAB M10 (3RD GEN) -ZAAH-B1G"
+      },
+      {
+        "id_valor": "2779399",
+        "nombre_valor": "TAB M10 (3RD GEN)-ZAAH-B3G"
+      },
+      {
+        "id_valor": "2779423",
+        "nombre_valor": "TAB M10 (3RD GEN) -ZAAH-P1G"
+      },
+      {
+        "id_valor": "2779550",
+        "nombre_valor": "TABM11-ZADB-P1G-1"
+      },
+      {
+        "id_valor": "2779551",
+        "nombre_valor": "TABM11-ZADB-P3G-2"
+      },
+      {
+        "id_valor": "1748981",
+        "nombre_valor": "B610A436A"
+      },
+      {
+        "id_valor": "2770332",
+        "nombre_valor": "F-SMX306BZG-01"
+      },
+      {
+        "id_valor": "2895500",
+        "nombre_valor": "ZABG0049PE-2"
+      },
+      {
+        "id_valor": "2895524",
+        "nombre_valor": "ZAC60042PE36-2"
+      },
+      {
+        "id_valor": "1780883",
+        "nombre_valor": "ZAAN0094PE"
+      },
+      {
+        "id_valor": "2794605",
+        "nombre_valor": "SM-X516BZAAPEO-36W"
+      },
+      {
+        "id_valor": "3952801",
+        "nombre_valor": "F-SMX520NZA-12-12W"
+      },
+      {
+        "id_valor": "2895568",
+        "nombre_valor": "TABM11-ZADB-P1G2"
+      },
+      {
+        "id_valor": "2794610",
+        "nombre_valor": "SM-X610NZAAPEO-12W"
+      },
+      {
+        "id_valor": "2770353",
+        "nombre_valor": "SM-P625NZIAMEA"
+      },
+      {
+        "id_valor": "1747815",
+        "nombre_valor": "HPAD-IAT1085S4AB"
+      },
+      {
+        "id_valor": "3952873",
+        "nombre_valor": "F-SMX620NZA-06-36W"
+      },
+      {
+        "id_valor": "1764030",
+        "nombre_valor": "ZABX0026PE"
+      },
+      {
+        "id_valor": "1764032",
+        "nombre_valor": "ZABX0003PE"
+      },
+      {
+        "id_valor": "2895816",
+        "nombre_valor": "F-SMX115NZA-C"
+      },
+      {
+        "id_valor": "2794763",
+        "nombre_valor": "SM-X610NZAAPEO-36W"
+      },
+      {
+        "id_valor": "2794805",
+        "nombre_valor": "SM-X616BZAAPEO-12W"
+      },
+      {
+        "id_valor": "2794826",
+        "nombre_valor": "SM-X616BZAAPEO-36W"
+      },
+      {
+        "id_valor": "2794867",
+        "nombre_valor": "SM-X110NZAAL08-36W"
+      },
+      {
+        "id_valor": "3953053",
+        "nombre_valor": "SM-X210NZAEPEO-B"
+      },
+      {
+        "id_valor": "3862121",
+        "nombre_valor": "TBADVNP5050ON"
+      },
+      {
+        "id_valor": "2476935",
+        "nombre_valor": "SM-X810NZEHPEO"
+      },
+      {
+        "id_valor": "2026139",
+        "nombre_valor": "SM-X910NZADPEO"
+      },
+      {
+        "id_valor": "2026165",
+        "nombre_valor": "SM-X910NZAKPEO"
+      },
+      {
+        "id_valor": "2026168",
+        "nombre_valor": "SM-X810NZADPEO"
+      },
+      {
+        "id_valor": "2026170",
+        "nombre_valor": "SM-X810NZAHPEO"
+      },
+      {
+        "id_valor": "3862066",
+        "nombre_valor": "TBADVNP6050GAM"
+      },
+      {
+        "id_valor": "3761940",
+        "nombre_valor": "SM-P620NZAEPEO- 12W"
+      },
+      {
+        "id_valor": "2936927",
+        "nombre_valor": "IP1185-A"
+      },
+      {
+        "id_valor": "3862093",
+        "nombre_valor": "TBADVSP4705AM"
+      },
+      {
+        "id_valor": "3761856",
+        "nombre_valor": "SM-P625NZAEPEO- 12W"
+      },
+      {
+        "id_valor": "2026164",
+        "nombre_valor": "SM-X710NZADPEO"
+      },
+      {
+        "id_valor": "3862094",
+        "nombre_valor": "TBADVSP4705ON"
+      },
+      {
+        "id_valor": "2793126",
+        "nombre_valor": "SM-X210NZAEPEO-12W"
+      },
+      {
+        "id_valor": "2026157",
+        "nombre_valor": "SM-X710NZAHPEO"
+      },
+      {
+        "id_valor": "4096748",
+        "nombre_valor": "IT6300812810FP"
+      },
+      {
+        "id_valor": "2793211",
+        "nombre_valor": "SM-X216BZAAPEO-12W"
+      },
+      {
+        "id_valor": "2026145",
+        "nombre_valor": "SM-X910NZAHPEO"
+      },
+      {
+        "id_valor": "4096784",
+        "nombre_valor": "IT6300812810FPH"
+      },
+      {
+        "id_valor": "4096802",
+        "nombre_valor": "IT630046410FP"
+      },
+      {
+        "id_valor": "2793173",
+        "nombre_valor": "SM-X210NZAEPEO-36W"
+      },
+      {
+        "id_valor": "4096815",
+        "nombre_valor": "IT630046410FPH"
+      },
+      {
+        "id_valor": "2793258",
+        "nombre_valor": "SM-X216BZAAPEO-36W"
+      },
+      {
+        "id_valor": "2793326",
+        "nombre_valor": "SM-X510NZADPEO-36W"
+      },
+      {
+        "id_valor": "2642582",
+        "nombre_valor": "F-SMX516BZA-03"
+      },
+      {
+        "id_valor": "1731091",
+        "nombre_valor": "ZA8R00"
+      },
+      {
+        "id_valor": "2030435",
+        "nombre_valor": "F-SMX110NZA-01"
+      },
+      {
+        "id_valor": "3951565",
+        "nombre_valor": "F-SMX520NZA-12-36W"
+      },
+      {
+        "id_valor": "1731538",
+        "nombre_valor": "TF23-2464A11S12"
+      },
+      {
+        "id_valor": "2628887",
+        "nombre_valor": "F-SMX216BZA-F"
+      },
+      {
+        "id_valor": "2751454",
+        "nombre_valor": "SM-X115NZAAL08"
+      },
+      {
+        "id_valor": "4072680",
+        "nombre_valor": "B610A445K"
+      },
+      {
+        "id_valor": "4072729",
+        "nombre_valor": "B610A446K"
+      },
+      {
+        "id_valor": "2799485",
+        "nombre_valor": "GM20"
+      },
+      {
+        "id_valor": "2799557",
+        "nombre_valor": "C104M"
+      },
+      {
+        "id_valor": "2811366",
+        "nombre_valor": "B610A446"
+      },
+      {
+        "id_valor": "1831650",
+        "nombre_valor": "SM-P613NZAKPEO"
+      },
+      {
+        "id_valor": "4222535",
+        "nombre_valor": "8483A2"
+      },
+      {
+        "id_valor": "2944705",
+        "nombre_valor": "IP1185F"
+      },
+      {
+        "id_valor": "2811342",
+        "nombre_valor": "B610A455"
+      },
+      {
+        "id_valor": "1763976",
+        "nombre_valor": "ZAB50206PE"
+      },
+      {
+        "id_valor": "1763977",
+        "nombre_valor": "ZAB50213PE"
+      },
+      {
+        "id_valor": "1728736",
+        "nombre_valor": "ZA5T0094EC"
+      },
+      {
+        "id_valor": "1731626",
+        "nombre_valor": "B610A315"
+      },
+      {
+        "id_valor": "2477011",
+        "nombre_valor": "SM-X610NZSHPEO"
+      },
+      {
+        "id_valor": "2477049",
+        "nombre_valor": "SM-X610NLIDPEO"
+      },
+      {
+        "id_valor": "1784380",
+        "nombre_valor": "ZABG0049PE"
+      },
+      {
+        "id_valor": "2477544",
+        "nombre_valor": "SM-X510NLIHPEO"
+      },
+      {
+        "id_valor": "1727801",
+        "nombre_valor": "TAB880 E4U ENE2023 TEC"
+      },
+      {
+        "id_valor": "1727827",
+        "nombre_valor": "TAB900 E4U ENE2023 TEC"
+      },
+      {
+        "id_valor": "2477556",
+        "nombre_valor": "SM-X510NZADPEO"
+      },
+      {
+        "id_valor": "2027682",
+        "nombre_valor": "HTL-CPM82T"
+      },
+      {
+        "id_valor": "1727720",
+        "nombre_valor": "NONE"
+      },
+      {
+        "id_valor": "4073782",
+        "nombre_valor": "B610A346B"
+      },
+      {
+        "id_valor": "3897686",
+        "nombre_valor": "LTABG85412811FPH"
+      },
+      {
+        "id_valor": "4072092",
+        "nombre_valor": "LTABG85412810FGH"
+      },
+      {
+        "id_valor": "3897708",
+        "nombre_valor": "LTABG85412811FH"
+      },
+      {
+        "id_valor": "1721453",
+        "nombre_valor": "ZA8R0025PE-"
+      },
+      {
+        "id_valor": "1721450",
+        "nombre_valor": "ZA620037 PE"
+      },
+      {
+        "id_valor": "1718805",
+        "nombre_valor": "SM-P619NZALPEO"
+      },
+      {
+        "id_valor": "3851357",
+        "nombre_valor": "ZAF10055PE"
+      },
+      {
+        "id_valor": "3851556",
+        "nombre_valor": "TABONEG85464FH"
+      },
+      {
+        "id_valor": "3851592",
+        "nombre_valor": "TK11P680612811F"
+      },
+      {
+        "id_valor": "3851484",
+        "nombre_valor": "TABONEG85464H"
+      },
+      {
+        "id_valor": "3851620",
+        "nombre_valor": "TK11P680612811FH"
+      },
+      {
+        "id_valor": "2452221",
+        "nombre_valor": "SM-X216BZAAPEO"
+      },
+      {
+        "id_valor": "2452228",
+        "nombre_valor": "SM-X115NZAAPEO"
+      },
+      {
+        "id_valor": "2793287",
+        "nombre_valor": "SM-X510NZADPEO-12W"
+      },
+      {
+        "id_valor": "1803485",
+        "nombre_valor": "ZAB50206PE-H"
+      },
+      {
+        "id_valor": "1803487",
+        "nombre_valor": "ZAB50213PE-H"
+      },
+      {
+        "id_valor": "2576152",
+        "nombre_valor": "TVADVSPXXXXXXX"
+      },
+      {
+        "id_valor": "3879652",
+        "nombre_valor": "TBADV2NP5050ON"
+      },
+      {
+        "id_valor": "3879659",
+        "nombre_valor": "TBADV2NP5052ON"
+      },
+      {
+        "id_valor": "2793555",
+        "nombre_valor": "SM-X516BZAAPEO-12W"
+      },
+      {
+        "id_valor": "2778103",
+        "nombre_valor": "TAECWVHI10XPRO"
+      },
+      {
+        "id_valor": "2529976",
+        "nombre_valor": "TAECWVHIPADMX"
+      },
+      {
+        "id_valor": "3896133",
+        "nombre_valor": "TBADV2NP6050GAM"
+      },
+      {
+        "id_valor": "3955113",
+        "nombre_valor": "LTABG8546411FH"
+      },
+      {
+        "id_valor": "4118455",
+        "nombre_valor": "SM-X133NZAAL08"
+      },
+      {
+        "id_valor": "2587965",
+        "nombre_valor": "F-SMX110NZA-01A"
+      },
+      {
+        "id_valor": "2587997",
+        "nombre_valor": "F-SMX115NZA-01A"
+      },
+      {
+        "id_valor": "4119855",
+        "nombre_valor": "SM-X230NZAAPEO"
+      },
+      {
+        "id_valor": "2588055",
+        "nombre_valor": "F-SMX216BZA-01A"
+      },
+      {
+        "id_valor": "4119956",
+        "nombre_valor": "SM-X400NZAAPEO"
+      },
+      {
+        "id_valor": "4120074",
+        "nombre_valor": "SM-X400NZAAPEO-12W"
+      },
+      {
+        "id_valor": "2588217",
+        "nombre_valor": "F-SMX516BZA-01A"
+      },
+      {
+        "id_valor": "2588400",
+        "nombre_valor": "F-SMX210NZA-01A"
+      },
+      {
+        "id_valor": "2588262",
+        "nombre_valor": "F-SMX616BZA-01A"
+      },
+      {
+        "id_valor": "1750045",
+        "nombre_valor": "B610A426D"
+      },
+      {
+        "id_valor": "2487599",
+        "nombre_valor": "SM-X510NZSDPEO"
+      },
+      {
+        "id_valor": "2487654",
+        "nombre_valor": "SM-X510NLIDPEO"
+      },
+      {
+        "id_valor": "2487674",
+        "nombre_valor": "SM-X210NZAAPEO"
+      },
+      {
+        "id_valor": "3826020",
+        "nombre_valor": "53014AYZ"
+      },
+      {
+        "id_valor": "3825896",
+        "nombre_valor": "54014AYX"
+      },
+      {
+        "id_valor": "2487797",
+        "nombre_valor": "SM-X610NZSEPEO"
+      },
+      {
+        "id_valor": "2487799",
+        "nombre_valor": "SM-X610NZAAPEO"
+      },
+      {
+        "id_valor": "2487803",
+        "nombre_valor": "SM-X610NLIAPEO"
+      },
+      {
+        "id_valor": "2487807",
+        "nombre_valor": "SM-X510NZSEPEO"
+      },
+      {
+        "id_valor": "2487812",
+        "nombre_valor": "SM-X510NZSAPEO"
+      },
+      {
+        "id_valor": "2487813",
+        "nombre_valor": "SM-X510NLIAPEO"
+      },
+      {
+        "id_valor": "2810804",
+        "nombre_valor": "B610A445"
+      },
+      {
+        "id_valor": "2630574",
+        "nombre_valor": "TAB M10 PLUS (3RD GEN)-ZAAH-P1G"
+      },
+      {
+        "id_valor": "2630576",
+        "nombre_valor": "TAB M10 PLUS (3RD GEN)-ZAAH-P3G"
+      },
+      {
+        "id_valor": "2630770",
+        "nombre_valor": "TABM11-ZADB-P1G"
+      },
+      {
+        "id_valor": "2630784",
+        "nombre_valor": "TABM11-ZADB"
+      },
+      {
+        "id_valor": "2487795",
+        "nombre_valor": "SM-X610NZAEPEO"
+      },
+      {
+        "id_valor": "2487806",
+        "nombre_valor": "SM-X510NZAEPEO"
+      },
+      {
+        "id_valor": "2487811",
+        "nombre_valor": "SM-X510NZAAPEO"
+      },
+      {
+        "id_valor": "2630579",
+        "nombre_valor": "TABM10PLUS (3RD GEN)-ZAAH-P1G"
+      },
+      {
+        "id_valor": "2487695",
+        "nombre_valor": "SM-X110NZAAL08"
+      },
+      {
+        "id_valor": "2748249",
+        "nombre_valor": "B608A115"
+      },
+      {
+        "id_valor": "3851525",
+        "nombre_valor": "TABONEG85464F"
+      },
+      {
+        "id_valor": "2630577",
+        "nombre_valor": "TAB M10 PLUS (3RD GEN)-ZAAH-B1G"
+      },
+      {
+        "id_valor": "2630590",
+        "nombre_valor": "TABM11-ZADB-B1G"
+      },
+      {
+        "id_valor": "2487798",
+        "nombre_valor": "SM-X610NLIEPEO"
+      },
+      {
+        "id_valor": "2487802",
+        "nombre_valor": "SM-X610NZSAPEO"
+      },
+      {
+        "id_valor": "2487808",
+        "nombre_valor": "SM-X510NLIEPEO"
+      },
+      {
+        "id_valor": "2627825",
+        "nombre_valor": "F-SMX216BZA-B"
+      },
+      {
+        "id_valor": "2464213",
+        "nombre_valor": "SM-X910NZEHPEO"
+      },
+      {
+        "id_valor": "1748809",
+        "nombre_valor": "B610A415"
+      },
+      {
+        "id_valor": "2632576",
+        "nombre_valor": "F-SMX306BZG-03"
+      },
+      {
+        "id_valor": "1748894",
+        "nombre_valor": "B610A435"
+      },
+      {
+        "id_valor": "2139580",
+        "nombre_valor": "F-SMX115NZA-01"
+      },
+      {
+        "id_valor": "1748760",
+        "nombre_valor": "TF23-24128M12"
+      },
+      {
+        "id_valor": "2628911",
+        "nombre_valor": "F-SMX216BZA-H"
+      },
+      {
+        "id_valor": "2795188",
+        "nombre_valor": "SM-X210NZAAPEO-36W"
+      },
+      {
+        "id_valor": "2628976",
+        "nombre_valor": "F-SMX216BZA-J"
+      },
+      {
+        "id_valor": "2630594",
+        "nombre_valor": "TABM11-ZADB-B3G"
+      },
+      {
+        "id_valor": "2630776",
+        "nombre_valor": "TABM11-ZADB-P3G"
+      },
+      {
+        "id_valor": "2630578",
+        "nombre_valor": "TAB M10 PLUS (3RD GEN)-ZAAH-B3G"
+      },
+      {
+        "id_valor": "2890044",
+        "nombre_valor": "T0X1T503"
+      },
+      {
+        "id_valor": "2551993",
+        "nombre_valor": "NO TIENE"
+      },
+      {
+        "id_valor": "2504026",
+        "nombre_valor": "HTL CPM82T"
+      },
+      {
+        "id_valor": "2778699",
+        "nombre_valor": "T0X1T501"
+      },
+      {
+        "id_valor": "1728565",
+        "nombre_valor": "ZAAH0021"
+      },
+      {
+        "id_valor": "3780808",
+        "nombre_valor": "LTABG85412811F"
+      },
+      {
+        "id_valor": "2778782",
+        "nombre_valor": "T0X1T502"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26384",
+    "nombre_caracteristica": "CONECTIVIDAD_MOVIL",
+    "valores": [
+      {
+        "id_valor": "1696449",
+        "nombre_valor": "CONECTIVIDAD MOVIL: 4G LTE"
+      },
+      {
+        "id_valor": "1696450",
+        "nombre_valor": "NO APLICA"
+      },
+      {
+        "id_valor": "1696451",
+        "nombre_valor": "CONECTIVIDAD MOVIL: 3G"
+      },
+      {
+        "id_valor": "1742160",
+        "nombre_valor": "CONECTIVIDAD MOVIL: 5G"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26431",
+    "nombre_caracteristica": "EMPAQUE_DE_FABRICA",
+    "valores": [
+      {
+        "id_valor": "1696452",
+        "nombre_valor": "EN: CAJA"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "51114",
+    "nombre_caracteristica": "SISTEMA_DE_MANEJO_RAEE",
+    "valores": [
+      {
+        "id_valor": "3716373",
+        "nombre_valor": "SIST. MANEJO RAEE: INDIVIDUAL"
+      },
+      {
+        "id_valor": "3716372",
+        "nombre_valor": "SIST. MANEJO RAEE: COLECTIVO"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26383",
+    "nombre_caracteristica": "CERTIFICACION",
+    "valores": [
+      {
+        "id_valor": "4139676",
+        "nombre_valor": "IP52"
+      },
+      {
+        "id_valor": "1696453",
+        "nombre_valor": "EYE COMFORT"
+      },
+      {
+        "id_valor": "1696454",
+        "nombre_valor": "REACH"
+      },
+      {
+        "id_valor": "1696455",
+        "nombre_valor": "EYESAFE"
+      },
+      {
+        "id_valor": "1696456",
+        "nombre_valor": "CTS"
+      },
+      {
+        "id_valor": "1696457",
+        "nombre_valor": "HI-RES"
+      },
+      {
+        "id_valor": "1696458",
+        "nombre_valor": "WEEE"
+      },
+      {
+        "id_valor": "1696459",
+        "nombre_valor": "HARMAN/KARDON"
+      },
+      {
+        "id_valor": "1696460",
+        "nombre_valor": "CCC - CHINA"
+      },
+      {
+        "id_valor": "1696461",
+        "nombre_valor": "IP53"
+      },
+      {
+        "id_valor": "1696462",
+        "nombre_valor": "ATEX / IECEX"
+      },
+      {
+        "id_valor": "1696463",
+        "nombre_valor": "UL913"
+      },
+      {
+        "id_valor": "1696464",
+        "nombre_valor": "IP67"
+      },
+      {
+        "id_valor": "1696465",
+        "nombre_valor": "ISO 14001"
+      },
+      {
+        "id_valor": "1696466",
+        "nombre_valor": "IP65"
+      },
+      {
+        "id_valor": "1696467",
+        "nombre_valor": "MIL-STD-810G"
+      },
+      {
+        "id_valor": "1696468",
+        "nombre_valor": "MIL-STD-461F"
+      },
+      {
+        "id_valor": "1696469",
+        "nombre_valor": "cCSAus"
+      },
+      {
+        "id_valor": "1696470",
+        "nombre_valor": "CE O UE"
+      },
+      {
+        "id_valor": "1696471",
+        "nombre_valor": "ENERGY STAR"
+      },
+      {
+        "id_valor": "1696472",
+        "nombre_valor": "EPEAT"
+      },
+      {
+        "id_valor": "1696473",
+        "nombre_valor": "FCC - EE. UU."
+      },
+      {
+        "id_valor": "1696474",
+        "nombre_valor": "ISO 9001"
+      },
+      {
+        "id_valor": "1696475",
+        "nombre_valor": "RoHS"
+      },
+      {
+        "id_valor": "1696476",
+        "nombre_valor": "TUV/S S-Mark (Japan)"
+      },
+      {
+        "id_valor": "1696477",
+        "nombre_valor": "UL"
+      },
+      {
+        "id_valor": "1696478",
+        "nombre_valor": "IP68"
+      },
+      {
+        "id_valor": "4139675",
+        "nombre_valor": "IP42"
+      },
+      {
+        "id_valor": "4139678",
+        "nombre_valor": "MIL-STD-810H"
+      }
+    ]
+  }
+]
