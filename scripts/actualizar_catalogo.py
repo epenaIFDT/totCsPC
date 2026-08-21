@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
+r"""
 Script interactivo para la gestión, cifrado y sincronización mensual
 del Catálogo de Características (totCsPC / 2022-5).
 
