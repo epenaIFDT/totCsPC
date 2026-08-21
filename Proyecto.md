@@ -185,3 +185,26 @@ Estructura jerárquica con el arreglo de características y su lista de valores 
 - **Repositorio Git:** Sincronizado en la rama `main` con cifrado AES-256 activo.
 - **Entorno Local:** `F:\proyectos\CaractCatalog\` con respaldo completo de los 14 archivos originales (2 por carpeta), scripts interactivos y clave de seguridad.
 - **Seguridad:** `.gitignore` activo en el repositorio para evitar fugas de información.
+
+
+---
+
+## 8. Skills y Subagentes Especializados
+
+Para este proyecto se han configurado **Skills**, **Reglas de Contexto** y **Subagentes** que operan de forma autónoma:
+
+### 8.1 Skill: `catalog-crypto-sync`
+- **Ubicación:** [`.agents/skills/catalog-crypto-sync/SKILL.md`](.agents/skills/catalog-crypto-sync/SKILL.md)
+- **Propósito:** Provee la guía operativa y procedimientos para el cifrado mensual, sincronización con GitHub y consumo seguro en memoria.
+
+### 8.2 Subagente: `catalog_crypto_agent`
+- **Rol:** Criptógrafo y Administrador de Sincronización Segura.
+- **Función:** Audita que ningún archivo en texto plano ni clave secreta se suba a GitHub, valida procesos de cifrado AES-256 y verifica la coherencia entre local y remoto.
+
+### 8.3 Subagente: `catalog_data_analyzer`
+- **Rol:** Analista de Datos Técnicos de Catálogos Electrónicos.
+- **Función:** Carga datasets `.enc` directamente en memoria con Pandas (`CryptoLoader`) para realizar cruces, filtros por procesador/RAM/marcas y generar reportes analíticos sin exponer datos en claro a disco.
+
+### 8.4 Reglas del Proyecto: `catalog-rules`
+- **Ubicación:** [`.agents/rules/catalog-rules.md`](.agents/rules/catalog-rules.md) y [`AGENTS.md`](AGENTS.md)
+- **Función:** Establece directivas estrictas para impedir la subida de claves secretas y preservar la arquitectura de dos capas.
