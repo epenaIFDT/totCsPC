@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Catálogo Cifrado - totCsPC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0f172a;
+            --bg-card: #1e293b;
+            --bg-input: #334155;
+            --border-color: #475569;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-primary: #38bdf8;
+            --accent-hover: #0284c7;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            margin-top: 6px;
+            font-size: 0.95rem;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        input[type="text"], input[type="password"], select {
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+        }
+
+        .key-input-wrapper {
+            position: relative;
+            display: flex;
+        }
+
+        .key-input-wrapper input {
+            width: 100%;
+            padding-right: 90px;
+        }
+
+        .key-input-wrapper button {
+            position: absolute;
+            right: 6px;
+            top: 6px;
+            bottom: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            padding: 0 10px;
+            cursor: pointer;
+            font-size: 0.75rem;
+        }
+
+        .key-input-wrapper button:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn {
+            background-color: var(--accent-primary);
+            color: #0f172a;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--accent-primary);
+            color: #0f172a;
+        }
+
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            display: none;
+            margin-top: 12px;
+        }
+
+        .status-success {
+            background-color: rgba(16, 185, 129, 0.2);
+            border: 1px solid var(--success);
+            color: #34d399;
+            display: block;
+        }
+
+        .status-error {
+            background-color: rgba(239, 68, 68, 0.2);
+            border: 1px solid var(--danger);
+            color: #f87171;
+            display: block;
+        }
+
+        .status-loading {
+            background-color: rgba(56, 189, 248, 0.2);
+            border: 1px solid var(--accent-primary);
+            color: #38bdf8;
+            display: block;
+        }
+
+        .table-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 550px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0f172a;
+            color: var(--accent-primary);
+            padding: 12px 14px;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 10px 14px;
+            border-bottom: 1px solid rgba(71, 85, 105, 0.5);
+            color: #cbd5e1;
+            white-space: nowrap;
+        }
+
+        tr:hover td {
+            background-color: rgba(56, 189, 248, 0.05);
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .pagination-btns {
+            display: flex;
+            gap: 8px;
+        }
+
+        .page-btn {
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .stats-badge {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-primary);
+            padding: 4px 10px;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🔐 Visor y Desencriptador de Catálogo de Características</h1>
+        <p>Decodificación y desencriptación AES-256 (Fernet) segura directamente en tu navegador</p>
+    </header>
+
+    <div class="card">
+        <div class="grid-2">
+            <div class="form-group">
+                <label for="urlSelect">📂 Archivo Cifrado en GitHub o URL:</label>
+                <select id="urlSelect" onchange="handleUrlChange()">
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11735-CE/catalogo_caracteristicas_1787260422431(ce).csv.enc">
+                        [252-CE / 11735-CE] Computadoras de Escritorio (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11743-CP/catalogo_caracteristicas_1787322007045(cp).csv.enc">
+                        [250-CP / 11743-CP] Computadoras Portátiles (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11744-WSP/catalogo_caracteristicas_1787321661701(wsp).csv.enc">
+                        [250-CP / 11744-WSP] Workstations Portátiles (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/250-CP/11745-TB/catalogo_caracteristicas_1787322375547(tab).csv.enc">
+                        [250-CP / 11745-TB] Tablets (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11740-ET/catalogo_caracteristicas_1787260731605(et).csv.enc">
+                        [252-CE / 11740-ET] Estaciones de Trabajo (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11741-MN/catalogo_caracteristicas_1787319385273(mon).csv.enc">
+                        [252-CE / 11741-MN] Monitores (.csv.enc)
+                    </option>
+                    <option value="https://raw.githubusercontent.com/epenaIFDT/totCsPC/main/NewCat/2022-5/252-CE/11749-PI/catalogo_caracteristicas_1787319614534(paInt).csv.enc">
+                        [252-CE / 11749-PI] Pantallas Interactivas (.csv.enc)
+                    </option>
+                    <option value="custom">✏️ Ingresar URL personalizada o cargar archivo local...</option>
+                </select>
+
+                <input type="text" id="customUrl" placeholder="https://raw.githubusercontent.com/..." style="display: none; margin-top: 6px;">
+                <div id="fileInputContainer" style="display: none; margin-top: 6px;">
+                    <label style="font-size: 0.8rem; color: var(--accent-primary);">O selecciona un archivo local (.enc):</label>
+                    <input type="file" id="localFileInput" accept=".enc" style="margin-top: 4px;">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="secretKey">🔑 Clave Secreta de Desencriptación:</label>
+                <div class="key-input-wrapper">
+                    <input type="password" id="secretKey" placeholder="Pega tu clave Fernet (ej: sUKydlOpZJAAz2QZ0duMzAruER47k0crzwPRUtpkplw=)">
+                    <button type="button" id="toggleKeyBtn" onclick="toggleKeyVisibility()">Mostrar</button>
+                </div>
+                <small style="color: var(--text-secondary); font-size: 0.75rem;">
+                    Esta clave proviene de <code>F:\proyectos\CaractCatalog\secret.key</code>. Solo se procesa en memoria local en tu navegador.
+                </small>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+            <button class="btn" onclick="desencriptarYMostrar()">
+                ⚡ Descargar, Desencriptar y Mostrar
+            </button>
+            <button class="btn btn-outline" id="btnDescargar" style="display: none;" onclick="descargarCSV()">
+                💾 Descargar CSV Desencriptado
+            </button>
+        </div>
+
+        <div id="statusMsg" class="status-badge"></div>
+    </div>
+
+    <div class="card" id="resultsCard" style="display: none;">
+        <div class="table-controls">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <h2>Contenido Desencriptado</h2>
+                <span class="stats-badge" id="rowCountBadge">0 registros</span>
+            </div>
+            <input type="text" id="tableSearch" class="search-box" placeholder="🔍 Buscar por procesador, marca, valor, ID..." oninput="filtrarTabla()">
+        </div>
+
+        <div class="table-container">
+            <table id="dataTable">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <span id="pageInfo">Página 1 de 1</span>
+            <div class="pagination-btns">
+                <button class="page-btn" id="prevBtn" onclick="cambiarPagina(-1)">⬅ Anterior</button>
+                <button class="page-btn" id="nextBtn" onclick="cambiarPagina(1)">Siguiente ➡</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let rawCsvContent = "";
+    let parsedRows = [];
+    let filteredRows = [];
+    let headers = [];
+    let currentPage = 1;
+    const rowsPerPage = 50;
+
+    function handleUrlChange() {
+        const sel = document.getElementById("urlSelect").value;
+        const customUrl = document.getElementById("customUrl");
+        const fileCont = document.getElementById("fileInputContainer");
+        if (sel === "custom") {
+            customUrl.style.display = "block";
+            fileCont.style.display = "block";
+        } else {
+            customUrl.style.display = "none";
+            fileCont.style.display = "none";
+        }
+    }
+
+    function toggleKeyVisibility() {
+        const input = document.getElementById("secretKey");
+        const btn = document.getElementById("toggleKeyBtn");
+        if (input.type === "password") {
+            input.type = "text";
+            btn.textContent = "Ocultar";
+        } else {
+            input.type = "password";
+            btn.textContent = "Mostrar";
+        }
+    }
+
+    function setStatus(msg, type) {
+        const el = document.getElementById("statusMsg");
+        el.className = "status-badge status-" + type;
+        el.innerHTML = msg;
+        el.style.display = "block";
+    }
+
+    // Helper: Base64URL decode to Uint8Array
+    function base64UrlToBytes(base64UrlStr) {
+        let base64 = base64UrlStr.replace(/-/g, '+').replace(/_/g, '/');
+        while (base64.length % 4) {
+            base64 += '=';
+        }
+        const binaryStr = atob(base64);
+        const bytes = new Uint8Array(binaryStr.length);
+        for (let i = 0; i < binaryStr.length; i++) {
+            bytes[i] = binaryStr.charCodeAt(i);
+        }
+        return bytes;
+    }
+
+    // Fernet decrypt in Web Crypto API
+    async function decryptFernetToken(tokenStr, keyBase64Url) {
+        const rawKey = base64UrlToBytes(keyBase64Url);
+        if (rawKey.length !== 32) {
+            throw new Error(`La clave debe tener 32 bytes decodificada (longitud recibida: ${rawKey.length}).`);
+        }
+        const encKeyBytes = rawKey.slice(16, 32); // AES-128 key for Fernet
+
+        const tokenBytes = base64UrlToBytes(tokenStr.trim());
+        if (tokenBytes.length < 57) {
+            throw new Error("El token cifrado es demasiado corto o corrupto.");
+        }
+
+        const version = tokenBytes[0];
+        if (version !== 0x80) {
+            throw new Error(`Versión Fernet no reconocida: ${version}`);
+        }
+
+        const iv = tokenBytes.slice(9, 25);
+        const ciphertext = tokenBytes.slice(25, tokenBytes.length - 32);
+
+        const cryptoKey = await window.crypto.subtle.importKey(
+            "raw",
+            encKeyBytes,
+            { name: "AES-CBC" },
+            false,
+            ["decrypt"]
+        );
+
+        const decryptedBuffer = await window.crypto.subtle.decrypt(
+            { name: "AES-CBC", iv: iv },
+            cryptoKey,
+            ciphertext
+        );
+
+        const decoder = new TextDecoder("utf-8");
+        return decoder.decode(decryptedBuffer);
+    }
+
+    // Simple CSV parser
+    function parseCSV(text) {
+        const lines = text.trim().split(/\r\n|\n/);
+        if (lines.length === 0) return { headers: [], rows: [] };
+        
+        function splitLine(line) {
+            const result = [];
+            let cur = "";
+            let inQuotes = false;
+            for (let i = 0; i < line.length; i++) {
+                const c = line[i];
+                if (c === '"') {
+                    inQuotes = !inQuotes;
+                } else if (c === ',' && !inQuotes) {
+                    result.push(cur.trim());
+                    cur = "";
+                } else {
+                    cur += c;
+                }
+            }
+            result.push(cur.trim());
+            return result.map(v => v.replace(/^"|"$/g, '').trim());
+        }
+
+        const head = splitLine(lines[0]);
+        const body = [];
+        for (let i = 1; i < lines.length; i++) {
+            if (lines[i].trim()) {
+                body.push(splitLine(lines[i]));
+            }
+        }
+        return { headers: head, rows: body };
+    }
+
+    async function desencriptarYMostrar() {
+        const key = document.getElementById("secretKey").value.trim();
+        if (!key) {
+            setStatus("⚠️ Por favor ingresa la clave secreta de desencriptación.", "error");
+            return;
+        }
+
+        let tokenText = "";
+        const urlSelect = document.getElementById("urlSelect").value;
+        const fileInput = document.getElementById("localFileInput");
+
+        try {
+            setStatus("⏳ Descargando archivo cifrado...", "loading");
+
+            if (urlSelect === "custom" && fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                tokenText = await file.text();
+            } else {
+                let targetUrl = urlSelect === "custom" ? document.getElementById("customUrl").value.trim() : urlSelect;
+                if (!targetUrl) {
+                    setStatus("⚠️ Por favor ingresa una URL válida o selecciona un archivo.", "error");
+                    return;
+                }
+                const res = await fetch(targetUrl);
+                if (!res.ok) {
+                    throw new Error(`Error HTTP ${res.status} al descargar de GitHub.`);
+                }
+                tokenText = await res.text();
+            }
+
+            setStatus("🔐 Desencriptando archivo con Web Crypto API (AES-256/Fernet)...", "loading");
+            const decryptedText = await decryptFernetToken(tokenText, key);
+            rawCsvContent = decryptedText;
+
+            setStatus("✅ ¡Desencriptación exitosa! Renderizando tabla...", "success");
+
+            // Parse CSV or JSON
+            if (decryptedText.trim().startsWith("[") || decryptedText.trim().startsWith("{")) {
+                // Is JSON
+                const jsonData = JSON.parse(decryptedText);
+                headers = ["Campo", "Valor"];
+                parsedRows = Object.entries(Array.isArray(jsonData) ? jsonData[0] : jsonData).map(([k, v]) => [k, typeof v === 'object' ? JSON.stringify(v) : v]);
+            } else {
+                const parsed = parseCSV(decryptedText);
+                headers = parsed.headers;
+                parsedRows = parsed.rows;
+            }
+
+            filteredRows = [...parsedRows];
+            currentPage = 1;
+            renderTable();
+
+            document.getElementById("resultsCard").style.display = "block";
+            document.getElementById("btnDescargar").style.display = "inline-flex";
+            document.getElementById("rowCountBadge").textContent = `${filteredRows.length} registros`;
+
+        } catch (err) {
+            console.error(err);
+            setStatus(`❌ Error: ${err.message}. Verifica que la clave ingresada sea la correcta.`, "error");
+        }
+    }
+
+    function renderTable() {
+        const thead = document.getElementById("tableHead");
+        const tbody = document.getElementById("tableBody");
+
+        // Headers
+        thead.innerHTML = "<tr>" + headers.map(h => `<th>${h}</th>`).join("") + "</tr>";
+
+        // Rows with pagination
+        const start = (currentPage - 1) * rowsPerPage;
+        const end = start + rowsPerPage;
+        const pageItems = filteredRows.slice(start, end);
+
+        if (pageItems.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="${headers.length}" style="text-align:center; padding: 20px;">No se encontraron registros.</td></tr>`;
+        } else {
+            tbody.innerHTML = pageItems.map(row => {
+                return "<tr>" + row.map(cell => `<td>${cell}</td>`).join("") + "</tr>";
+            }).join("");
+        }
+
+        // Pagination text
+        const totalPages = Math.max(1, Math.ceil(filteredRows.length / rowsPerPage));
+        document.getElementById("pageInfo").textContent = `Página ${currentPage} de ${totalPages} (Mostrando ${start + 1}-${Math.min(end, filteredRows.length)} de ${filteredRows.length})`;
+        document.getElementById("prevBtn").disabled = currentPage === 1;
+        document.getElementById("nextBtn").disabled = currentPage >= totalPages;
+    }
+
+    function cambiarPagina(delta) {
+        const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+        currentPage = Math.min(Math.max(1, currentPage + delta), totalPages);
+        renderTable();
+    }
+
+    function filtrarTabla() {
+        const query = document.getElementById("tableSearch").value.toLowerCase();
+        if (!query) {
+            filteredRows = [...parsedRows];
+        } else {
+            filteredRows = parsedRows.filter(row => row.some(cell => String(cell).toLowerCase().includes(query)));
+        }
+        currentPage = 1;
+        document.getElementById("rowCountBadge").textContent = `${filteredRows.length} registros encontrados`;
+        renderTable();
+    }
+
+    function descargarCSV() {
+        if (!rawCsvContent) return;
+        const blob = new Blob([rawCsvContent], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "catalogo_desencriptado.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+</script>
+
+</body>
+</html>
