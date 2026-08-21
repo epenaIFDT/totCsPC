@@ -1,0 +1,18 @@
+# Claves criptográficas y secretos
+*.key
+*.secret
+secret.key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Prevenir subida accidental de archivos en texto plano dentro de 2022-5
+NewCat/2022-5/**/*.csv
+NewCat/2022-5/**/*.json
+!NewCat/2022-5/**/*.csv.enc
+!NewCat/2022-5/**/*.json.enc
+!NewCat/2022-5/**/.gitkeep
