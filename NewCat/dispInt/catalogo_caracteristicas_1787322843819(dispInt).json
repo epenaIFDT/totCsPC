@@ -1,0 +1,704 @@
+[
+  {
+    "id_caracteristica": "26459",
+    "nombre_caracteristica": "NRO_PARTE",
+    "valores": [
+      {
+        "id_valor": "1834852",
+        "nombre_valor": "SDSSDE61-2T00-G25"
+      },
+      {
+        "id_valor": "1803998",
+        "nombre_valor": "SDSSDE30-1T00-G25"
+      },
+      {
+        "id_valor": "2528969",
+        "nombre_valor": "X"
+      },
+      {
+        "id_valor": "1802085",
+        "nombre_valor": "SDSSDA-240G-G26"
+      },
+      {
+        "id_valor": "1802088",
+        "nombre_valor": "SDSSDE30-480G-G25"
+      },
+      {
+        "id_valor": "1843302",
+        "nombre_valor": "SDSSDE81-2T00-G25"
+      },
+      {
+        "id_valor": "1843335",
+        "nombre_valor": "SDSSDE81-4T00-G25"
+      },
+      {
+        "id_valor": "1834516",
+        "nombre_valor": "SDSSDE61-500G-G25"
+      },
+      {
+        "id_valor": "2744909",
+        "nombre_valor": "AHD650-2TU31-CBK"
+      },
+      {
+        "id_valor": "2744953",
+        "nombre_valor": "AHD650-1TU31-CBK"
+      },
+      {
+        "id_valor": "2744964",
+        "nombre_valor": "AHD650-4TU31-CBK"
+      },
+      {
+        "id_valor": "2745014",
+        "nombre_valor": "AHD720-2TU31-CBK"
+      },
+      {
+        "id_valor": "2745001",
+        "nombre_valor": "AHD720-1TU31-CBK"
+      },
+      {
+        "id_valor": "1834859",
+        "nombre_valor": "SDSSDE61-4T00-G25"
+      },
+      {
+        "id_valor": "1720728",
+        "nombre_valor": "AHV320-1TU31-CBL"
+      },
+      {
+        "id_valor": "1720741",
+        "nombre_valor": "AHV320-2TU31-CBK"
+      },
+      {
+        "id_valor": "1720750",
+        "nombre_valor": "ASD700-512GU31-CBK"
+      },
+      {
+        "id_valor": "1720755",
+        "nombre_valor": "ASE760-2TU32G2-CBK"
+      },
+      {
+        "id_valor": "1843289",
+        "nombre_valor": "SDSSDE81-1T00-G25"
+      },
+      {
+        "id_valor": "2789621",
+        "nombre_valor": "4TLMV9347"
+      },
+      {
+        "id_valor": "1804015",
+        "nombre_valor": "SDSSDE30-2T00-G25"
+      },
+      {
+        "id_valor": "1834833",
+        "nombre_valor": "SDSSDE61-1T00-G25"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26460",
+    "nombre_caracteristica": "MARCA",
+    "valores": [
+      {
+        "id_valor": "4022953",
+        "nombre_valor": "MARCA: OSB"
+      },
+      {
+        "id_valor": "1937451",
+        "nombre_valor": "MARCA: JFA TECHNOLOGY"
+      },
+      {
+        "id_valor": "2501123",
+        "nombre_valor": "MARCA: QOSOFT"
+      },
+      {
+        "id_valor": "4090125",
+        "nombre_valor": "INSOMED"
+      },
+      {
+        "id_valor": "4040435",
+        "nombre_valor": "MARCA: ANAX"
+      },
+      {
+        "id_valor": "4040672",
+        "nombre_valor": "MARCA: ECONORACKS"
+      },
+      {
+        "id_valor": "4320016",
+        "nombre_valor": "MARCA: M4X"
+      },
+      {
+        "id_valor": "3916475",
+        "nombre_valor": "MARCA: MEGA CHAMBI"
+      },
+      {
+        "id_valor": "4219326",
+        "nombre_valor": "MARCA: SKYON"
+      },
+      {
+        "id_valor": "1698734",
+        "nombre_valor": "MARCA: SANDISK"
+      },
+      {
+        "id_valor": "1937466",
+        "nombre_valor": "MARCA: WESTERN DIGITAL"
+      },
+      {
+        "id_valor": "3780045",
+        "nombre_valor": "MARCA: H HANERT"
+      },
+      {
+        "id_valor": "4136774",
+        "nombre_valor": "MARCA: SURCO"
+      },
+      {
+        "id_valor": "4103484",
+        "nombre_valor": "MARCA: EBSAN"
+      },
+      {
+        "id_valor": "4103562",
+        "nombre_valor": "MARCA: NEW KRAL"
+      },
+      {
+        "id_valor": "4319498",
+        "nombre_valor": "MARCA: QNT TECHNOLOGIES"
+      },
+      {
+        "id_valor": "1973317",
+        "nombre_valor": "MARCA: KINGSTON"
+      },
+      {
+        "id_valor": "4275342",
+        "nombre_valor": "MARCA: GCS"
+      },
+      {
+        "id_valor": "4275373",
+        "nombre_valor": "MARCA: T ITED"
+      },
+      {
+        "id_valor": "1887657",
+        "nombre_valor": "MARCA: VASTEC"
+      },
+      {
+        "id_valor": "1718074",
+        "nombre_valor": "MARCA: ADATA"
+      },
+      {
+        "id_valor": "2611061",
+        "nombre_valor": "MARCA: WORLDLIFE"
+      },
+      {
+        "id_valor": "3731661",
+        "nombre_valor": "MARCA: VALHALLA"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26461",
+    "nombre_caracteristica": "MODELO",
+    "valores": [
+      {
+        "id_valor": "1802119",
+        "nombre_valor": "PORTABLE"
+      },
+      {
+        "id_valor": "1802112",
+        "nombre_valor": "PORTABLE SSD"
+      },
+      {
+        "id_valor": "1843290",
+        "nombre_valor": "EXTREME PRO® PORTABLE"
+      },
+      {
+        "id_valor": "2789624",
+        "nombre_valor": "NAS SERVER"
+      },
+      {
+        "id_valor": "2528970",
+        "nombre_valor": "Z"
+      },
+      {
+        "id_valor": "2744966",
+        "nombre_valor": "HD650"
+      },
+      {
+        "id_valor": "2744912",
+        "nombre_valor": "HD 650"
+      },
+      {
+        "id_valor": "2745002",
+        "nombre_valor": "HD720"
+      },
+      {
+        "id_valor": "1834518",
+        "nombre_valor": "EXTREME® PORTABLE"
+      },
+      {
+        "id_valor": "1720751",
+        "nombre_valor": "SD700"
+      },
+      {
+        "id_valor": "1720756",
+        "nombre_valor": "SE760"
+      },
+      {
+        "id_valor": "1720730",
+        "nombre_valor": "HV320"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26462",
+    "nombre_caracteristica": "UNIDAD_DE_DESPACHO",
+    "valores": [
+      {
+        "id_valor": "1718073",
+        "nombre_valor": "U. DESPACHO: UNIDAD"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26464",
+    "nombre_caracteristica": "TIPO_DE_DISCO_DURO",
+    "valores": [
+      {
+        "id_valor": "1717987",
+        "nombre_valor": "TIPO: HDD"
+      },
+      {
+        "id_valor": "1717989",
+        "nombre_valor": "TIPO: SSD"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26465",
+    "nombre_caracteristica": "CAPACIDAD",
+    "valores": [
+      {
+        "id_valor": "1717998",
+        "nombre_valor": "CAPACIDAD: 480 GB"
+      },
+      {
+        "id_valor": "1718000",
+        "nombre_valor": "CAPACIDAD: 1 TB"
+      },
+      {
+        "id_valor": "1718002",
+        "nombre_valor": "CAPACIDAD: 4 TB"
+      },
+      {
+        "id_valor": "1837538",
+        "nombre_valor": "CAPACIDAD: 500 GB"
+      },
+      {
+        "id_valor": "1717991",
+        "nombre_valor": "CAPACIDAD: 240 GB"
+      },
+      {
+        "id_valor": "1717993",
+        "nombre_valor": "CAPACIDAD: 256 GB"
+      },
+      {
+        "id_valor": "1718001",
+        "nombre_valor": "CAPACIDAD: 2 TB"
+      },
+      {
+        "id_valor": "1717999",
+        "nombre_valor": "CAPACIDAD: 512 GB"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26466",
+    "nombre_caracteristica": "FACTOR_DE_FORMA",
+    "valores": [
+      {
+        "id_valor": "1718003",
+        "nombre_valor": "FACTOR DE FORMA: 2.5\""
+      },
+      {
+        "id_valor": "1718004",
+        "nombre_valor": "FACTOR DE FORMA: 3.5\""
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26467",
+    "nombre_caracteristica": "INTERFAZ",
+    "valores": [
+      {
+        "id_valor": "1718008",
+        "nombre_valor": "INTERFAZ: ESATA"
+      },
+      {
+        "id_valor": "1718014",
+        "nombre_valor": "INTERFAZ: PCLE/NVME"
+      },
+      {
+        "id_valor": "1718007",
+        "nombre_valor": "INTERFAZ: SATA"
+      },
+      {
+        "id_valor": "1718006",
+        "nombre_valor": "INTERFAZ: USB"
+      },
+      {
+        "id_valor": "1718012",
+        "nombre_valor": "INTERFAZ: FIREWIRE"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26935",
+    "nombre_caracteristica": "SISTEMAS_OPERATIVOS_COMPATIBLES",
+    "valores": [
+      {
+        "id_valor": "1718017",
+        "nombre_valor": "S.O. COMPATIBLE: LINUX"
+      },
+      {
+        "id_valor": "1718019",
+        "nombre_valor": "S.O. COMPATIBLE: ANDROID"
+      },
+      {
+        "id_valor": "1718016",
+        "nombre_valor": "S.O. COMPATIBLE: WINDOWS"
+      },
+      {
+        "id_valor": "1718018",
+        "nombre_valor": "S.O. COMPATIBLE: MAC"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26936",
+    "nombre_caracteristica": "GRADO_DE_PROTECCION_IP",
+    "valores": [
+      {
+        "id_valor": "1718026",
+        "nombre_valor": "PROTECCION IP: SI"
+      },
+      {
+        "id_valor": "1718027",
+        "nombre_valor": "PROTECCION IP: NO"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26937",
+    "nombre_caracteristica": "VELOCIDAD_DE_TRANSFERENCIA_DE_DATOS_LECTURA",
+    "valores": [
+      {
+        "id_valor": "1718041",
+        "nombre_valor": "VELOCIDAD LECTURA: 2001 MB/s A 5000 MB/s"
+      },
+      {
+        "id_valor": "1718030",
+        "nombre_valor": "VELOCIDAD LECTURA: 1 MB/s A 50 MB/s"
+      },
+      {
+        "id_valor": "1718032",
+        "nombre_valor": "VELOCIDAD LECTURA: 51 MB/s A 200 MB/s"
+      },
+      {
+        "id_valor": "1718038",
+        "nombre_valor": "VELOCIDAD LECTURA: 401 MB/s a 2000 MB/s"
+      },
+      {
+        "id_valor": "1718040",
+        "nombre_valor": "VELOCIDAD LECTURA: 201 MB/s A 400 MB/s"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26938",
+    "nombre_caracteristica": "VELOCIDAD_DE_TRANSFERENCIA_DE_DATOS",
+    "valores": [
+      {
+        "id_valor": "1718054",
+        "nombre_valor": "VELOCIDAD ESCRITURA: 201 MB/s A 500 MB/s"
+      },
+      {
+        "id_valor": "1718046",
+        "nombre_valor": "VELOCIDAD ESCRITURA: 1 MB/s A 50 MB/s"
+      },
+      {
+        "id_valor": "1718047",
+        "nombre_valor": "VELOCIDAD ESCRITURA: 51 MB/s A 200 MB/s"
+      },
+      {
+        "id_valor": "1718052",
+        "nombre_valor": "VELOCIDAD ESCRITURA: 501 MB/s A 2500 MB/s"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26939",
+    "nombre_caracteristica": "LARGO",
+    "valores": [
+      {
+        "id_valor": "1925598",
+        "nombre_valor": "LARGO: 100.54 MM"
+      },
+      {
+        "id_valor": "1967390",
+        "nombre_valor": "LARGO: 110.26 MM"
+      },
+      {
+        "id_valor": "1720487",
+        "nombre_valor": "LARGO: 83.5 MM"
+      },
+      {
+        "id_valor": "2813980",
+        "nombre_valor": "LARGO: 240 MM +/- 20%"
+      },
+      {
+        "id_valor": "1718059",
+        "nombre_valor": "LARGO: 120 MM +/- 20%"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26940",
+    "nombre_caracteristica": "ANCHO",
+    "valores": [
+      {
+        "id_valor": "1718060",
+        "nombre_valor": "ANCHO: 80 MM +/- 20%"
+      },
+      {
+        "id_valor": "1837646",
+        "nombre_valor": "ANCHO: 52.42 MM"
+      },
+      {
+        "id_valor": "1720488",
+        "nombre_valor": "ANCHO: 44 MM"
+      },
+      {
+        "id_valor": "2813979",
+        "nombre_valor": "ANCHO: 240 MM +/- 20%"
+      },
+      {
+        "id_valor": "1843789",
+        "nombre_valor": "ANCHO: 57.34 MM"
+      },
+      {
+        "id_valor": "1803261",
+        "nombre_valor": "ANCHO: 46.9 MM"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26941",
+    "nombre_caracteristica": "ESPESOR",
+    "valores": [
+      {
+        "id_valor": "1718061",
+        "nombre_valor": "ESPESOR: 15 MM +/- 20%"
+      },
+      {
+        "id_valor": "1720489",
+        "nombre_valor": "ESPESOR: 10.7 MM"
+      },
+      {
+        "id_valor": "1837649",
+        "nombre_valor": "ESPESOR: 8.95 MM"
+      },
+      {
+        "id_valor": "1843791",
+        "nombre_valor": "ESPESOR: 10.22 MM"
+      },
+      {
+        "id_valor": "1803263",
+        "nombre_valor": "ESPESOR: 9.91 MM"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26942",
+    "nombre_caracteristica": "PESO",
+    "valores": [
+      {
+        "id_valor": "2812591",
+        "nombre_valor": "PESO: DE 251 GR A 400 GR"
+      },
+      {
+        "id_valor": "1720496",
+        "nombre_valor": "PESO: DE 61 GR A 150 GR"
+      },
+      {
+        "id_valor": "1720498",
+        "nombre_valor": "PESO: DE 151 GR A 250 GR"
+      },
+      {
+        "id_valor": "1718062",
+        "nombre_valor": "PESO: DE 30 GR A 60 GR"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26943",
+    "nombre_caracteristica": "FUENTE_DE_ELECTRICIDAD_VDC",
+    "valores": [
+      {
+        "id_valor": "1720500",
+        "nombre_valor": "FUENTE DE ELECTRICIDAD: NO REQUIERE FUENTE EXTERNA"
+      },
+      {
+        "id_valor": "1720499",
+        "nombre_valor": "FUENTE DE ELECTRICIDAD: REQUIERE FUENTE EXTERNA"
+      },
+      {
+        "id_valor": "1718063",
+        "nombre_valor": "FUENTE ELECTRICIDAD: 5 VDC"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26944",
+    "nombre_caracteristica": "TEMPERATURA_OPERATIVA",
+    "valores": [
+      {
+        "id_valor": "1718065",
+        "nombre_valor": "TEMPERATURA OPERATIVA: DE 0°C A 70°C"
+      },
+      {
+        "id_valor": "1803265",
+        "nombre_valor": "TEMPERATURA OPERATIVA: DE 0°C A 45°C"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26945",
+    "nombre_caracteristica": "TEMPERATURA_DE_ALMACENAMIENTO",
+    "valores": [
+      {
+        "id_valor": "1718067",
+        "nombre_valor": "TEMPERATURA ALMACENAMIENTO: DE -40°C A 85°C"
+      },
+      {
+        "id_valor": "1803266",
+        "nombre_valor": "TEMPERATURA ALMACENAMIENTO: DE -20°C A 85°C"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26946",
+    "nombre_caracteristica": "ALTURA_MAXIMA_DE_FUNCIONAMIENTO_MSNM",
+    "valores": [
+      {
+        "id_valor": "1720490",
+        "nombre_valor": "ALTURA MAXIMA FUNCIONAMIENTO: 2000 MSNM"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26947",
+    "nombre_caracteristica": "HUMEDAD_RELATIVA",
+    "valores": [
+      {
+        "id_valor": "1720492",
+        "nombre_valor": "HUMEDAD RELATIVA: 93%"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26948",
+    "nombre_caracteristica": "MATERIAL_DEL_EQUIPO",
+    "valores": [
+      {
+        "id_valor": "1718068",
+        "nombre_valor": "MATERIAL: METAL"
+      },
+      {
+        "id_valor": "1718069",
+        "nombre_valor": "MATERIAL: PLASTICO"
+      },
+      {
+        "id_valor": "1843849",
+        "nombre_valor": "MATERIAL: SILICONA"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26949",
+    "nombre_caracteristica": "GARANTIA_DE_FABRICA",
+    "valores": [
+      {
+        "id_valor": "1718070",
+        "nombre_valor": "G.F: 36 MESES CARRY IN"
+      },
+      {
+        "id_valor": "1718072",
+        "nombre_valor": "G.F: 48 MESES CARRY IN"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26950",
+    "nombre_caracteristica": "EMPAQUE_DE_FABRICA",
+    "valores": [
+      {
+        "id_valor": "1718077",
+        "nombre_valor": "EMPAQUE: CAJA"
+      },
+      {
+        "id_valor": "1720671",
+        "nombre_valor": "EMPAQUE: BLISTER"
+      },
+      {
+        "id_valor": "1720672",
+        "nombre_valor": "EMPAQUE: OTRO"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26952",
+    "nombre_caracteristica": "COMPONENTES_Y_ACCESORIOS",
+    "valores": [
+      {
+        "id_valor": "1720484",
+        "nombre_valor": "COMPONENTES Y ACCESORIOS: NO INCLUYE"
+      },
+      {
+        "id_valor": "1720483",
+        "nombre_valor": "COMPONENTES Y ACCESORIOS: SI INCLUYE"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "51858",
+    "nombre_caracteristica": "SISTEMA_DE_MANEJO_RAEE",
+    "valores": [
+      {
+        "id_valor": "3746694",
+        "nombre_valor": "SIST. MANEJO RAEE: INDIVIDUAL"
+      },
+      {
+        "id_valor": "3746693",
+        "nombre_valor": "SIST. MANEJO RAEE: COLECTIVO"
+      }
+    ]
+  },
+  {
+    "id_caracteristica": "26951",
+    "nombre_caracteristica": "CERTIFICADOS",
+    "valores": [
+      {
+        "id_valor": "1718080",
+        "nombre_valor": "CERTIFICACION: CE"
+      },
+      {
+        "id_valor": "1718081",
+        "nombre_valor": "CERTIFICACION: KCC"
+      },
+      {
+        "id_valor": "1718078",
+        "nombre_valor": "CERTIFICACION: ROHS"
+      },
+      {
+        "id_valor": "1718079",
+        "nombre_valor": "CERTIFICACION: FCC"
+      }
+    ]
+  }
+]
