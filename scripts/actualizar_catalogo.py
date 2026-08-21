@@ -21,7 +21,6 @@ from pathlib import Path
 try:
     from crypto_loader import CryptoLoader
 except ImportError:
-    # Intenta importar desde el mismo directorio o scripts
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from crypto_loader import CryptoLoader
 
@@ -36,6 +35,7 @@ CATEGORIES = [
     ("250-CP", "11744-WSP", "Workstations Portátiles"),
     ("250-CP", "11745-TB", "Tablets"),
     ("252-CE", "11735-CE", "Computadoras de Escritorio"),
+    ("252-CE", "11736-TU", "Computadoras Todo en Uno"),
     ("252-CE", "11740-ET", "Estaciones de Trabajo"),
     ("252-CE", "11741-MN", "Monitores"),
     ("252-CE", "11749-PI", "Pantallas Interactivas"),
@@ -78,8 +78,8 @@ def ver_estado():
         if os.path.exists(rep_folder):
             rep_files = [f for f in os.listdir(rep_folder) if f.endswith('.enc')]
 
-        loc_str = f"{len(loc_files)} archivos ({', '.join(loc_files)[:20]}...)" if loc_files else "0 archivos"
-        rep_str = f"{len(rep_files)} archivos .enc" if rep_files else "0 archivos"
+        loc_str = f"{len(loc_files)} archivos ({', '.join(loc_files)[:20]}...)" if loc_files else "0 archivos (Pendiente)"
+        rep_str = f"{len(rep_files)} archivos .enc" if rep_files else "0 archivos (.gitkeep)"
 
         print(f"{cat:<10} | {cod:<12} | {nombre:<26} | {loc_str:<28} | {rep_str:<15}")
     print("-" * 100)
@@ -99,15 +99,14 @@ def sincronizar_y_subir():
         rep_folder = os.path.join(REPO_DIR, cat, cod)
 
         if not os.path.exists(loc_folder):
-            print(f"[!] Carpeta local no existe: {loc_folder} (Se omitirá)")
-            continue
+            os.makedirs(loc_folder, exist_ok=True)
 
         os.makedirs(rep_folder, exist_ok=True)
 
-        # Limpiar archivos .enc antiguos en repo si los nombres de archivo cambiaron
         local_files = [f for f in os.listdir(loc_folder) if f.endswith(('.json', '.csv')) and not f.endswith('.enc')]
         target_enc_names = [f + ".enc" for f in local_files]
 
+        # Limpiar .enc antiguos
         for old_file in os.listdir(rep_folder):
             if old_file.endswith('.enc') and old_file not in target_enc_names:
                 old_path = os.path.join(rep_folder, old_file)
@@ -116,6 +115,20 @@ def sincronizar_y_subir():
                     print(f"[-] Eliminado .enc antiguo en repo: {cat}/{cod}/{old_file}")
                 except Exception as e:
                     print(f"[!] No se pudo eliminar {old_path}: {e}")
+
+        if not local_files:
+            # Si no hay archivos, mantener .gitkeep para que git conserve la carpeta
+            gitkeep_path = os.path.join(rep_folder, ".gitkeep")
+            if not os.path.exists(gitkeep_path):
+                with open(gitkeep_path, "w", encoding="utf-8") as f:
+                    pass
+            print(f"[i] {cat}/{cod} ({nombre}): Carpeta vacía, preservando .gitkeep")
+            continue
+        else:
+            # Si hay archivos, eliminar .gitkeep si existe
+            gitkeep_path = os.path.join(rep_folder, ".gitkeep")
+            if os.path.exists(gitkeep_path):
+                os.remove(gitkeep_path)
 
         # Cifrar cada archivo local al repo
         for file in local_files:
@@ -129,19 +142,14 @@ def sincronizar_y_subir():
             except Exception as e:
                 print(f"[ERROR] Error al cifrar {src_file}: {e}")
 
-    print(f"\nProceso de cifrado completado. Total de archivos cifrados generados: {total_encrypted}")
+    print(f"\nProceso de cifrado completado. Total de archivos cifrados generados/actualizados: {total_encrypted}")
 
-    if total_encrypted == 0:
-        print("No se encontraron archivos locales para sincronizar.")
-        return
-
-    # Preguntar confirmación para Git Commit & Push
     resp = input("\n¿Deseas confirmar los cambios (git commit) y enviarlos a GitHub (git push)? (s/n): ").strip().lower()
     if resp == 's':
         try:
             now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-            custom_msg = input(f"Mensaje de commit (Enter para: 'Actualización mensual catálogo {now_str}'): ").strip()
-            commit_msg = custom_msg if custom_msg else f"Actualización mensual catálogo {now_str}"
+            custom_msg = input(f"Mensaje de commit (Enter para: 'Actualización catálogo 2022-5 - {now_str}'): ").strip()
+            commit_msg = custom_msg if custom_msg else f"Actualización catálogo 2022-5 - {now_str}"
 
             print("\nEjecutando git add...")
             subprocess.run(["git", "add", "-A"], cwd=REPO_ROOT, check=True)
@@ -156,11 +164,11 @@ def sincronizar_y_subir():
             if res_push.stderr:
                 print(res_push.stderr)
 
-            print("\n[ÉXITO] ¡Cambios cifrados subidos correctamente a GitHub!")
+            print("\n[ÉXITO] ¡Cambios sincronizados correctamente con GitHub!")
         except Exception as e:
             print(f"[ERROR] Error durante la sincronización Git: {e}")
     else:
-        print("Sincronización Git cancelada. Los archivos cifrados quedaron listos en local.")
+        print("Sincronización Git cancelada.")
 
 
 def probar_carga_memoria():
@@ -174,13 +182,13 @@ def probar_carga_memoria():
         print(f"  {idx}. [{cat}/{cod}] {nombre}")
 
     try:
-        op = int(input("\nOpción (1-7): ").strip())
+        op = int(input("\nOpción (1-8): ").strip())
         if 1 <= op <= len(CATEGORIES):
             cat, cod, nombre = CATEGORIES[op - 1]
             rep_folder = os.path.join(REPO_DIR, cat, cod)
             csv_enc_files = [f for f in os.listdir(rep_folder) if f.endswith('.csv.enc')]
             if not csv_enc_files:
-                print(f"[!] No hay archivos .csv.enc en {cat}/{cod}")
+                print(f"[!] No hay archivos .csv.enc aún en {cat}/{cod}. Agregue los archivos primero.")
                 return
 
             target_file = os.path.join(rep_folder, csv_enc_files[0])
@@ -247,8 +255,8 @@ def main():
     while True:
         print_header()
         print("MENÚ PRINCIPAL:")
-        print("  1. [Sincronizar y Subir a GitHub]  (Cifra archivos locales -> Actualiza Repo -> Git Push)")
-        print("  2. [Ver Estado de Archivos]        (Compara archivos locales vs encriptados en Repo)")
+        print("  1. [Sincronizar y Subir a GitHub]     (Cifra archivos locales -> Actualiza Repo -> Git Push)")
+        print("  2. [Ver Estado de Archivos]           (Compara archivos locales vs encriptados en Repo)")
         print("  3. [Probar Carga de Datos en Memoria] (Demuestra lectura con Pandas sin tocar disco)")
         print("  4. [Restaurar / Desencriptar a Local] (Recupera archivos planos desde los .enc del Repo)")
         print("  5. [Ver / Respaldar Clave Secreta]")

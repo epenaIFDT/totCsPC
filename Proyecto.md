@@ -37,7 +37,7 @@ graph TD
 
 ## 3. Estructura de Catálogos y Categorías (2022-5)
 
-El acuerdo marco `2022-5` se divide en dos catálogos principales (`250-CP` y `252-CE`), con 7 subcategorías técnicas activas:
+El acuerdo marco `2022-5` se divide en dos catálogos principales (`250-CP` y `252-CE`), con 8 subcategorías técnicas activas:
 
 | Catálogo | Código de Carpeta | Nombre de Categoría | Archivos por Carpeta (Local) | Archivos en GitHub (Cifrado) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -45,6 +45,7 @@ El acuerdo marco `2022-5` se divide en dos catálogos principales (`250-CP` y `2
 | **250-CP** | `11744-WSP` | Workstations Portátiles | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
 | **250-CP** | `11745-TB` | Tablets | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
 | **252-CE** | `11735-CE` | Computadoras de Escritorio | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
+| **252-CE** | `11736-TU` | Computadoras Todo en Uno | 1 `.json`, 1 `.csv` (Pendiente) | `*.json.enc`, `*.csv.enc` |
 | **252-CE** | `11740-ET` | Estaciones de Trabajo | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
 | **252-CE** | `11741-MN` | Monitores IT | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
 | **252-CE** | `11749-PI` | Pantallas Interactivas | 1 `.json`, 1 `.csv` | `*.json.enc`, `*.csv.enc` |
